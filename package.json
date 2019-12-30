@@ -36,6 +36,7 @@
 	"devDependencies": {
 		"babel-core": "^6.26.3",
 		"better-docs": "^1.4.7",
+		"cssnano": "^4.1.10",
 		"eslint": "^6.1.0",
 		"eslint-config-airbnb": "^18.0.1",
 		"eslint-plugin-import": "^2.19.1",

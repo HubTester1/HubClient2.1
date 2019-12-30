@@ -36,7 +36,13 @@
 		"better-docs": {
 			"name": "The Hub, v2.1 &mdash; Client",
 			"logo": "images/BrandLogoOnly.png",
-			"hideGenerator": true
+			"hideGenerator": true,
+			"navigation": [
+				{
+					"label": "Github Repo",
+					"href": "https://github.com/HubTester1/HubClient2.1"
+				}
+			]
 		}
 	},
 	"opts": {
