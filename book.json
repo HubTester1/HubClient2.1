@@ -1,5 +1,6 @@
 {
 	"root": "./docs",
+	"title": "Hub Client v2.1",
 	"structure": {
 		"readme": "intro.md",
 		"summary": "toc.md"

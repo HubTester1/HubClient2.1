@@ -14,11 +14,10 @@
 		"devRemote": "node-dev server.js",
 		"startRemote": "node server.js",
 		"oldDoc": "jsdoc -r -c jsdoc.json",
-		"docs:api": "jsdoc2md --configure jsdoc.json --files src/**/*.js > docs/api.md",
-		"docs:build": "npm run docs:api && gitbook build",
-		"docs:serve": "npm run docs:api && gitbook serve",
-		"docs:clean": "rimraf _book",
-		"docs:publish": ""
+		"docs:generate": "jsdoc2md -r --configure jsdoc.json --files src/**/*.js > docs/code.md",
+		"docs:build": "npm run docs:generate && gitbook build",
+		"docs:serve": "npm run docs:generate && gitbook serve",
+		"docs:clean": "rimraf _book"
 	},
 	"author": "",
 	"license": "ISC",

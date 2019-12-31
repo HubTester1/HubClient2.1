@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · Hub Client v2.1</title>
+        <title>Style Guide · Hub Client v2.1</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="architecture/overview.md" />
+    <link rel="next" href="code.html" />
     
+    
+    <link rel="prev" href="how-to/new-site-from-template.html" />
     
 
     </head>
@@ -89,7 +91,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -175,7 +177,7 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="style.html">
+        <li class="chapter active" data-level="4.1" data-path="style.html">
             
                 <a href="style.html">
             
@@ -231,7 +233,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >Style Guide</a>
     </h1>
 </div>
 
@@ -246,21 +248,30 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="hub-client-v21">Hub Client v2.1</h1>
-<p>This documentation pertains to software in development as of 1/1/2020. This will replace and add features to the gateway web client, Hub Central (home screen and SharePoint Online (SPO) tenancy root site collection master page).</p>
-<p>API, data, and their documentation are separate.</p>
-<h2 id="nomenclature">Nomenclature</h2>
-<h3 id="spo">SPO</h3>
-<p>Herein, &quot;SPO&quot; is used to refer to SharePoint Online, a service within Microsoft&apos;s Office 365. Anything related to SPO is in Microsoft&apos;s cloud.</p>
-<h3 id="hub-central">Hub Central</h3>
-<p>This is the SharePoint Online (SPO) root site collection. It contains items that are accessible Museum-wide (hereafter, &quot;public&quot;), including documents, the home screen, and public team screens (e.g., &apos;the HR page&apos;). </p>
-<p>Hub Central is architecturally distinct from any workflow apps; the latter are separate SPO site collections and utilize different MOS software. </p>
-<p>Hub Central is architecturally distinct from any private workspaces, which are also separate SPO site collections. </p>
-<h2 id="technical-brief">Technical Brief</h2>
-<p>Prerequisite skills for understanding code: ES6; preferably React, Redux, and Next.js, in order of importance; preferably knowledge of browser history API </p>
-<p>To understand system, start with items in pages directory. Since we&apos;re presenting inside an iframe on SharePoint Online (SPO), there is only one page, index. </p>
-<p>On the only page (index), screens and user data are determined from URL params and SharePoint  </p>
-<p>To know what third party software is being used,  </p>
+                                <h1 id="style-guide">Style Guide</h1>
+<p>Following this style guide will ensure that separate app parts will be consistent with one another, creating a harmonious and cohesive experience for our users.</p>
+<p>For the most part, these styles are already ingrained into the individual components, with the help of the Style service. However, this overview may facilitate understanding of design decisions and be useful in new development.</p>
+<h2 id="brand">Brand</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>Hub concept. Colors adapted from MOS brand. MOS logo in suitebar.</p>
+<h2 id="typography">Typography</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<h2 id="color">Color</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>Dark mode. Figma.</p>
+<h2 id="voice">Voice</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<h2 id="iconography">Iconography</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>SVG. Microsoft icons - install font here.</p>
+<h2 id="imagery">Imagery</h2>
+<p>Imagery has been omitted to increase clarity of content and maintain performance.</p>
+<h2 id="planes">Planes</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>Surfaces. Buttons.</p>
+<h2 id="measurements-spacing">Measurements, Spacing</h2>
+<p>All measurements are in &quot;rem&quot; units. HTML element&apos;s font-size is set to &quot;10px&quot;, so &quot;1rem&quot; is equivalent to &quot;10px&quot;.</p>
+<p>Generous whitespace. Generally, 2rem.</p>
 
                                 
                                 </section>
@@ -288,8 +299,12 @@
 
             
                 
+                <a href="how-to/new-site-from-template.html" class="navigation navigation-prev " aria-label="Previous page: Create New SPO Site from Template">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="architecture/overview.md" class="navigation navigation-next navigation-unique" aria-label="Next page: Overview">
+                
+                <a href="code.html" class="navigation navigation-next " aria-label="Next page: Code Reference">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -300,7 +315,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Overview","level":"2.1","depth":1,"path":"architecture/overview.md","ref":"architecture/overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{},"title":"Hub Client v2.1","gitbook":"*"},"file":{"path":"intro.md","mtime":"2019-12-31T16:37:29.607Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-31T16:27:23.821Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Style Guide","level":"4.1","depth":1,"next":{"title":"Code Reference","level":"4.2","depth":1,"path":"code.md","ref":"code.md","articles":[]},"previous":{"title":"Create New SPO Site from Template","level":"3.1","depth":1,"path":"how-to/new-site-from-template.md","ref":"how-to/new-site-from-template.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{},"title":"Hub Client v2.1","gitbook":"*"},"file":{"path":"style.md","mtime":"2019-12-31T15:15:15.545Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-31T16:27:23.821Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
