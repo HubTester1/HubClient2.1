@@ -1,6 +1,6 @@
 /**
  * @name Document
- * @component
+ * @module
  * @category Next.js Overrides
  * @description Collect and handle styles from styled-components. Render &lt;html>.
  * 
@@ -15,8 +15,7 @@ export default class DocumentWithStyledComponents extends Document {
 		// create an instance of ServerStyleSheet
 		const sheet = new ServerStyleSheet();
 		// retrieve styles from components in the page
-		const page = renderPage(App => props =>
-			sheet.collectStyles(<App {...props} />));
+		const page = renderPage((App) => (props) => sheet.collectStyles(<App {...props} />));
 		// extract the styles as <style> tags
 		const styleTags = sheet.getStyleElement();
 		// pass styleTags as a prop

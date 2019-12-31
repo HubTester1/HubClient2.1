@@ -1,5 +1,5 @@
 /**
- * @name State Store Service - Selectors
+ * @name State Store - Selectors
  * @function
  * @category Services
  * @description Define state selectors for Reselect package, for performance enhancement.
@@ -10,23 +10,23 @@ import { createSelector } from 'reselect';
 // sData
 export const ReturnSData = createSelector(
 	({ sData }) => sData,
-	sData => sData
+	(sData) => sData,
 );
 export const ReturnScreenSize = createSelector(
 	({ sData }) => sData.size,
-	screenSize => screenSize
+	(screenSize) => screenSize,
 );
 export const ReturnScreenTitle = createSelector(
 	({ sData }) => sData.screens[sData.s].title,
-	title => title
+	(title) => title,
 );
 export const ReturnPartialScreenKey = createSelector(
 	({ sData }) => sData.p,
-	p => p
+	(p) => p,
 );
 export const ReturnPartialScreenTitle = createSelector(
 	({ sData }) => sData.screens[sData.s].partials[sData.p].title,
-	title => title
+	(title) => title,
 );
 export const ReturnPartialScreenTabsSpecs = createSelector(
 	({ sData }) => {
@@ -36,22 +36,22 @@ export const ReturnPartialScreenTabsSpecs = createSelector(
 			partialScreenTabsSpecs.push({
 				title: sData.screens[sData.s].partials[keyValue].title,
 				selected: keyValue === sData.p,
-				key: keyValue
+				key: keyValue,
 			});
 		});
 		return partialScreenTabsSpecs;
 	},
-	partialScreenTabsSpecs => partialScreenTabsSpecs
+	(partialScreenTabsSpecs) => partialScreenTabsSpecs,
 );
 
 // uData
 export const ReturnDarkMode = createSelector(
 	({ uData }) => uData.user.preferences.darkMode,
-	darkMode => darkMode
+	(darkMode) => darkMode,
 );
 
 // hData
 export const ReturnHeaderIsStuck = createSelector(
 	({ hData }) => hData.headerStuck,
-	headerStuck => headerStuck
+	(headerStuck) => headerStuck,
 );

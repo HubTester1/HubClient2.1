@@ -1,7 +1,7 @@
 /**
  * @name Screen
  * @component
- * @category Components - Screens
+ * @category Screens
  * @description Main content within app. Corresponds to "s" url param. Connected to Redux store.
  * @returns {Component} &lt;Screen />
  *
@@ -16,12 +16,11 @@ import * as PartialScreenRegistry from './Partials/Registry';
 const Screen = ({ p }) => {
 	// all partial screens are imported as PartialScreenRegistry, above; create component equal
 	// 		to the partial screen component specified in sData; render said component below
-	const SelectedPartialScreen =
-		PartialScreenRegistry[Utilities.ReturnStringWithInitialCapital(p)];
+	const SelectedPartialScreen =		PartialScreenRegistry[Utilities.ReturnStringWithInitialCapital(p)];
 	return (<SelectedPartialScreen />);
 };
 
-const mapStateToProps = state => ({ p: ReturnPartialScreenKey(state)});
+const mapStateToProps = (state) => ({ p: ReturnPartialScreenKey(state) });
 
 export default connect(
 	mapStateToProps,

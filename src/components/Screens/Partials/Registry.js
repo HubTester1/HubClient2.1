@@ -1,7 +1,7 @@
 /**
  * @name Partial Screen Registry
  * @component
- * @category Components - Screens
+ * @category Partial Screens
  * @description Registry (exports) of all partial screen components.
  * Screen component gets its partial screen content from this registry.
  */

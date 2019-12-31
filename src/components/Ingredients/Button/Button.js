@@ -1,7 +1,7 @@
 /**
  * @name Button
  * @component
- * @category Components - Ingredients
+ * @category Ingredients
  * @description Button. Connected to Redux store.
  * @returns {Component} &lt;Button />
  *
@@ -9,24 +9,21 @@
  */
 
 import { connect } from 'react-redux';
-import { ReturnScreenSize } from '../../../services/State/Selectors';
 import styled from 'styled-components';
+import { ReturnScreenSize } from '../../../services/State/Selectors';
 import Icon from '../Icon/Icon';
 import Plane from '../Plane/Plane';
 import Style from '../../../services/Style';
 
-const ReturnContentHeightInRem = (contentHeightInRem, screenSize) => 
-	(contentHeightInRem || Style.FontSize('m', screenSize).slice(0, -3));
+const ReturnContentHeightInRem = (contentHeightInRem, screenSize) => (contentHeightInRem || Style.FontSize('m', screenSize).slice(0, -3));
 
 const ReturnButtonVerticalPadding = (heightInRem, contentHeightInRem, topOrBottom) => {
-	const timesTen = 
-		parseFloat(((heightInRem - contentHeightInRem) / 2).toFixed(2)) * 10;
+	const timesTen = 		parseFloat(((heightInRem - contentHeightInRem) / 2).toFixed(2)) * 10;
 	const rounded = topOrBottom === 'top' ? Math.ceil(timesTen) : Math.floor(timesTen);
 	return rounded / 10;
 };
 
-const ReturnVisibleTextWrapperHorizontalPadding =
-	iconPosition => (iconPosition === 'before' ? 'padding-left: 1rem;' : 'padding-right: 1rem;');
+const ReturnVisibleTextWrapperHorizontalPadding =	(iconPosition) => (iconPosition === 'before' ? 'padding-left: 1rem;' : 'padding-right: 1rem;');
 
 const ButtonBase = styled.button`
 	border: 0;
@@ -38,10 +35,10 @@ const ButtonBase = styled.button`
 	cursor: pointer;
 `;
 const VisibleTextWrapper = styled.span`
-	font-size: ${props => props.textSize}rem;
+	font-size: ${(props) => props.textSize}rem;
 	font-weight: normal;
-	text-align: ${props => props.textAlignment || 'left'};
-	${props => ReturnVisibleTextWrapperHorizontalPadding(props.iconPosition)}
+	text-align: ${(props) => props.textAlignment || 'left'};
+	${(props) => ReturnVisibleTextWrapperHorizontalPadding(props.iconPosition)}
 `;
 const InvisibleTextWrapper = styled.span`
 	${Style.InlineHidden()}
@@ -87,45 +84,51 @@ const Button = ({
 			tabindex="0"
 		>
 			{
-				iconContent && iconPosition === 'before' && 
+				iconContent && iconPosition === 'before' 
 
-				<Icon
-					iconPosition={iconPosition}
-					iconContent={iconContent}
-					contentColor={contentColor}
-					contentHeightInRem={ReturnContentHeightInRem(contentHeightInRem, screenSize)}
-				/>
+				&& (
+					<Icon
+						iconPosition={iconPosition}
+						iconContent={iconContent}
+						contentColor={contentColor}
+						contentHeightInRem={ReturnContentHeightInRem(contentHeightInRem, screenSize)}
+					/>
+				)
 			}
 			{
-				!textInvisible &&
+				!textInvisible
 
-				<VisibleTextWrapper
-					textSize={contentHeightInRem}
-					iconPosition={iconPosition}
-				>
-					{text}
-				</VisibleTextWrapper>
+				&& (
+					<VisibleTextWrapper
+						textSize={contentHeightInRem}
+						iconPosition={iconPosition}
+					>
+						{text}
+					</VisibleTextWrapper>
+				)
 			}
 			{
-				textInvisible &&
+				textInvisible
 
-				<InvisibleTextWrapper>{text}</InvisibleTextWrapper>
+				&& <InvisibleTextWrapper>{text}</InvisibleTextWrapper>
 			}
 			{
-				iconContent && iconPosition === 'after' && 
+				iconContent && iconPosition === 'after' 
 
-				<Icon
-					iconPosition={iconPosition}
-					iconContent={iconContent}
-					contentColor={contentColor}
-					contentHeightInRem={ReturnContentHeightInRem(contentHeightInRem, screenSize)}
-				/>
+				&& (
+					<Icon
+						iconPosition={iconPosition}
+						iconContent={iconContent}
+						contentColor={contentColor}
+						contentHeightInRem={ReturnContentHeightInRem(contentHeightInRem, screenSize)}
+					/>
+				)
 			}
 		</Plane>
 	</ButtonBase>
 );
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
 	screenSize: ReturnScreenSize(state),
 });
 

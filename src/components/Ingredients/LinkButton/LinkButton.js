@@ -1,7 +1,7 @@
 /**
  * @name Link Button
  * @component
- * @category Components - Ingredients
+ * @category Ingredients
  * @description Facilitates navigation between screens. Connected to Redux store.
  * @returns {Component} &lt;LinkButton />
  *
@@ -42,9 +42,9 @@ const LinkButton = ({
 	/>
 );
 
-const mapStateToProps = state => state;// ownProps
+const mapStateToProps = (state) => state;// ownProps
 
-const mapDispatchToProps = dispatch => ({// ownProps
+const mapDispatchToProps = (dispatch) => ({ // ownProps
 	handleClick: (newS, newP) => {
 		// window.history.pushState(null, null, 'index?s=home');
 		dispatch({

@@ -1,15 +1,15 @@
 #Contents
 
-##_Contents_
+##Contents
 
 [Introduction](/)
 
 ---
---- m1
 ---
 
 ##Architecture
 
+* [Test](architecture/test.html)
 * [Overview](architecture/overview.md)
 * [Development Environment](architecture/dev-environment.md)
 * [Master Page](architecture/master-page.md)

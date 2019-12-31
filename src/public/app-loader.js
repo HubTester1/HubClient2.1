@@ -1,5 +1,5 @@
 /**
- * @name App Loader Service
+ * @name App Loader
  * @category Services
  * @description File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).
  * JS code executes automatically. This is the connection between SPO and this app.
@@ -55,9 +55,9 @@ if (window.location.pathname.indexOf('/App.aspx') !== -1) {
 	paramsToSend.push(`u=${userName}`);
 	// construct iframe URL
 	paramsToSend.forEach((paramValue, paramIndex) => {
-		iframeURL = paramIndex === 0 ? 
-			`${iframeURL}?${paramValue}` :
-			`${iframeURL}&${paramValue}`;
+		iframeURL = paramIndex === 0 
+			? `${iframeURL}?${paramValue}`
+			: `${iframeURL}&${paramValue}`;
 	});
 	// mount iframe on app mount point
 	const iframeElement = document.createElement('iframe');

@@ -1,7 +1,7 @@
 /**
  * @name Partial Screen - Pinned
  * @component
- * @category Components - Screens
+ * @category Partial Screens
  * @description Must document upon completion. Connected to Redux store.
  * @returns {Component} &lt;Pinned />
  *
@@ -22,8 +22,8 @@ const Pinned = ({ partialScreenTitle }) => (
 	</div>
 );
 
-const mapStateToProps = state => ({ 
-	partialScreenTitle: ReturnPartialScreenTitle(state) 
+const mapStateToProps = (state) => ({ 
+	partialScreenTitle: ReturnPartialScreenTitle(state), 
 });
 
 export default connect(

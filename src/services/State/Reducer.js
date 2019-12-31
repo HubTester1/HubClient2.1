@@ -1,5 +1,5 @@
 /**
- * @name State Store Service - Reducer
+ * @name State Store - Reducer
  * @function
  * @category Services
  * @description Define Redux state store reducer. Due to Next.js limitations, this

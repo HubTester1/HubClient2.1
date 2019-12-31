@@ -1,7 +1,7 @@
 /**
  * @name Grid
  * @component
- * @category Components - Layout
+ * @category Layout
  * @description Scaffolding for headers and screen contents.
  * @returns {Component} &lt;Grid />
  *
@@ -14,7 +14,7 @@ import SearchTitleSecondaryNav from '../Headers/SearchTitleSecondaryNav/SearchTi
 import Screen from '../Screens/Screen';
 
 const GridContainer = styled.div`
-	${props => props.screenSize === 'small' && `
+	${(props) => props.screenSize === 'small' && `
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 10rem auto 10rem;
@@ -24,7 +24,7 @@ const GridContainer = styled.div`
 	`}
 `;
 const SearchTitleSecondaryNavAndMainContainer = styled.main`
-	${props => props.screenSize !== 'small' && `
+	${(props) => props.screenSize !== 'small' && `
 		margin-left: 6.8rem;
 	`}
 `;

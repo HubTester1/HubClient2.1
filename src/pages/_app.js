@@ -1,12 +1,9 @@
-/*  *//**
+/**
  * @name App
- * @component
+ * @module
  * @category Next.js Overrides
- * @description Connect Next.js to Redux.
+ * @description Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers. Used by Next.js in transpilation; overrides default Next.js _app.
  * 
- * Create state store. Get data from index page component and send to state store via reducers.
- * 
- * Used by Next.js in transpilation; overrides default Next.js _app.
  */
 
 import { Provider } from 'react-redux';
@@ -44,6 +41,7 @@ class AppWithRedux extends App {
 				});
 			});
 	}
+	
 	// return Index with access to store state (and its own props)
 	render() {
 		const { Component, indexProps, store } = this.props;

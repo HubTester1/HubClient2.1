@@ -1,21 +1,21 @@
 /**
  * @name Primary Nav
  * @component
- * @category Components - Headers
+ * @category Headers
  * @description Primary navigation within app. Connected to Redux store.
  * @returns {Component} &lt;PrimaryNav />
  * 
  */
 
 import { connect } from 'react-redux';
-import { ReturnScreenSize } from '../../../services/State/Selectors';
-import { ReturnDarkMode } from '../../../services/State/Selectors';
 import styled from 'styled-components';
+import { ReturnScreenSize, ReturnDarkMode } from '../../../services/State/Selectors';
+
 import Style from '../../../services/Style';
 import LinkButton from '../../Ingredients/LinkButton/LinkButton';
 
 const Header = styled.header`
-	${props => props.screenSize !== 'small' && `
+	${(props) => props.screenSize !== 'small' && `
 		height: 100%;
 		width: 6.8rem;
 		position: fixed;
@@ -24,7 +24,7 @@ const Header = styled.header`
 		left: 0;
 		overflow-x: hidden;
 	`}
-	${props => props.screenSize === 'small' && `
+	${(props) => props.screenSize === 'small' && `
 		grid-area: bottom;
 		position: fixed;
 		bottom: 0;
@@ -32,9 +32,9 @@ const Header = styled.header`
 		left: 0;
 	`}
 	z-index: 999;
-	background-color: ${props => (Style.Color('ux-l-1', props.darkMode))};
+	background-color: ${(props) => (Style.Color('ux-l-1', props.darkMode))};
 `;
-const SiteTitleElement = styled.h1.attrs(props => ({
+const SiteTitleElement = styled.h1.attrs((props) => ({
 	role: 'heading',
 	'aria-level': '1',
 }))`
@@ -101,9 +101,9 @@ const PrimaryNav = ({
 	</Header>
 );
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
 	screenSize: ReturnScreenSize(state),
-	darkMode: ReturnDarkMode(state)
+	darkMode: ReturnDarkMode(state),
 });
 
 export default connect(

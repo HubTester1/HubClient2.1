@@ -1,5 +1,5 @@
 /**
- * @name User Service
+ * @name User
  * @module
  * @category Services
  * @description Fetch and return data about user.

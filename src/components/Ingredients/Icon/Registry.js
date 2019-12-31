@@ -1,7 +1,7 @@
 /**
  * @name Icon Registry
  * @component
- * @category Components - Ingredients
+ * @category Ingredients
  * @description Registry (exports) of all icon assets. 
  * Icon component gets its icon content from this registry.
  */

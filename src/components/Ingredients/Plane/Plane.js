@@ -1,7 +1,7 @@
 /**
  * @name Plane
  * @component
- * @category Components - Ingredients
+ * @category Ingredients
  * @description Every two-dimensional space within app. Connected to Redux store.
  * @returns {Component} &lt;Plane />
  * 
@@ -9,9 +9,9 @@
  */
 
 import { connect } from 'react-redux';
-import { ReturnScreenSize } from '../../../services/State/Selectors';
-import { ReturnDarkMode } from '../../../services/State/Selectors';
 import styled from 'styled-components';
+import { ReturnScreenSize, ReturnDarkMode } from '../../../services/State/Selectors';
+
 import Style from '../../../services/Style';
 
 const ReturnElevationValues = (elevationString) => {
@@ -73,8 +73,8 @@ const BaseAndLight = styled.div`
 	}) => {
 		let returnValue = '';
 		if (interactive) {
-			returnValue += 
-				`&:hover {
+			returnValue 
+				+= `&:hover {
 					width: ${ReturnDimensionValues(widthInRem).up}rem;
 					height: ${ReturnDimensionValues(heightInRem).up}rem;
 					margin: -.2rem;
@@ -87,8 +87,8 @@ const BaseAndLight = styled.div`
 						background-color: ${(Style.Color(`ux-l-${ReturnElevationValues(elevationLevel).up}`, darkMode))};
 					};
 				}`;
-			returnValue += 
-				`&:focus,
+			returnValue 
+				+= `&:focus,
 				&:active {
 					width: ${ReturnDimensionValues(widthInRem).down}rem;
 					height: ${ReturnDimensionValues(heightInRem).down}rem;
@@ -96,14 +96,14 @@ const BaseAndLight = styled.div`
 					box-shadow: ${Style.Shadow(`ux-l-${ReturnElevationValues(elevationLevel).up}`, darkMode)};	
 				`;
 			if (contentColor) {
-				returnValue +=
-					`border-color: ${Style.Color(contentColor, darkMode)};`;
+				returnValue
+					+= `border-color: ${Style.Color(contentColor, darkMode)};`;
 			} else {
-				returnValue +=
-					`border-color: ${Style.Color('ux-base-text', darkMode)};`;
+				returnValue
+					+= `border-color: ${Style.Color('ux-base-text', darkMode)};`;
 			}
-			returnValue +=
-				`&::before {
+			returnValue
+				+= `&::before {
 					width: ${ReturnDimensionValues(widthInRem).down}rem;
 					height: ${ReturnDimensionValues(heightInRem).down}rem;
 					background-color: ${(Style.Color(`ux-l-${ReturnElevationValues(elevationLevel).down}`, darkMode))};
@@ -180,9 +180,9 @@ const Plane = ({
 	</Container>
 );
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
 	screenSize: ReturnScreenSize(state),
-	darkMode: ReturnDarkMode(state)
+	darkMode: ReturnDarkMode(state),
 });
 
 export default connect(

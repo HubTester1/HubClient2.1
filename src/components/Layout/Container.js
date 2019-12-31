@@ -1,7 +1,7 @@
 /**
  * @name Container
  * @component
- * @category Components - Layout
+ * @category Layout
  * @description App root.
  * 
  * Compute and inject global styles. Determine screen size and 
@@ -15,10 +15,10 @@
  */
 
 import { connect } from 'react-redux';
-import { ReturnSData } from '../../services/State/Selectors';
-import { ReturnScreenSize } from '../../services/State/Selectors';
-import { ReturnDarkMode } from '../../services/State/Selectors';
 import { createGlobalStyle } from 'styled-components';
+import { ReturnSData, ReturnScreenSize, ReturnDarkMode } from '../../services/State/Selectors';
+
+
 import Style from '../../services/Style';
 import Screen from '../../services/Screen';
 import Grid from './Grid';
@@ -35,8 +35,8 @@ const GlobalStyle = createGlobalStyle`
 	body {
 		font-weight: ${Style.FontWeight('regular')};
 		margin: 0;
-		background-color: ${props => (Style.Color('ux-base', props.darkMode))};
-		color: ${props => (Style.Color('ux-base-text', props.darkMode))};
+		background-color: ${(props) => (Style.Color('ux-base', props.darkMode))};
+		color: ${(props) => (Style.Color('ux-base-text', props.darkMode))};
 		text-align: left;
 		height: 100%;
 	}
@@ -91,14 +91,14 @@ const GlobalStyle = createGlobalStyle`
 	a,
 	a:visited {
 		text-decoration: none;
-		color: ${props => (Style.Color('ux-interactive-default', props.darkMode))};
+		color: ${(props) => (Style.Color('ux-interactive-default', props.darkMode))};
 		transition: color .25s;
-		border-bottom: .1rem dotted ${props => (Style.Color('ux-interactive-default', props.darkMode))};
+		border-bottom: .1rem dotted ${(props) => (Style.Color('ux-interactive-default', props.darkMode))};
 
 		&:hover,
 		&:active {
-			color: ${props => (Style.Color('ux-interactive-active', props.darkMode))};
-			border-bottom: .1rem dotted ${props => (Style.Color('ux-interactive-active', props.darkMode))};
+			color: ${(props) => (Style.Color('ux-interactive-active', props.darkMode))};
+			border-bottom: .1rem dotted ${(props) => (Style.Color('ux-interactive-active', props.darkMode))};
 		}
 	}
 	em {
@@ -182,7 +182,9 @@ const GlobalStyle = createGlobalStyle`
 		z-index: ${Style.ZIndex('smallNav')};
 	} */
 
-const Container = ({ darkMode, screenSize, sData, useWindowSize }) => {
+const Container = ({
+	darkMode, screenSize, sData, useWindowSize, 
+}) => {
 	useWindowSize(sData);
 	return (
 		<div id="app-container">
@@ -195,38 +197,36 @@ const Container = ({ darkMode, screenSize, sData, useWindowSize }) => {
 	); 
 };
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
 	screenSize: ReturnScreenSize(state),
 	darkMode: ReturnDarkMode(state),
 	sData: ReturnSData(state),
 });
-const mapDispatchToProps = dispatch => {
-	return {
-		useWindowSize: (sData) => {
-			// eslint-disable-next-line no-undef
-			React.useEffect(() => {
-				const updateSize = () => {
-					console.log('updating size');
-					let screenSize = 'medium';
-					const sDataCopy = JSON.parse(JSON.stringify(sData));
-					if (window.matchMedia(`(max-width: ${Screen.ReturnSmallMax()}px)`).matches) {
-						screenSize = 'small';
-					} else if (window.matchMedia(`(min-width: ${Screen.ReturnLargeMin()}px)`).matches) {
-						screenSize = 'large';
-					}
-					sDataCopy.size = screenSize;
-					dispatch({
-						type: 'SET_SCREEN_DATA',
-						sData: sDataCopy,
-					});
-				};
-				window.addEventListener('resize', updateSize);
-				updateSize();
-				return () => window.removeEventListener('resize', updateSize);
-			}, []);
-		}
-	}
-};
+const mapDispatchToProps = (dispatch) => ({
+	useWindowSize: (sData) => {
+		// eslint-disable-next-line no-undef
+		React.useEffect(() => {
+			const updateSize = () => {
+				console.log('updating size');
+				let screenSize = 'medium';
+				const sDataCopy = JSON.parse(JSON.stringify(sData));
+				if (window.matchMedia(`(max-width: ${Screen.ReturnSmallMax()}px)`).matches) {
+					screenSize = 'small';
+				} else if (window.matchMedia(`(min-width: ${Screen.ReturnLargeMin()}px)`).matches) {
+					screenSize = 'large';
+				}
+				sDataCopy.size = screenSize;
+				dispatch({
+					type: 'SET_SCREEN_DATA',
+					sData: sDataCopy,
+				});
+			};
+			window.addEventListener('resize', updateSize);
+			updateSize();
+			return () => window.removeEventListener('resize', updateSize);
+		}, []);
+	},
+});
 export default connect(
 	mapStateToProps,
 	mapDispatchToProps,

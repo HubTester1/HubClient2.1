@@ -1,9 +1,8 @@
 /**
  * @name Icon
  * @component
- * @category Components - Ingredients
+ * @category Ingredients
  * @description Icon component. Gets icon content from Icon Registry. Connected to Redux store.
- * @returns {Component} &lt;Icon />.
  */
 
 import { connect } from 'react-redux';

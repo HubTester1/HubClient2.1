@@ -1,7 +1,7 @@
 /**
  * @name Partial Screen Header
  * @component
- * @category Components - Screens
+ * @category Screens
  * @description Must document upon completion.
  * @returns {Component} &lt;PartialScreenHeader />
  *
@@ -13,7 +13,7 @@
 import styled from 'styled-components';
 import Style from '../../../../services/Style';
 
-const PartialScreenTitleElement = styled.h3.attrs(props => ({
+const PartialScreenTitleElement = styled.h3.attrs((props) => ({
 	role: 'heading',
 	'aria-level': '3',
 }))`

@@ -1,7 +1,7 @@
 /* eslint-disable  react/react-in-jsx-scope */
 /**
  * @name Index
- * @component
+ * @module
  * @category Next.js Overrides
  * @description Fetch data and send it to _app. Render Container component.
  * 
@@ -38,6 +38,7 @@ class Index extends Component {
 			};
 		}
 	}
+
 	render() {
 		return (
 			<Container />
@@ -45,4 +46,4 @@ class Index extends Component {
 	}
 }
 
-export default connect(state => state)(Index);
+export default connect((state) => state)(Index);

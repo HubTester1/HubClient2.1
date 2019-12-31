@@ -3,23 +3,24 @@
 /**
  * @name Search - Title - Secondary Nav
  * @component
- * @category Components - Headers
+ * @category Headers
  * @description Search box, screen title, partial screen tabs (secondary navigation). Connected to Redux store.
  * @returns {Component} SearchTitleSecondaryNav
  *
  */
 
 import { connect } from 'react-redux';
-import { ReturnHeaderIsStuck } from '../../../services/State/Selectors';
-import { ReturnScreenTitle } from '../../../services/State/Selectors';
-import { ReturnPartialScreenTabsSpecs } from '../../../services/State/Selectors';
-import { ReturnDarkMode } from '../../../services/State/Selectors';
 import Sticky from 'react-sticky-el';
 import styled from 'styled-components';
+import {
+	ReturnHeaderIsStuck, ReturnScreenTitle, ReturnPartialScreenTabsSpecs, ReturnDarkMode, 
+} from '../../../services/State/Selectors';
+
+
 import Style from '../../../services/Style';
 
 const Wrapper = styled.div`
-	background-color: ${props => (Style.Color('ux-l-1', props.darkMode))};
+	background-color: ${(props) => (Style.Color('ux-l-1', props.darkMode))};
 `;
 const Header = styled.header`
 	height: 5rem;
@@ -27,10 +28,10 @@ const Header = styled.header`
 `;
 const Tab = styled.p`
 	${({ selected }) => selected && `
-		border-bottom: ${props => (Style.Color('ux-l-1', props.darkMode))};
+		border-bottom: ${(props) => (Style.Color('ux-l-1', props.darkMode))};
 	`}
 `;
-const ScreenTitleElement = styled.h2.attrs(props => ({
+const ScreenTitleElement = styled.h2.attrs((props) => ({
 	role: 'heading',
 	'aria-level': '2',
 }))``;
@@ -54,41 +55,41 @@ const SearchTitleSecondaryNav = ({
 				<input type="text" />
 
 				{
-					headerStuck &&
+					headerStuck
 
-					<p>This is stuck.</p>
+					&& <p>This is stuck.</p>
 				}
 				{
-					!headerStuck &&
+					!headerStuck
 
-					<p>This is NOT stuck.</p>
+					&& <p>This is NOT stuck.</p>
 				}
 			</Header>
 			<ScreenTitleElement>{screenTitle}</ScreenTitleElement>
 			<nav role="navigation">
 				{
-						partialScreenTabsSpecs.map((tabSpecValue) => (
-							<Tab
-								selected={tabSpecValue.selected}
-								key={tabSpecValue.key}
-								darkMode={darkMode}
-							>
-								{tabSpecValue.title}
-							</Tab>
-						))
+					partialScreenTabsSpecs.map((tabSpecValue) => (
+						<Tab
+							selected={tabSpecValue.selected}
+							key={tabSpecValue.key}
+							darkMode={darkMode}
+						>
+							{tabSpecValue.title}
+						</Tab>
+					))
 				}
 			</nav>
 		</Wrapper>
 	</Sticky>
 );
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
 	headerStuck: ReturnHeaderIsStuck(state),
 	screenTitle: ReturnScreenTitle(state),
 	partialScreenTabsSpecs: ReturnPartialScreenTabsSpecs(state),
-	darkMode: ReturnDarkMode(state)
+	darkMode: ReturnDarkMode(state),
 });
-const mapDispatchToProps = dispatch => ({// ownProps
+const mapDispatchToProps = (dispatch) => ({ // ownProps
 	handleFixedHeaderToggle: (free) => {
 		dispatch({
 			type: 'SET_HEADER_STUCK',
