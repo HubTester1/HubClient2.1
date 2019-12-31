@@ -10,8 +10,7 @@ module.exports = {
 	
 	// FONT
 
-	FontFamily: () =>
-		'font-family: \'akzidenz-grotesk-pro\', -apple-system, BlinkMacSystemFont,\'Roboto\', \'HelveticaNeue-Light\', \'Helvetica Neue Light\', \'Helvetica Neue\', Helvetica, \'Liberation Sans\', Arial, \'Lucida Grande\', sans-serif;',
+	FontFamily: () => 'font-family: \'akzidenz-grotesk-pro\', -apple-system, BlinkMacSystemFont,\'Roboto\', \'HelveticaNeue-Light\', \'Helvetica Neue Light\', \'Helvetica Neue\', Helvetica, \'Liberation Sans\', Arial, \'Lucida Grande\', sans-serif;',
 
 
 	// for large screens
@@ -20,7 +19,7 @@ module.exports = {
 	FontSize: (token, screenSize) => {
 		if (token === 'base') {
 			return 1.8;
-		} else if (screenSize !== 'small') {
+		} if (screenSize !== 'small') {
 			switch (token) {
 			case 'xxxl':
 				return `${module.exports.FontSize('base') * 3.998}rem`;
@@ -98,30 +97,26 @@ module.exports = {
 
 	// HIDDEN
 
-	BlockHidden: () =>
-		`display: block;
+	BlockHidden: () => `display: block;
 		width: 0;
 		height: 0;
 		padding: 0;
 		text-indent: 100%;
 		white-space: nowrap;
 		overflow: hidden;`,
-	OverrideBlockHidden: () =>
-		`display: block;
+	OverrideBlockHidden: () => `display: block;
 		width: auto;
 		height: auto;
 		text-indent: 0;
 		white-space: normal;
 		overflow: visible;`,
-	InlineHidden: () =>
-		`display: inline-block;
+	InlineHidden: () => `display: inline-block;
 		width: 0;
 		height: 0;
 		text-indent: 100%;
 		white-space: nowrap;
 		overflow: hidden;`,
-	TableColumnHidden: () =>
-		`display: table-cell;
+	TableColumnHidden: () => `display: table-cell;
 		width: 0;
 		height: 0;
 		text-indent: 100%;
@@ -132,8 +127,7 @@ module.exports = {
 	// ALIGNMENT
 
 
-	VerticalAlignMiddle: () =>
-		`position: relative;
+	VerticalAlignMiddle: () => `position: relative;
 		top: 50%;
 		transform: translateY(-50%);`,
 
@@ -213,7 +207,7 @@ module.exports = {
 		if (colorToken) {
 		if (colorToken.substring(0, 3) === 'ux-') {
 			return module.exports.ColorUXStatement(colorToken, darkMode);
-		} else if (alpha) {
+		} if (alpha) {
 			return `rgba(${module.exports.ColorRGBValue(colorToken, darkMode)},${alpha})`;
 		} 
 		return `rgb(${module.exports.ColorRGBValue(colorToken, darkMode)})`;
@@ -565,12 +559,6 @@ module.exports = {
 				return '10,18,24';
 			case 'blue-grey-21':
 				return '6,11,15';
-
-
-
-
-
-
 
 
 			// --- AQUA

@@ -38,10 +38,8 @@
 		"styled-components": "^4.4.1"
 	},
 	"devDependencies": {
-		"babel-core": "^6.26.3",
+		"@babel/core": "^7.7.7",
 		"babel-eslint": "^10.0.3",
-		"better-docs": "^1.4.7",
-		"cssnano": "^4.1.10",
 		"eslint": "^6.1.0",
 		"eslint-config-airbnb": "^18.0.1",
 		"eslint-plugin-babel": "^5.3.0",
@@ -51,8 +49,6 @@
 		"eslint-plugin-react": "^7.17.0",
 		"eslint-plugin-react-hooks": "^1.7.0",
 		"gitbook-cli": "^2.3.2",
-		"jsdoc": "^3.6.3",
-		"jsdoc-babel": "^0.5.0",
 		"jsdoc-to-markdown": "^5.0.3"
 	}
 }
