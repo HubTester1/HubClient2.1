@@ -1,14 +1,14 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const jsdocx = require('jsdoc-x');
-const fse = require('fs-extra');
+const fs = require('fs');
+const jsonFormat = require('json-format');
 
 const config = { 
 	// for jsdocx
 	files: [
 		'./src/components/Ingredients/Icon/Icon.js',
 		'./src/components/Ingredients/Button/Button.js',
-		'./src/pages/_app.js',
-		// './src/pages',
+		'./src/pages',
 		// './src/public',
 		// './src/services',
 		// './meta',
@@ -16,7 +16,7 @@ const config = {
 	recurse: true,
 	sort: 'kind',
 	includePattern: '.+\\.js(doc|x)?$',
-	excludePattern: '', // (^|\\/|\\\\)
+	excludePattern: '/(^|\\/|\\\\)/gm',
 
 	// for custom build
 	projectRoot: 'HubClient2.1',
@@ -43,7 +43,7 @@ const config = {
 const ReturnPathRelativeLocation = (pathRaw, filename, projectRoot) => {
 	const positionOfFirstCharacterOfRoot = pathRaw.lastIndexOf(projectRoot);
 	const lengthOfRoot = projectRoot.length;
-	return pathRaw.substring(positionOfFirstCharacterOfRoot + lengthOfRoot) + filename;
+	return `${pathRaw.substring(positionOfFirstCharacterOfRoot + lengthOfRoot)}/${filename}`;
 };
 const ReturnAllComponents = (allItemsRawArray, projectRoot) => {
 	const allComponents = [];
@@ -63,17 +63,47 @@ const ReturnAllComponents = (allItemsRawArray, projectRoot) => {
 							smart = true;
 						}
 					});
-					allComponents.push({
+					const objectToPush = {
 						name: itemRawValue.name.trim(),
 						category,
 						description: itemRawValue.description,
 						smart,
 						path: ReturnPathRelativeLocation(
 							itemRawValue.meta.path,
-							itemRawValue.meta.filename, 
+							itemRawValue.meta.filename,
 							projectRoot,
 						),
-					});
+					};
+					const params = [];
+					// NOTE: Does not yet account for the possibility of smart parameters
+					if (itemRawValue.params && itemRawValue.params[0]) {
+						itemRawValue.params.forEach((paramRaw) => {
+							const paramToPush = {
+								name: paramRaw.name,
+								description: paramRaw.description,
+								parent: itemRawValue.name.trim(),
+							};
+							if (!paramRaw.optional || paramRaw.optional !== true) {
+								paramToPush.required = true;
+							}
+							let typeIndication;
+							paramRaw.type.names.forEach((typeNameValue, typeNameIndex) => {
+								if (typeNameIndex === 0) {
+									typeIndication = typeNameValue;
+								} else {
+									typeIndication = ` | ${typeNameValue}`;
+								}
+							});
+							if (typeIndication) {
+								paramToPush.type = typeIndication;
+							}
+							params.push(paramToPush);
+						});
+					}
+					if (params[0]) {
+						objectToPush.params = params;
+					}
+					allComponents.push(objectToPush);
 				}
 			});
 		}
@@ -116,11 +146,15 @@ const ReturnAllParams = (allItemsRawArray) => {
 				const paramToPush = {
 					name: itemRawValue.meta.code.name.trim(),
 					description: itemRawValue.description,
-					smart: ReturnParamIsSmart(itemRawValue),
 					type: paramTypeAndRequirement.type,
-					required: paramTypeAndRequirement.required,
 					parent: memberOfParts[0],
 				};
+				if (paramTypeAndRequirement.required) {
+					paramToPush.required = true;
+				}
+				if (ReturnParamIsSmart(itemRawValue)) {
+					paramToPush.smart = true;
+				}
 				if (itemRawValue.defaultvalue) {
 					paramToPush.default = itemRawValue.defaultvalue;
 				}
@@ -216,14 +250,20 @@ const ReturnAllItems = (parseConfig) => new Promise((resolve, reject) => {
 		resolve(docs);
 	});
 });
-const WriteToFile = (destination, data) => {
-	fse.writeJsonSync(destination, data);
+const WriteToFile = (destination, data, isJSON) => {
+	let dataCopy = ReturnCopyOfObject(data);
+	if (isJSON) {
+		dataCopy = jsonFormat(dataCopy);
+	}
+	fs.writeFile(destination, dataCopy, (err) => {
+		if (err) throw err;
+	});
 };
 const Build = (buildConfig) => {
 	ReturnAllItems(buildConfig)
 		.then((result) => {
 			if (result) {
-				WriteToFile(buildConfig.midDestination, result);
+				WriteToFile(buildConfig.midDestination, result, true);
 				if (!result.error) {
 					const allItemsRawArray = result;
 					const buildObject = {};
@@ -231,7 +271,7 @@ const Build = (buildConfig) => {
 						ReturnComponentsSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
 
 
-					WriteToFile(buildConfig.midDestination2, componentsSections);
+					WriteToFile(buildConfig.midDestination2, componentsSections, true);
 				}
 			}
 		});
