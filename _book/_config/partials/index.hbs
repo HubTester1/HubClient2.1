@@ -1,29 +1,15 @@
-##Index
-
-This is the index partial.
-
-
-{{#categorySelector category="Next.js Overrides"}}
-{{#if @first~}}
-
-###Next.js Overrides
-
-<table>
-	<thead>
-		<tr>
-			<th>Global</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		{{/if~}}
-		<tr>
-			<td>{{>sig-link-html}}</td>
-			<td>{{{md (inlineLinks description)}}}</td>
-		</tr>
-		{{#if @last~}}
-	</tbody>
-</table>
-
-{{/if~}}
-{{/categorySelector}}
+##Index, Summary
+{{#returnIndexMarkupForCategory category="Next.js Overrides"}}
+{{/returnIndexMarkupForCategory}}
+{{#returnIndexMarkupForCategory category="Services"}}
+{{/returnIndexMarkupForCategory}}
+{{#returnIndexMarkupForCategory category="Layout"}}
+{{/returnIndexMarkupForCategory}}
+{{#returnIndexMarkupForCategory category="Screens"}}
+{{/returnIndexMarkupForCategory}}
+{{#returnIndexMarkupForCategory category="Assets"}}
+{{/returnIndexMarkupForCategory}}
+{{#returnIndexMarkupForCategory category="Headers"}}
+{{/returnIndexMarkupForCategory}}
+{{#returnIndexMarkupForCategory category="Ingredients"}}
+{{/returnIndexMarkupForCategory}}
