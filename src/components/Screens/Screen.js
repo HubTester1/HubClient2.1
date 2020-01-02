@@ -2,6 +2,7 @@
  * @name Screen
  * @component
  * @category Screens
+ * @smart
  * @description Main content within app. Corresponds to "s" url param. Connected to Redux store.
  *
  * @todo params, types, required or optional
@@ -15,7 +16,7 @@ import * as PartialScreenRegistry from './Partials/Registry';
 const Screen = ({ p }) => {
 	// all partial screens are imported as PartialScreenRegistry, above; create component equal
 	// 		to the partial screen component specified in sData; render said component below
-	const SelectedPartialScreen =		PartialScreenRegistry[Utilities.ReturnStringWithInitialCapital(p)];
+	const SelectedPartialScreen = PartialScreenRegistry[Utilities.ReturnStringWithInitialCapital(p)];
 	return (<SelectedPartialScreen />);
 };
 

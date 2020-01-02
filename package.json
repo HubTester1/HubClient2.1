@@ -47,8 +47,10 @@
 		"eslint-plugin-react": "^7.17.0",
 		"eslint-plugin-react-hooks": "^1.7.0",
 		"gitbook-cli": "^2.3.2",
+		"install": "^0.13.0",
 		"jsdoc-x": "^4.0.3",
 		"json-format": "^1.0.1",
-		"marked": "^0.8.0"
+		"npm": "^6.13.4",
+		"turndown": "^5.0.3"
 	}
 }

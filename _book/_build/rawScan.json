@@ -1399,9 +1399,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [644,735],
+			"range": [654,744],
 			"filename": "Screen.js",
-			"lineno": 18,
+			"lineno": 19,
 			"columnno": 7,
 			"path": "/home/skip/Software/HubClient2.1/src/components/Screens",
 			"code": {
@@ -2842,9 +2842,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [784,851],
+			"range": [793,860],
 			"filename": "Screen.js",
-			"lineno": 22,
+			"lineno": 23,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/components/Screens",
 			"code": {
@@ -3686,9 +3686,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [436,775],
+			"range": [446,784],
 			"filename": "Screen.js",
-			"lineno": 15,
+			"lineno": 16,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/components/Screens",
 			"code": {
@@ -7974,9 +7974,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [854,906],
+			"range": [863,915],
 			"filename": "Screen.js",
-			"lineno": 24,
+			"lineno": 25,
 			"columnno": 0,
 			"path": "/home/skip/Software/HubClient2.1/src/components/Screens",
 			"code": {
@@ -8278,9 +8278,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [448,449],
+			"range": [458,459],
 			"filename": "Screen.js",
-			"lineno": 15,
+			"lineno": 16,
 			"columnno": 18,
 			"path": "/home/skip/Software/HubClient2.1/src/components/Screens",
 			"code": {
@@ -8301,9 +8301,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [816,848],
+			"range": [825,857],
 			"filename": "Screen.js",
-			"lineno": 22,
+			"lineno": 23,
 			"columnno": 38,
 			"path": "/home/skip/Software/HubClient2.1/src/components/Screens",
 			"code": {
@@ -10052,7 +10052,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Screen\n * @component\n * @category Screens\n * @description Main content within app. Corresponds to \"s\" url param. Connected to Redux store.\n *\n * @todo params, types, required or optional\n */",
+		"comment": "/**\n * @name Screen\n * @component\n * @category Screens\n * @smart\n * @description Main content within app. Corresponds to \"s\" url param. Connected to Redux store.\n *\n * @todo params, types, required or optional\n */",
 		"meta": {
 			"filename": "Screen.js",
 			"lineno": 1,
@@ -10074,6 +10074,11 @@
 				"title": "category",
 				"text": "Screens",
 				"value": "Screens"
+			},
+			{
+				"originalTitle": "smart",
+				"title": "smart",
+				"text": ""
 			}
 		],
 		"description": "Main content within app. Corresponds to \"s\" url param. Connected to Redux store.",
