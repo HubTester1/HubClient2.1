@@ -6,6 +6,8 @@ const config = {
 	// for jsdocx
 	files: [
 		'./src/components/Ingredients/Icon/Icon.js',
+		'./src/components/Ingredients/Button/Button.js',
+		'./src/pages/_app.js',
 		// './src/pages',
 		// './src/public',
 		// './src/services',
@@ -55,10 +57,17 @@ const ReturnAllComponents = (allItemsRawArray, projectRoot) => {
 							category = tagTwo.value.trim();
 						}
 					});
+					let smart = false;
+					itemRawValue.tags.forEach((tagThree) => {
+						if (tagThree.title && tagThree.title.trim() === 'smart') {
+							smart = true;
+						}
+					});
 					allComponents.push({
 						name: itemRawValue.name.trim(),
 						category,
 						description: itemRawValue.description,
+						smart,
 						path: ReturnPathRelativeLocation(
 							itemRawValue.meta.path,
 							itemRawValue.meta.filename, 
@@ -78,27 +87,44 @@ const ReturnParamTypeAndRequirement = (paramValueRaw) => {
 		required: !!(valueParts[2] && valueParts[2].trim() === 'isRequired'),
 	};
 };
+const ReturnParamIsSmart = (paramValueRaw) => {
+	let isSmart = false;
+	if (paramValueRaw.tags) {
+		paramValueRaw.tags.forEach((tag) => {
+			if (tag.title === 'smart') {
+				isSmart = true;
+			}
+		});
+	}
+	return isSmart;
+};
 const ReturnAllParams = (allItemsRawArray) => {
 	const allParams = [];
 	allItemsRawArray.forEach((itemRawValue) => {
 		if (
-			itemRawValue.kind 
-			&& itemRawValue.kind === 'member'
-			&& itemRawValue.memberof
-			&& itemRawValue.meta 
-			&& itemRawValue.meta.code 
-			&& itemRawValue.meta.code.type 
-			&& itemRawValue.meta.code.type === 'MemberExpression'
+			itemRawValue.kind && 
+			itemRawValue.kind === 'member' && 
+			itemRawValue.memberof && 
+			itemRawValue.meta && 
+			itemRawValue.meta.code &&
+			itemRawValue.meta.code.type && 
+			itemRawValue.meta.code.type === 'MemberExpression'
 		) {				
 			const memberOfParts = itemRawValue.memberof.split('.');
 			if (memberOfParts[1].trim() === 'propTypes') {
 				const paramTypeAndRequirement = ReturnParamTypeAndRequirement(itemRawValue.meta.code.value);
-				allParams.push({
+				const paramToPush = {
 					name: itemRawValue.meta.code.name.trim(),
+					description: itemRawValue.description,
+					smart: ReturnParamIsSmart(itemRawValue),
 					type: paramTypeAndRequirement.type,
 					required: paramTypeAndRequirement.required,
 					parent: memberOfParts[0],
-				});
+				};
+				if (itemRawValue.defaultvalue) {
+					paramToPush.default = itemRawValue.defaultvalue;
+				}
+				allParams.push(paramToPush);
 			}
 		}
 	});
@@ -152,18 +178,20 @@ const ReturnComponentsSections = (allItemsRawArray, projectRoot, preambles) => {
 			const paramCopy = ReturnCopyOfObject(param);
 			// if this param goes with this component
 			if (paramCopy.parent === componentCopy.name) {
-				// look for a default value for this param;
-				// 		iterate over all paramDefaults
-				allParamDefaults.forEach((paramDefault) => {
-					// if this default goes with this param and this component
-					if (
-						paramDefault.name === paramCopy.name
-						&& paramDefault.parent === paramCopy.parent
-					) {
-						// add the default to the param
-						paramCopy.default = paramDefault.default;
-					}
-				});
+				if (!componentCopy.default) {
+					// look for a default value for this param;
+					// 		iterate over all paramDefaults
+					allParamDefaults.forEach((paramDefault) => {
+						// if this default goes with this param and this component
+						if (
+							paramDefault.name === paramCopy.name
+							&& paramDefault.parent === paramCopy.parent
+						) {
+							// add the default to the param
+							paramCopy.default = paramDefault.default;
+						}
+					});
+				}
 				// ensure the component has a params array
 				if (!componentCopy.params) {
 					componentCopy.params = [];
@@ -199,7 +227,8 @@ const Build = (buildConfig) => {
 				if (!result.error) {
 					const allItemsRawArray = result;
 					const buildObject = {};
-					const componentsSections = ReturnComponentsSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
+					const componentsSections = 
+						ReturnComponentsSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
 
 
 					WriteToFile(buildConfig.midDestination2, componentsSections);

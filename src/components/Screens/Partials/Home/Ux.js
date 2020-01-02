@@ -1,5 +1,4 @@
 
-
 import { connect } from 'react-redux';
 import { ReturnPartialScreenTitle } from '../../../../services/State/Selectors';
 import Plane from '../../../Ingredients/Plane/Plane';
@@ -21,7 +20,6 @@ const UX = ({ partialScreenTitle }) => (
 			heightInRem="5"
 			widthInRem="17"
 			marginInRem="2"
-			interactive
 			text="Button Text Here"
 			iconContent="Messages"
 			iconPosition="after"
@@ -43,8 +41,8 @@ const UX = ({ partialScreenTitle }) => (
 	</Plane>
 );
 
-const mapStateToProps = state => ({
-	partialScreenTitle: ReturnPartialScreenTitle(state)
+const mapStateToProps = (state) => ({
+	partialScreenTitle: ReturnPartialScreenTitle(state),
 });
 
 export default connect(

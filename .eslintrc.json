@@ -32,11 +32,13 @@
 		"prefer-promise-reject-errors": "off",
 		"class-methods-use-this": "off",
 		"linebreak-style": "off",
+		"operator-linebreak": "off",
 		"react/react-in-jsx-scope": "off",
 		"react/jsx-filename-extension": "off",
 		"react/jsx-indent-props": "off",
 		"react/jsx-indent": "off",
 		"react/prop-types": "off",
+		"react/require-default-props": [0],
 		"jsx-a11y/alt-text": "off",
 		"no-trailing-spaces": "off",
 		"no-underscore-dangle": [
@@ -54,7 +56,13 @@
 		"jsdoc/check-indentation": 1,
 		"jsdoc/check-param-names": 1, // Recommended
 		"jsdoc/check-syntax": 1,
-		"jsdoc/check-tag-names": 1, // Recommended
+		"jsdoc/check-tag-names": [1, {
+			"definedTags": [
+				"component",
+				"category",
+				"smart"
+			]
+		}],// Recommended
 		"jsdoc/check-types": 1, // Recommended
 		"jsdoc/implements-on-classes": 1, // Recommended
 		"jsdoc/match-description": 1,

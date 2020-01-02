@@ -4,13 +4,114 @@
 		"preamble": "Items such as controls that appear across other parts of the app.",
 		"components": [
 			{
+				"name": "Button",
+				"category": "Ingredients",
+				"description": "Button. Connected to Redux store.",
+				"smart": true,
+				"path": "/src/components/Ingredients/ButtonButton.js",
+				"params": [
+					{
+						"name": "backgroundColor",
+						"description": "Color of background. Style service param. \nReminder: may be transparent. E.g., \"bold-pink\".",
+						"smart": false,
+						"type": "string",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "clickHandler",
+						"description": "Function executed when button is clicked. E.g., () => handleClick(...params).",
+						"smart": false,
+						"type": "string",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "contentColor",
+						"description": "Color of text and/or icon. Style service param. E.g., \"primary-green\".",
+						"smart": false,
+						"type": "string",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "contentHeightInRem",
+						"description": "Height of button's text and/or icon, measured in rem. E.g., \"3\".",
+						"smart": false,
+						"type": "string",
+						"required": false,
+						"parent": "Button",
+						"default": "Style.FontSize('m', screenSize).slice(0, -3)"
+					},
+					{
+						"name": "elevationLevel",
+						"description": "Elevation level. Style service param. E.g., \"4\".",
+						"smart": false,
+						"type": "string",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "heightInRem",
+						"description": "Height of button, measured in rem. E.g., \"5\".",
+						"smart": false,
+						"type": "string",
+						"required": true,
+						"parent": "Button"
+					},
+					{
+						"name": "marginInRem",
+						"description": "Margin size, measured in rem, to be applied to all sides of button. E.g., \"2\".",
+						"smart": false,
+						"type": "string",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "screenSize",
+						"description": "Current screen size token. E.g., \"small\".",
+						"smart": true,
+						"type": "string",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "text",
+						"description": "Text content of button. E.g., \"Button Text\".",
+						"smart": false,
+						"type": "string",
+						"required": true,
+						"parent": "Button"
+					},
+					{
+						"name": "textInvisible",
+						"description": "Indicates that text should be hidden from sight \n(but will remain available to assistive technologies). E.g., \"true\".",
+						"smart": false,
+						"type": "bool",
+						"required": false,
+						"parent": "Button"
+					},
+					{
+						"name": "widthInRem",
+						"description": "Width of button, measured in rem. E.g., \"15\".",
+						"smart": false,
+						"type": "string",
+						"required": true,
+						"parent": "Button"
+					}
+				]
+			},
+			{
 				"name": "Icon",
 				"category": "Ingredients",
-				"description": "Icon component. Gets icon content from Icon Registry. Connected to Redux store.",
+				"description": "Icon component. Gets icon content from Icon Registry.",
+				"smart": true,
 				"path": "/src/components/Ingredients/IconIcon.js",
 				"params": [
 					{
 						"name": "contentColor",
+						"description": "Fill color for SVG. Style service param. E.g., \"ux-pink\".",
+						"smart": false,
 						"type": "string",
 						"required": false,
 						"parent": "Icon",
@@ -18,19 +119,24 @@
 					},
 					{
 						"name": "contentHeightInRem",
+						"description": "Height of icon, measured in rem. E.g., \"4\".",
+						"smart": false,
 						"type": "string",
 						"required": true,
 						"parent": "Icon"
 					},
 					{
 						"name": "darkMode",
+						"description": "Whether user prefers dark mode. E.g., true.",
+						"smart": true,
 						"type": "bool",
 						"required": false,
-						"parent": "Icon",
-						"default": false
+						"parent": "Icon"
 					},
 					{
 						"name": "iconContent",
+						"description": "Which SVG should be used. E.g., \"Home\".",
+						"smart": false,
 						"type": "string",
 						"required": true,
 						"parent": "Icon"

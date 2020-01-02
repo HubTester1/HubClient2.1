@@ -2,7 +2,8 @@
  * @name Icon
  * @component
  * @category Ingredients
- * @description Icon component. Gets icon content from Icon Registry. Connected to Redux store.
+ * @smart
+ * @description Icon component. Gets icon content from Icon Registry.
  */
 
 import { connect } from 'react-redux';
@@ -37,34 +38,32 @@ const Icon = ({
 		</IconContainer>
 	); 
 };
-
 Icon.propTypes = {
 	/**
-	 * Which SVG should be used. E.g., "Home".
+	 * @description Which SVG should be used. E.g., "Home".
 	 */
 	iconContent: PropTypes.string.isRequired,
+
 	/**
-	 * Fill color for SVG. Will be used to find color from Style service. E.g., "ux-pink".
+	 * @description Fill color for SVG. Style service param. E.g., "ux-pink".
 	 */
 	contentColor: PropTypes.string,
+
 	/**
-	 * Height of icon, measured in rem. E.g., "4".
+	 * @description Height of icon, measured in rem. E.g., "4".
 	 */
 	contentHeightInRem: PropTypes.string.isRequired,
+
 	/**
-	 * From state store. Whether user prefers dark mode. E.g., "true".
+	 * @smart
+	 * @description Whether user prefers dark mode. E.g., true.
 	 */
 	darkMode: PropTypes.bool,
 };
-
 Icon.defaultProps = {
 	contentColor: 'ux-base-text',
-	darkMode: false,
 };
-
-
 const mapStateToProps = (state) => ({
 	darkMode: ReturnDarkMode(state),
 });
-
 export default connect(mapStateToProps)(Icon);
