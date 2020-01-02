@@ -1,63 +1,39 @@
 /* eslint-disable jsdoc/require-jsdoc */
 /* eslint-disable import/no-extraneous-dependencies */
-const handlebars = require('handlebars');
-/* const arrayify = require('array-back');
-const { where } = require('test-value');
-const state = require('./state'); */
 
+const marked = require('marked');
 
-function identifiers(options) {
-	/* const query = {};
-
-	for (const prop in options.hash) {
-		if (/^-/.test(prop)) {
-			query[prop.replace(/^-/, '!')] = options.hash[prop];
-		} else if (/^_/.test(prop)) {
-			query[prop.replace(/^_/, '')] = new RegExp(options.hash[prop]);
-		} else {
-			query[prop] = options.hash[prop];
-		}
+// converts the supplied text to markdown
+exports.md = (string, options) => {
+	if (string) {
+		const result = marked(string).replace('lang-js', 'language-javascript');
+		return result;
 	}
-	return arrayify(options.data.root).filter(where(query)).filter((doclet) => !doclet.ignore && (state.options.private ? true : doclet.access !== 'private')); */
-}
+	return '';
+};
+exports.md2 = (options) => marked.inlineLexer(options.fn(this).toString(), []);
 
-
-/* 
-
-  options.hash.scope = 'global'
-  return _identifiers(options).filter(function (identifier) {
-    if (identifier.kind === 'external') {
-      return identifier.description && identifier.description.length > 0
-    } else {
-      return true
-    }
-  })
-
-
- */
-
-
-/**
- * Finds an object in an array with a matching key: value
- *
- * @function findBy
- * @param array - The array to search
- * @param key - The key to compare
- * @param value - The value to find
- * @returns
- */
+// Finds an object in an array with a matching key: value
 exports.findBy = (array, key, value) => [array.find((item) => item[key] === value)].filter(Boolean);
 
 
-exports.categorySelector = ({ hash, data }) => {
-	// options.hash.kind = 'module';
-	// return handlebars.helpers.each(identifiers(options), options);
+exports.returnIndexMarkupForCategory = ({ hash, data }) => {
 	const { category } = hash;
-	const itemArray = data.root;
+	const selectedItemsArray = exports.findBy(data.root, 'category', category);
+	const returnValue = '';
 
-	console.log('selected items');
-	console.log(JSON.stringify(exports.findBy(itemArray, 'category', category)));
+	console.log(selectedItemsArray, '--', data);
+	console.log('<br />');
 
+	/* if (selectedItemsArray[0]) {
+		returnValue += `<h3>${category}</h3><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>`;
+		selectedItemsArray.forEach((itemValue, itemIndex) => {
+			returnValue += `<tr><td>${itemValue.name}</td><td>${itemValue.description}</td></tr>`;
+		});
+		returnValue += '</tbody></table>';
+	} else {
+		returnValue = `<h3>${category}</h3><p>No items could be found in this category</p>`;
+	} */
 
-	return exports.findBy(itemArray, 'category', category);
+	return exports.md(returnValue);
 };

@@ -1,0 +1,42 @@
+{
+	"Ingredients": {
+		"title": "Ingredients",
+		"preamble": "Items such as controls that appear across other parts of the app.",
+		"components": [
+			{
+				"name": "Icon",
+				"category": "Ingredients",
+				"description": "Icon component. Gets icon content from Icon Registry. Connected to Redux store.",
+				"path": "/src/components/Ingredients/IconIcon.js",
+				"params": [
+					{
+						"name": "contentColor",
+						"type": "string",
+						"required": false,
+						"parent": "Icon",
+						"default": "ux-base-text"
+					},
+					{
+						"name": "contentHeightInRem",
+						"type": "string",
+						"required": true,
+						"parent": "Icon"
+					},
+					{
+						"name": "darkMode",
+						"type": "bool",
+						"required": false,
+						"parent": "Icon",
+						"default": false
+					},
+					{
+						"name": "iconContent",
+						"type": "string",
+						"required": true,
+						"parent": "Icon"
+					}
+				]
+			}
+		]
+	}
+}

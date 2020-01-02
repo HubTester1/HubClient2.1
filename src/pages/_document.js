@@ -1,7 +1,7 @@
 /**
  * @name Document
- * @module
- * @category Next.js Overrides
+ * @component
+ * @category Next.js
  * @description Collect and handle styles from styled-components. Render &lt;html>.
  * 
  * Used by Next.js in transpilation; overrides default Next.js _document.

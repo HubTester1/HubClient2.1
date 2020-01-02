@@ -1,8 +1,8 @@
 /* eslint-disable  react/react-in-jsx-scope */
 /**
  * @name Index
- * @module
- * @category Next.js Overrides
+ * @component
+ * @category Next.js
  * @description Fetch data and send it to _app. Render Container component.
  * 
  * Used by Next.js whenever /index is requested.

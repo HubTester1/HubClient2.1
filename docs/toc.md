@@ -3,13 +3,13 @@
 ##Contents
 
 [Introduction](/)
+[Meta](/meta.df)
 
 ---
 ---
 
 ##Architecture
 
-* [Test](architecture/test.html)
 * [Overview](architecture/overview.md)
 * [Development Environment](architecture/dev-environment.md)
 * [Master Page](architecture/master-page.md)

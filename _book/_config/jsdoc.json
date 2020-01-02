@@ -1,0 +1,19 @@
+{
+	"source": {
+		"include": [
+			"./src/components",
+			"./src/pages",
+			"./src/public",
+			"./src/services",
+			"./meta"
+		],
+		"includePattern": ".+\\.js(doc|x)?$",
+		"excludePattern": "(^|\\/|\\\\)"
+	},
+	"tags": {
+		"allowUnknownTags": true,
+		"dictionaries": [
+			"jsdoc"
+		]
+	}
+}
