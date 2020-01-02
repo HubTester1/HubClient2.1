@@ -1,11 +1,12 @@
 /**
  * @name State Store - Reducer
- * @function
- * @category Services
+ * @service
  * @description Define Redux state store reducer. Due to Next.js limitations, this
  * is the only reducer.
  * @param {object} action
  * @returns {object} Modified state object
+ * 
+ * @todo Document functions
  */
 
 const reducerDefaultState = {

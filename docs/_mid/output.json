@@ -2,7 +2,31 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [660,676],
+			"range": [760,869],
+			"filename": "MakeStore.js",
+			"lineno": 18,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000461",
+				"name": "composeEnhancers",
+				"type": "LogicalExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "composeEnhancers",
+		"longname": "composeEnhancers",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "composeEnhancers",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [650,666],
 			"filename": "app-loader.js",
 			"lineno": 18,
 			"columnno": 6,
@@ -26,7 +50,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2073,2121],
+			"range": [2063,2111],
 			"filename": "app-loader.js",
 			"lineno": 63,
 			"columnno": 7,
@@ -50,7 +74,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1374,1413],
+			"range": [1364,1403],
 			"filename": "app-loader.js",
 			"lineno": 36,
 			"columnno": 9,
@@ -75,7 +99,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1008,1071],
+			"range": [998,1061],
 			"filename": "app-loader.js",
 			"lineno": 27,
 			"columnno": 7,
@@ -99,7 +123,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1123,1140],
+			"range": [1113,1130],
 			"filename": "app-loader.js",
 			"lineno": 29,
 			"columnno": 7,
@@ -123,7 +147,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1424,1460],
+			"range": [1414,1450],
 			"filename": "app-loader.js",
 			"lineno": 37,
 			"columnno": 9,
@@ -148,7 +172,624 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3289,3406],
+			"range": [863,932],
+			"filename": "Selectors.js",
+			"lineno": 34,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000715",
+				"name": "partialScreenKeysArray",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "partialScreenKeysArray",
+		"longname": "<anonymous>~partialScreenKeysArray",
+		"kind": "constant",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"params": [],
+		"$longname": "partialScreenKeysArray",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [942,969],
+			"filename": "Selectors.js",
+			"lineno": 35,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000731",
+				"name": "partialScreenTabsSpecs",
+				"type": "ArrayExpression",
+				"value": "[]"
+			}
+		},
+		"undocumented": true,
+		"name": "partialScreenTabsSpecs",
+		"longname": "<anonymous>~partialScreenTabsSpecs",
+		"kind": "constant",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"params": [],
+		"$longname": "partialScreenTabsSpecs",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [266,389],
+			"filename": "Reducer.js",
+			"lineno": 12,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000493",
+				"name": "reducerDefaultState",
+				"type": "ObjectExpression",
+				"value": "{\"stateError\":false,\"uData\":\"\",\"hData\":\"\",\"sData\":\"\",\"isServerSide\":false}"
+			}
+		},
+		"undocumented": true,
+		"name": "reducerDefaultState",
+		"longname": "reducerDefaultState",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "reducerDefaultState",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1284,1406],
+			"filename": "Selectors.js",
+			"lineno": 49,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000775",
+				"name": "exports.ReturnDarkMode",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnDarkMode",
+		"longname": "ReturnDarkMode",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnDarkMode",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1297,1405],
+			"filename": "Selectors.js",
+			"lineno": 49,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000777",
+				"name": "ReturnDarkMode",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnDarkMode",
+		"longname": "ReturnDarkMode",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnDarkMode",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1417,1536],
+			"filename": "Selectors.js",
+			"lineno": 55,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000795",
+				"name": "exports.ReturnHeaderIsStuck",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnHeaderIsStuck",
+		"longname": "ReturnHeaderIsStuck",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnHeaderIsStuck",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1430,1535],
+			"filename": "Selectors.js",
+			"lineno": 55,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000797",
+				"name": "ReturnHeaderIsStuck",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnHeaderIsStuck",
+		"longname": "ReturnHeaderIsStuck",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnHeaderIsStuck",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [542,634],
+			"filename": "Selectors.js",
+			"lineno": 24,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000659",
+				"name": "exports.ReturnPartialScreenKey",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnPartialScreenKey",
+		"longname": "ReturnPartialScreenKey",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnPartialScreenKey",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [555,633],
+			"filename": "Selectors.js",
+			"lineno": 24,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000661",
+				"name": "ReturnPartialScreenKey",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnPartialScreenKey",
+		"longname": "ReturnPartialScreenKey",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnPartialScreenKey",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [777,1273],
+			"filename": "Selectors.js",
+			"lineno": 32,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000703",
+				"name": "exports.ReturnPartialScreenTabsSpecs",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnPartialScreenTabsSpecs",
+		"longname": "ReturnPartialScreenTabsSpecs",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnPartialScreenTabsSpecs",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [790,1272],
+			"filename": "Selectors.js",
+			"lineno": 32,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000705",
+				"name": "ReturnPartialScreenTabsSpecs",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnPartialScreenTabsSpecs",
+		"longname": "ReturnPartialScreenTabsSpecs",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnPartialScreenTabsSpecs",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [635,776],
+			"filename": "Selectors.js",
+			"lineno": 28,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000675",
+				"name": "exports.ReturnPartialScreenTitle",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnPartialScreenTitle",
+		"longname": "ReturnPartialScreenTitle",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnPartialScreenTitle",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [648,775],
+			"filename": "Selectors.js",
+			"lineno": 28,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000677",
+				"name": "ReturnPartialScreenTitle",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnPartialScreenTitle",
+		"longname": "ReturnPartialScreenTitle",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnPartialScreenTitle",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [462,494],
+			"filename": "Utilities.js",
+			"lineno": 18,
+			"columnno": 9,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002689",
+				"name": "b",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "b",
+		"longname": "module.exports.ReturnRGBFromHex~b",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnRGBFromHex",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnRGBFromHex~b",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [419,451],
+			"filename": "Utilities.js",
+			"lineno": 17,
+			"columnno": 9,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002680",
+				"name": "g",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "g",
+		"longname": "module.exports.ReturnRGBFromHex~g",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnRGBFromHex",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnRGBFromHex~g",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [376,408],
+			"filename": "Utilities.js",
+			"lineno": 16,
+			"columnno": 9,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002671",
+				"name": "r",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "r",
+		"longname": "module.exports.ReturnRGBFromHex~r",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnRGBFromHex",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnRGBFromHex~r",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [277,344],
+			"filename": "Utilities.js",
+			"lineno": 14,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002660",
+				"name": "regexResult",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "regexResult",
+		"longname": "module.exports.ReturnRGBFromHex~regexResult",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnRGBFromHex",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnRGBFromHex~regexResult",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [317,424],
+			"filename": "Selectors.js",
+			"lineno": 16,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000621",
+				"name": "exports.ReturnScreenSize",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnScreenSize",
+		"longname": "ReturnScreenSize",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnScreenSize",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [330,423],
+			"filename": "Selectors.js",
+			"lineno": 16,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000623",
+				"name": "ReturnScreenSize",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnScreenSize",
+		"longname": "ReturnScreenSize",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnScreenSize",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [425,541],
+			"filename": "Selectors.js",
+			"lineno": 20,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000637",
+				"name": "exports.ReturnScreenTitle",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnScreenTitle",
+		"longname": "ReturnScreenTitle",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnScreenTitle",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [438,540],
+			"filename": "Selectors.js",
+			"lineno": 20,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000639",
+				"name": "ReturnScreenTitle",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnScreenTitle",
+		"longname": "ReturnScreenTitle",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnScreenTitle",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [229,316],
+			"filename": "Selectors.js",
+			"lineno": 12,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000607",
+				"name": "exports.ReturnSData",
+				"type": "VariableDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnSData",
+		"longname": "ReturnSData",
+		"kind": "constant",
+		"scope": "global",
+		"$longname": "ReturnSData",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [242,315],
+			"filename": "Selectors.js",
+			"lineno": 12,
+			"columnno": 13,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000609",
+				"name": "ReturnSData",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnSData",
+		"longname": "ReturnSData",
+		"kind": "constant",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnSData",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [467,945],
+			"filename": "Screen.js",
+			"lineno": 19,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000365",
+				"name": "screens",
+				"type": "ObjectExpression",
+				"value": "{\"home\":\"\",\"messages\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "screens",
+		"longname": "module.exports.ReturnSData~screens",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnSData",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnSData~screens",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1312,1435],
+			"filename": "Screen.js",
+			"lineno": 55,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000412",
+				"name": "selectedPartialScreen",
+				"type": "ConditionalExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "selectedPartialScreen",
+		"longname": "module.exports.ReturnSData~selectedPartialScreen",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnSData",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnSData~selectedPartialScreen",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1118,1149],
+			"filename": "Screen.js",
+			"lineno": 51,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000405",
+				"name": "selectedScreen",
+				"type": "ConditionalExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "selectedScreen",
+		"longname": "module.exports.ReturnSData~selectedScreen",
+		"kind": "constant",
+		"memberof": "module.exports.ReturnSData",
+		"scope": "inner",
+		"params": [],
+		"$longname": "ReturnSData~selectedScreen",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3279,3396],
 			"filename": "app-loader.js",
 			"lineno": 89,
 			"columnno": 8,
@@ -172,7 +813,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [721,777],
+			"range": [711,767],
 			"filename": "app-loader.js",
 			"lineno": 20,
 			"columnno": 6,
@@ -196,7 +837,650 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2287,2351],
+			"range": [552,7351],
+			"filename": "User.js",
+			"lineno": 19,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002522",
+				"name": "module.exports",
+				"type": "ClassDeclaration"
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "class",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "class"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [567,7351],
+			"filename": "User.js",
+			"lineno": 19,
+			"columnno": 15,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002523",
+				"name": "module.exports",
+				"type": "ClassDeclaration",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "class",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "class"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [878,999],
+			"filename": "MakeStore.js",
+			"lineno": 21,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000474",
+				"name": "makeStore",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "makeStore",
+		"longname": "makeStore",
+		"kind": "function",
+		"scope": "global",
+		"params": [],
+		"$longname": "makeStore",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2417,2556],
+			"filename": "Style.js",
+			"lineno": 101,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001135",
+				"name": "BlockHidden",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "BlockHidden",
+		"longname": "module.exports.BlockHidden",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.BlockHidden",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [5303,5670],
+			"filename": "Style.js",
+			"lineno": 207,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001260",
+				"name": "Color",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "Color",
+		"longname": "module.exports.Color",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.Color",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [9125,16724],
+			"filename": "Style.js",
+			"lineno": 333,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001806",
+				"name": "ColorRGBValue",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ColorRGBValue",
+		"longname": "module.exports.ColorRGBValue",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ColorRGBValue",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [5674,9121],
+			"filename": "Style.js",
+			"lineno": 219,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001319",
+				"name": "ColorUXStatement",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ColorUXStatement",
+		"longname": "module.exports.ColorUXStatement",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ColorUXStatement",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [208,453],
+			"filename": "Style.js",
+			"lineno": 14,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000819",
+				"name": "FontFamily",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "FontFamily",
+		"longname": "module.exports.FontFamily",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.FontFamily",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [545,1924],
+			"filename": "Style.js",
+			"lineno": 20,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000822",
+				"name": "FontSize",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "FontSize",
+		"longname": "module.exports.FontSize",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.FontSize",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2198,2332],
+			"filename": "Style.js",
+			"lineno": 84,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001117",
+				"name": "FontStyle",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "FontStyle",
+		"longname": "module.exports.FontStyle",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.FontStyle",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1928,2194],
+			"filename": "Style.js",
+			"lineno": 66,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001086",
+				"name": "FontWeight",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "FontWeight",
+		"longname": "module.exports.FontWeight",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.FontWeight",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2699,2832],
+			"filename": "Style.js",
+			"lineno": 114,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001143",
+				"name": "InlineHidden",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "InlineHidden",
+		"longname": "module.exports.InlineHidden",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.InlineHidden",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2559,2696],
+			"filename": "Style.js",
+			"lineno": 108,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001139",
+				"name": "OverrideBlockHidden",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "OverrideBlockHidden",
+		"longname": "module.exports.OverrideBlockHidden",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.OverrideBlockHidden",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [253,279],
+			"filename": "Screen.js",
+			"lineno": 12,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000347",
+				"name": "ReturnLargeMin",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnLargeMin",
+		"longname": "module.exports.ReturnLargeMin",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnLargeMin",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [376,403],
+			"filename": "Screen.js",
+			"lineno": 16,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000353",
+				"name": "ReturnMediumMax",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnMediumMax",
+		"longname": "module.exports.ReturnMediumMax",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnMediumMax",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [314,340],
+			"filename": "Screen.js",
+			"lineno": 14,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000350",
+				"name": "ReturnMediumMin",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnMediumMin",
+		"longname": "module.exports.ReturnMediumMin",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnMediumMin",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [240,545],
+			"filename": "Utilities.js",
+			"lineno": 13,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002655",
+				"name": "ReturnRGBFromHex",
+				"type": "ArrowFunctionExpression"
+			},
+			"vars": {
+				"regexResult": "module.exports.ReturnRGBFromHex~regexResult",
+				"r": "module.exports.ReturnRGBFromHex~r",
+				"g": "module.exports.ReturnRGBFromHex~g",
+				"b": "module.exports.ReturnRGBFromHex~b"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnRGBFromHex",
+		"longname": "module.exports.ReturnRGBFromHex",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnRGBFromHex",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [434,1545],
+			"filename": "Screen.js",
+			"lineno": 18,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000359",
+				"name": "ReturnSData",
+				"type": "ArrowFunctionExpression"
+			},
+			"vars": {
+				"screens": "module.exports.ReturnSData~screens",
+				"selectedScreen": "module.exports.ReturnSData~selectedScreen",
+				"selectedPartialScreen": "module.exports.ReturnSData~selectedPartialScreen"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnSData",
+		"longname": "module.exports.ReturnSData",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnSData",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [406,431],
+			"filename": "Screen.js",
+			"lineno": 17,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000356",
+				"name": "ReturnSmallMax",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnSmallMax",
+		"longname": "module.exports.ReturnSmallMax",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnSmallMax",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [141,237],
+			"filename": "Utilities.js",
+			"lineno": 10,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002641",
+				"name": "ReturnStringWithInitialCapital",
+				"type": "ArrowFunctionExpression"
+			},
+			"vars": {
+				"": null
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnStringWithInitialCapital",
+		"longname": "module.exports.ReturnStringWithInitialCapital",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ReturnStringWithInitialCapital",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3296,5287],
+			"filename": "Style.js",
+			"lineno": 149,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001168",
+				"name": "Shadow",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "Shadow",
+		"longname": "module.exports.Shadow",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.Shadow",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2364,2400],
+			"filename": "Style.js",
+			"lineno": 96,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001132",
+				"name": "StandardTransitionTime",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "StandardTransitionTime",
+		"longname": "module.exports.StandardTransitionTime",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.StandardTransitionTime",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2835,2971],
+			"filename": "Style.js",
+			"lineno": 120,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001147",
+				"name": "TableColumnHidden",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "TableColumnHidden",
+		"longname": "module.exports.TableColumnHidden",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.TableColumnHidden",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2992,3083],
+			"filename": "Style.js",
+			"lineno": 131,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001151",
+				"name": "VerticalAlignMiddle",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "VerticalAlignMiddle",
+		"longname": "module.exports.VerticalAlignMiddle",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.VerticalAlignMiddle",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3101,3215],
+			"filename": "Style.js",
+			"lineno": 138,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100001155",
+				"name": "ZIndex",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "ZIndex",
+		"longname": "module.exports.ZIndex",
+		"kind": "function",
+		"memberof": "module.exports",
+		"scope": "static",
+		"$longname": "module.exports.ZIndex",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [397,1058],
+			"filename": "Reducer.js",
+			"lineno": 19,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000509",
+				"name": "reducer",
+				"type": "ArrowFunctionExpression"
+			}
+		},
+		"undocumented": true,
+		"name": "reducer",
+		"longname": "reducer",
+		"kind": "function",
+		"scope": "global",
+		"params": [],
+		"$longname": "reducer",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2402,7349],
+			"filename": "User.js",
+			"lineno": 74,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002526",
+				"name": "ReturnUData",
+				"type": "MethodDefinition",
+				"paramnames": [
+					"u",
+					"o"
+				]
+			},
+			"vars": {
+				"": null
+			}
+		},
+		"undocumented": true,
+		"name": "ReturnUData",
+		"longname": "ReturnUData",
+		"kind": "function",
+		"scope": "global",
+		"params": [],
+		"$longname": "ReturnUData",
+		"$kind": "method"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2277,2341],
 			"filename": "app-loader.js",
 			"lineno": 68,
 			"columnno": 1,
@@ -220,7 +1504,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2456,2518],
+			"range": [2446,2508],
 			"filename": "app-loader.js",
 			"lineno": 71,
 			"columnno": 1,
@@ -244,7 +1528,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2659,2721],
+			"range": [2649,2711],
 			"filename": "app-loader.js",
 			"lineno": 76,
 			"columnno": 1,
@@ -268,7 +1552,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2749,2810],
+			"range": [2739,2800],
 			"filename": "app-loader.js",
 			"lineno": 78,
 			"columnno": 1,
@@ -292,7 +1576,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2813,2878],
+			"range": [2803,2868],
 			"filename": "app-loader.js",
 			"lineno": 79,
 			"columnno": 1,
@@ -316,7 +1600,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2987,3048],
+			"range": [2977,3038],
 			"filename": "app-loader.js",
 			"lineno": 83,
 			"columnno": 2,
@@ -340,7 +1624,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2378,2453],
+			"range": [2368,2443],
 			"filename": "app-loader.js",
 			"lineno": 70,
 			"columnno": 1,
@@ -365,7 +1649,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2581,2656],
+			"range": [2571,2646],
 			"filename": "app-loader.js",
 			"lineno": 75,
 			"columnno": 1,
@@ -390,7 +1674,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3052,3121],
+			"range": [3042,3111],
 			"filename": "app-loader.js",
 			"lineno": 84,
 			"columnno": 2,
@@ -413,7 +1697,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name App Loader\n * @category Services\n * @description File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).\n * JS code executes automatically. This is the connection between SPO and this app.\n * \n * Code either loads the app or arranges things for other SPO areas that use \n * the same master page.\n * \n * This is vanilla ES6; it is not compiled or otherwise manipulated. \n * Thus, it is both source and distribution, and lives in /public.\n * \n * @todo Get showe and shudson ribbon permission from database - in user service\n * @todo Get jbaker ribbon permission from database - in user service\n */",
+		"comment": "/**\n * @name App Loader\n * @service\n * @description File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).\n * JS code executes automatically. This is the connection between SPO and this app.\n * \n * Code either loads the app or arranges things for other SPO areas that use \n * the same master page.\n * \n * This is vanilla ES6; it is not compiled or otherwise manipulated. \n * Thus, it is both source and distribution, and lives in /public.\n * \n * @todo Get showe and shudson ribbon permission from database - in user service\n * @todo Get jbaker ribbon permission from database - in user service\n */",
 		"meta": {
 			"filename": "app-loader.js",
 			"lineno": 1,
@@ -426,10 +1710,9 @@
 		"name": "App Loader",
 		"tags": [
 			{
-				"originalTitle": "category",
-				"title": "category",
-				"text": "Services",
-				"value": "Services"
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
 			}
 		],
 		"description": "File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).\nJS code executes automatically. This is the connection between SPO and this app.\n\nCode either loads the app or arranges things for other SPO areas that use \nthe same master page.\n\nThis is vanilla ES6; it is not compiled or otherwise manipulated. \nThus, it is both source and distribution, and lives in /public.",
@@ -446,7 +1729,123 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2124,2155],
+			"range": [2695,2707],
+			"filename": "User.js",
+			"lineno": 87,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002571",
+				"name": "error",
+				"type": "Literal",
+				"value": false
+			}
+		},
+		"undocumented": true,
+		"name": "error",
+		"longname": "error",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "error",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3231,3243],
+			"filename": "User.js",
+			"lineno": 113,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002607",
+				"name": "error",
+				"type": "Literal",
+				"value": false
+			}
+		},
+		"undocumented": true,
+		"name": "error",
+		"longname": "error",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "error",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [792,834],
+			"filename": "Reducer.js",
+			"lineno": 40,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000559",
+				"name": "hData",
+				"type": "ObjectExpression",
+				"value": "{\"headerStuck\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "hData",
+		"longname": "hData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "hData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1472,1477],
+			"filename": "Selectors.js",
+			"lineno": 56,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000803",
+				"name": "hData",
+				"type": "Identifier",
+				"value": "hData"
+			}
+		},
+		"undocumented": true,
+		"name": "hData",
+		"longname": "hData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "hData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [801,832],
+			"filename": "Reducer.js",
+			"lineno": 40,
+			"columnno": 12,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000561",
+				"name": "headerStuck",
+				"type": "MemberExpression",
+				"value": "action.headerStuck"
+			}
+		},
+		"undocumented": true,
+		"name": "headerStuck",
+		"longname": "hData.headerStuck",
+		"kind": "member",
+		"memberof": "hData",
+		"scope": "static",
+		"$longname": "hData.headerStuck",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2114,2145],
 			"filename": "app-loader.js",
 			"lineno": 64,
 			"columnno": 1,
@@ -471,7 +1870,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2158,2187],
+			"range": [2148,2177],
 			"filename": "app-loader.js",
 			"lineno": 65,
 			"columnno": 1,
@@ -496,7 +1895,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1177,1222],
+			"range": [1167,1212],
 			"filename": "app-loader.js",
 			"lineno": 31,
 			"columnno": 5,
@@ -520,7 +1919,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1926,2023],
+			"range": [1916,2013],
 			"filename": "app-loader.js",
 			"lineno": 58,
 			"columnno": 2,
@@ -546,7 +1945,750 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3483,3525],
+			"range": [1153,1166],
+			"filename": "Selectors.js",
+			"lineno": 40,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000768",
+				"name": "key",
+				"type": "Identifier",
+				"value": "keyValue"
+			}
+		},
+		"undocumented": true,
+		"name": "key",
+		"longname": "key",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "key",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [233,1548],
+			"filename": "Screen.js",
+			"lineno": 11,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000342",
+				"name": "module.exports",
+				"type": "ObjectExpression",
+				"value": "{\"ReturnLargeMin\":\"\",\"ReturnMediumMin\":\"\",\"ReturnMediumMax\":\"\",\"ReturnSmallMax\":\"\",\"ReturnSData\":\"\"}",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "member",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1001,1026],
+			"filename": "MakeStore.js",
+			"lineno": 26,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000488",
+				"name": "module.exports",
+				"type": "Identifier"
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "member",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1061,1084],
+			"filename": "Reducer.js",
+			"lineno": 56,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000599",
+				"name": "module.exports",
+				"type": "Identifier"
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "member",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [176,16727],
+			"filename": "Style.js",
+			"lineno": 10,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000814",
+				"name": "module.exports",
+				"type": "ObjectExpression",
+				"value": "{\"FontFamily\":\"\",\"FontSize\":\"\",\"FontWeight\":\"\",\"FontStyle\":\"\",\"StandardTransitionTime\":\"\",\"BlockHidden\":\"\",\"OverrideBlockHidden\":\"\",\"InlineHidden\":\"\",\"TableColumnHidden\":\"\",\"VerticalAlignMiddle\":\"\",\"ZIndex\":\"\",\"Shadow\":\"\",\"Color\":\"\",\"ColorUXStatement\":\"\",\"ColorRGBValue\":\"\"}",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "member",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [121,548],
+			"filename": "Utilities.js",
+			"lineno": 9,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002636",
+				"name": "module.exports",
+				"type": "ObjectExpression",
+				"value": "{\"ReturnStringWithInitialCapital\":\"\",\"ReturnRGBFromHex\":\"\"}",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "exports",
+		"longname": "module.exports",
+		"kind": "member",
+		"memberof": "module",
+		"scope": "static",
+		"$longname": "module.exports",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1480,1504],
+			"filename": "Screen.js",
+			"lineno": 61,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000436",
+				"name": "p",
+				"type": "Identifier",
+				"value": "selectedPartialScreen"
+			}
+		},
+		"undocumented": true,
+		"name": "p",
+		"longname": "p",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "p",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [323,352],
+			"filename": "Reducer.js",
+			"lineno": 15,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000500",
+				"name": "hData",
+				"type": "ObjectExpression",
+				"value": "{\"headerStuck\":false}"
+			}
+		},
+		"undocumented": true,
+		"name": "hData",
+		"longname": "reducerDefaultState.hData",
+		"kind": "member",
+		"memberof": "reducerDefaultState",
+		"scope": "static",
+		"$longname": "reducerDefaultState.hData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [332,350],
+			"filename": "Reducer.js",
+			"lineno": 15,
+			"columnno": 10,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000502",
+				"name": "headerStuck",
+				"type": "Literal",
+				"value": false
+			}
+		},
+		"undocumented": true,
+		"name": "headerStuck",
+		"longname": "reducerDefaultState.hData.headerStuck",
+		"kind": "member",
+		"memberof": "reducerDefaultState.hData",
+		"scope": "static",
+		"$longname": "reducerDefaultState.hData.headerStuck",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [367,386],
+			"filename": "Reducer.js",
+			"lineno": 17,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000506",
+				"name": "isServerSide",
+				"type": "Literal",
+				"value": false
+			}
+		},
+		"undocumented": true,
+		"name": "isServerSide",
+		"longname": "reducerDefaultState.isServerSide",
+		"kind": "member",
+		"memberof": "reducerDefaultState",
+		"scope": "static",
+		"$longname": "reducerDefaultState.isServerSide",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [355,364],
+			"filename": "Reducer.js",
+			"lineno": 16,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000504",
+				"name": "sData",
+				"type": "ObjectExpression",
+				"value": "{}"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "reducerDefaultState.sData",
+		"kind": "member",
+		"memberof": "reducerDefaultState",
+		"scope": "static",
+		"$longname": "reducerDefaultState.sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [291,308],
+			"filename": "Reducer.js",
+			"lineno": 13,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000496",
+				"name": "stateError",
+				"type": "Literal",
+				"value": false
+			}
+		},
+		"undocumented": true,
+		"name": "stateError",
+		"longname": "reducerDefaultState.stateError",
+		"kind": "member",
+		"memberof": "reducerDefaultState",
+		"scope": "static",
+		"$longname": "reducerDefaultState.stateError",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [311,320],
+			"filename": "Reducer.js",
+			"lineno": 14,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000498",
+				"name": "uData",
+				"type": "ObjectExpression",
+				"value": "{}"
+			}
+		},
+		"undocumented": true,
+		"name": "uData",
+		"longname": "reducerDefaultState.uData",
+		"kind": "member",
+		"memberof": "reducerDefaultState",
+		"scope": "static",
+		"$longname": "reducerDefaultState.uData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [482,720],
+			"filename": "Screen.js",
+			"lineno": 20,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000368",
+				"name": "home",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"Home\",\"defaultPartial\":\"todayAndRecent\",\"partials\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "home",
+		"longname": "module.exports.ReturnSData~screens.home",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [513,545],
+			"filename": "Screen.js",
+			"lineno": 22,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000372",
+				"name": "defaultPartial",
+				"type": "Literal",
+				"value": "todayAndRecent"
+			}
+		},
+		"undocumented": true,
+		"name": "defaultPartial",
+		"longname": "module.exports.ReturnSData~screens.home.defaultPartial",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.defaultPartial",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [551,714],
+			"filename": "Screen.js",
+			"lineno": 23,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000374",
+				"name": "partials",
+				"type": "ObjectExpression",
+				"value": "{\"todayAndRecent\":\"\",\"pinned\":\"\",\"ux\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "partials",
+		"longname": "module.exports.ReturnSData~screens.home.partials",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [630,669],
+			"filename": "Screen.js",
+			"lineno": 27,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000380",
+				"name": "pinned",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"Pinned\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "pinned",
+		"longname": "module.exports.ReturnSData~screens.home.partials.pinned",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home.partials",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials.pinned",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [646,661],
+			"filename": "Screen.js",
+			"lineno": 28,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000382",
+				"name": "title",
+				"type": "Literal",
+				"value": "Pinned"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.home.partials.pinned.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home.partials.pinned",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials.pinned.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [568,623],
+			"filename": "Screen.js",
+			"lineno": 24,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000376",
+				"name": "todayAndRecent",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"Today & Recent\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "todayAndRecent",
+		"longname": "module.exports.ReturnSData~screens.home.partials.todayAndRecent",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home.partials",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials.todayAndRecent",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [592,615],
+			"filename": "Screen.js",
+			"lineno": 25,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000378",
+				"name": "title",
+				"type": "Literal",
+				"value": "Today & Recent"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.home.partials.todayAndRecent.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home.partials.todayAndRecent",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials.todayAndRecent.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [676,707],
+			"filename": "Screen.js",
+			"lineno": 30,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000384",
+				"name": "ux",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"UX\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "ux",
+		"longname": "module.exports.ReturnSData~screens.home.partials.ux",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home.partials",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials.ux",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [688,699],
+			"filename": "Screen.js",
+			"lineno": 31,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000386",
+				"name": "title",
+				"type": "Literal",
+				"value": "UX"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.home.partials.ux.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home.partials.ux",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.partials.ux.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [494,507],
+			"filename": "Screen.js",
+			"lineno": 21,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000370",
+				"name": "title",
+				"type": "Literal",
+				"value": "Home"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.home.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.home",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.home.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [725,940],
+			"filename": "Screen.js",
+			"lineno": 35,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000388",
+				"name": "messages",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"Messages\",\"defaultPartial\":\"announcements\",\"partials\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "messages",
+		"longname": "module.exports.ReturnSData~screens.messages",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [764,795],
+			"filename": "Screen.js",
+			"lineno": 37,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000392",
+				"name": "defaultPartial",
+				"type": "Literal",
+				"value": "announcements"
+			}
+		},
+		"undocumented": true,
+		"name": "defaultPartial",
+		"longname": "module.exports.ReturnSData~screens.messages.defaultPartial",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.defaultPartial",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [801,934],
+			"filename": "Screen.js",
+			"lineno": 38,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000394",
+				"name": "partials",
+				"type": "ObjectExpression",
+				"value": "{\"announcements\":\"\",\"classifieds\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "partials",
+		"longname": "module.exports.ReturnSData~screens.messages.partials",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.partials",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [818,871],
+			"filename": "Screen.js",
+			"lineno": 39,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000396",
+				"name": "announcements",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"Announcements\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "announcements",
+		"longname": "module.exports.ReturnSData~screens.messages.partials.announcements",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages.partials",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.partials.announcements",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [841,863],
+			"filename": "Screen.js",
+			"lineno": 40,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000398",
+				"name": "title",
+				"type": "Literal",
+				"value": "Announcements"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.messages.partials.announcements.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages.partials.announcements",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.partials.announcements.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [878,927],
+			"filename": "Screen.js",
+			"lineno": 42,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000400",
+				"name": "classifieds",
+				"type": "ObjectExpression",
+				"value": "{\"title\":\"Classifieds\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "classifieds",
+		"longname": "module.exports.ReturnSData~screens.messages.partials.classifieds",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages.partials",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.partials.classifieds",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [899,919],
+			"filename": "Screen.js",
+			"lineno": 43,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000402",
+				"name": "title",
+				"type": "Literal",
+				"value": "Classifieds"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.messages.partials.classifieds.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages.partials.classifieds",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.partials.classifieds.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [741,758],
+			"filename": "Screen.js",
+			"lineno": 36,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000390",
+				"name": "title",
+				"type": "Literal",
+				"value": "Messages"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "module.exports.ReturnSData~screens.messages.title",
+		"kind": "member",
+		"memberof": "module.exports.ReturnSData~screens.messages",
+		"scope": "static",
+		"$longname": "ReturnSData~screens.messages.title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3473,3515],
 			"filename": "app-loader.js",
 			"lineno": 93,
 			"columnno": 3,
@@ -566,6 +2708,1346 @@
 		"memberof": "ribbonForStanSarah.style",
 		"scope": "static",
 		"$longname": "ribbonForStanSarah.style.display",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1457,1474],
+			"filename": "Screen.js",
+			"lineno": 60,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000434",
+				"name": "s",
+				"type": "Identifier",
+				"value": "selectedScreen"
+			}
+		},
+		"undocumented": true,
+		"name": "s",
+		"longname": "s",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "s",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name Screen\n * @service\n * @description Returns data about screen breakpoints and contents. Users cannot navigate\n * to screens or partial screens not listed in ReturnSData > screens.\n * \n * \n * @todo Document functions\n */",
+		"meta": {
+			"filename": "Screen.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				
+			}
+		},
+		"name": "Screen",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Returns data about screen breakpoints and contents. Users cannot navigate\nto screens or partial screens not listed in ReturnSData > screens.",
+		"todo": [
+			"Document functions"
+		],
+		"longname": "Screen",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "Screen",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1524,1531],
+			"filename": "Screen.js",
+			"lineno": 63,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000440",
+				"name": "screens",
+				"type": "Identifier",
+				"value": "screens"
+			}
+		},
+		"undocumented": true,
+		"name": "screens",
+		"longname": "screens",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "screens",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [602,621],
+			"filename": "Reducer.js",
+			"lineno": 29,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000537",
+				"name": "sData",
+				"type": "MemberExpression",
+				"value": "action.sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [912,1021],
+			"filename": "Reducer.js",
+			"lineno": 45,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000571",
+				"name": "sData",
+				"type": "ObjectExpression",
+				"value": "{\"s\":\"\",\"p\":\"\",\"screens\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [276,281],
+			"filename": "Selectors.js",
+			"lineno": 13,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000615",
+				"name": "sData",
+				"type": "Identifier",
+				"value": "sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [369,374],
+			"filename": "Selectors.js",
+			"lineno": 17,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000629",
+				"name": "sData",
+				"type": "Identifier",
+				"value": "sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [478,483],
+			"filename": "Selectors.js",
+			"lineno": 21,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000645",
+				"name": "sData",
+				"type": "Identifier",
+				"value": "sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [600,605],
+			"filename": "Selectors.js",
+			"lineno": 25,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000667",
+				"name": "sData",
+				"type": "Identifier",
+				"value": "sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [695,700],
+			"filename": "Selectors.js",
+			"lineno": 29,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000683",
+				"name": "sData",
+				"type": "Identifier",
+				"value": "sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [841,846],
+			"filename": "Selectors.js",
+			"lineno": 33,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000711",
+				"name": "sData",
+				"type": "Identifier",
+				"value": "sData"
+			}
+		},
+		"undocumented": true,
+		"name": "sData",
+		"longname": "sData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "sData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [943,981],
+			"filename": "Reducer.js",
+			"lineno": 47,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000577",
+				"name": "p",
+				"type": "ConditionalExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "p",
+		"longname": "sData.p",
+		"kind": "member",
+		"memberof": "sData",
+		"scope": "static",
+		"$longname": "sData.p",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [926,937],
+			"filename": "Reducer.js",
+			"lineno": 46,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000573",
+				"name": "s",
+				"type": "MemberExpression",
+				"value": "action.s"
+			}
+		},
+		"undocumented": true,
+		"name": "s",
+		"longname": "sData.s",
+		"kind": "member",
+		"memberof": "sData",
+		"scope": "static",
+		"$longname": "sData.s",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [987,1015],
+			"filename": "Reducer.js",
+			"lineno": 48,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000590",
+				"name": "screens",
+				"type": "MemberExpression",
+				"value": "state.sData.screens"
+			}
+		},
+		"undocumented": true,
+		"name": "screens",
+		"longname": "sData.screens",
+		"kind": "member",
+		"memberof": "sData",
+		"scope": "static",
+		"$longname": "sData.screens",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1117,1147],
+			"filename": "Selectors.js",
+			"lineno": 39,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000762",
+				"name": "selected",
+				"type": "BinaryExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "selected",
+		"longname": "selected",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "selected",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1510,1518],
+			"filename": "Screen.js",
+			"lineno": 62,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100000438",
+				"name": "size",
+				"type": "Literal",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "size",
+		"longname": "size",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "size",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name State Store - Make Store\n * @service\n * @description Create Redux state store and connect reducers and middleware (redux-thunk).\n */",
+		"meta": {
+			"filename": "MakeStore.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				
+			}
+		},
+		"name": "State Store - Make Store",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Create Redux state store and connect reducers and middleware (redux-thunk).",
+		"longname": "State Store - Make Store",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "State Store - Make Store",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name State Store - Reducer\n * @service\n * @description Define Redux state store reducer. Due to Next.js limitations, this\n * is the only reducer.\n * @param {object} action\n * @returns {object} Modified state object\n * \n * @todo Document functions\n */",
+		"meta": {
+			"filename": "Reducer.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				
+			}
+		},
+		"name": "State Store - Reducer",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Define Redux state store reducer. Due to Next.js limitations, this\nis the only reducer.",
+		"params": [
+			{
+				"type": {
+					"names": [
+						"object"
+					]
+				},
+				"name": "action"
+			}
+		],
+		"returns": [
+			{
+				"type": {
+					"names": [
+						"object"
+					]
+				},
+				"description": "Modified state object"
+			}
+		],
+		"todo": [
+			"Document functions"
+		],
+		"longname": "State Store - Reducer",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "State Store - Reducer",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name State Store - Selectors\n * @service\n * @description Define state selectors for Reselect package, for performance enhancement.\n * \n * @todo Document functions\n */",
+		"meta": {
+			"filename": "Selectors.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				
+			}
+		},
+		"name": "State Store - Selectors",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Define state selectors for Reselect package, for performance enhancement.",
+		"todo": [
+			"Document functions"
+		],
+		"longname": "State Store - Selectors",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "State Store - Selectors",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [680,696],
+			"filename": "Reducer.js",
+			"lineno": 34,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000547",
+				"name": "stateError",
+				"type": "Literal",
+				"value": true
+			}
+		},
+		"undocumented": true,
+		"name": "stateError",
+		"longname": "stateError",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "stateError",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [701,732],
+			"filename": "Reducer.js",
+			"lineno": 35,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000549",
+				"name": "stateErrorDetails",
+				"type": "MemberExpression",
+				"value": "action.error"
+			}
+		},
+		"undocumented": true,
+		"name": "stateErrorDetails",
+		"longname": "stateErrorDetails",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "stateErrorDetails",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name Style\n * @service\n * @description Centralized style computations, variables, specs, and patterns.\n * \n * @todo Document functions\n */",
+		"meta": {
+			"filename": "Style.js",
+			"lineno": 2,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				
+			}
+		},
+		"name": "Style",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Centralized style computations, variables, specs, and patterns.",
+		"todo": [
+			"Document functions"
+		],
+		"longname": "Style",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "Style",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1057,1111],
+			"filename": "Selectors.js",
+			"lineno": 38,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000748",
+				"name": "title",
+				"type": "MemberExpression",
+				"value": "sData.screens[undefined].partials[undefined].title"
+			}
+		},
+		"undocumented": true,
+		"name": "title",
+		"longname": "title",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "title",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [524,543],
+			"filename": "Reducer.js",
+			"lineno": 24,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000527",
+				"name": "uData",
+				"type": "MemberExpression",
+				"value": "action.uData"
+			}
+		},
+		"undocumented": true,
+		"name": "uData",
+		"longname": "uData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "uData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1334,1339],
+			"filename": "Selectors.js",
+			"lineno": 50,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services/State",
+			"code": {
+				"id": "astnode100000783",
+				"name": "uData",
+				"type": "Identifier",
+				"value": "uData"
+			}
+		},
+		"undocumented": true,
+		"name": "uData",
+		"longname": "uData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "uData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2714,3190],
+			"filename": "User.js",
+			"lineno": 88,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002573",
+				"name": "uData",
+				"type": "ObjectExpression",
+				"value": "{\"u\":\"jbaker\",\"o\":\"sp1\",\"user\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "uData",
+		"longname": "uData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "uData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3250,3558],
+			"filename": "User.js",
+			"lineno": 114,
+			"columnno": 5,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002609",
+				"name": "uData",
+				"type": "ObjectExpression",
+				"value": "{\"u\":\"jbaker\",\"o\":\"sp1\",\"user\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "uData",
+		"longname": "uData",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "uData",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2748,2756],
+			"filename": "User.js",
+			"lineno": 90,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002577",
+				"name": "o",
+				"type": "Literal",
+				"value": "sp1"
+			}
+		},
+		"undocumented": true,
+		"name": "o",
+		"longname": "uData.o",
+		"kind": "member",
+		"memberof": "uData",
+		"scope": "static",
+		"$longname": "uData.o",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3284,3292],
+			"filename": "User.js",
+			"lineno": 116,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002613",
+				"name": "o",
+				"type": "Literal",
+				"value": "sp1"
+			}
+		},
+		"undocumented": true,
+		"name": "o",
+		"longname": "uData.o",
+		"kind": "member",
+		"memberof": "uData",
+		"scope": "static",
+		"$longname": "uData.o",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2729,2740],
+			"filename": "User.js",
+			"lineno": 89,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002575",
+				"name": "u",
+				"type": "Literal",
+				"value": "jbaker"
+			}
+		},
+		"undocumented": true,
+		"name": "u",
+		"longname": "uData.u",
+		"kind": "member",
+		"memberof": "uData",
+		"scope": "static",
+		"$longname": "uData.u",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3265,3276],
+			"filename": "User.js",
+			"lineno": 115,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002611",
+				"name": "u",
+				"type": "Literal",
+				"value": "jbaker"
+			}
+		},
+		"undocumented": true,
+		"name": "u",
+		"longname": "uData.u",
+		"kind": "member",
+		"memberof": "uData",
+		"scope": "static",
+		"$longname": "uData.u",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2764,3182],
+			"filename": "User.js",
+			"lineno": 91,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002579",
+				"name": "user",
+				"type": "ObjectExpression",
+				"value": "{\"email\":\"jbaker@mos.org\",\"displayName\":\"James Baker\",\"account\":\"jbaker\",\"accountLong\":\"i:0#.f|membership|jbaker@mos.org\",\"roles\":\"\",\"preferences\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "user",
+		"longname": "uData.user",
+		"kind": "member",
+		"memberof": "uData",
+		"scope": "static",
+		"$longname": "uData.user",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3300,3550],
+			"filename": "User.js",
+			"lineno": 117,
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002615",
+				"name": "user",
+				"type": "ObjectExpression",
+				"value": "{\"email\":\"sp1@mos.org\",\"displayName\":\"Hub Tester1\",\"account\":\"sp1\",\"accountLong\":\"i:0#.f|membership|sp1@mos.org\",\"roles\":\"\",\"preferences\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "user",
+		"longname": "uData.user",
+		"kind": "member",
+		"memberof": "uData",
+		"scope": "static",
+		"$longname": "uData.user",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2846,2863],
+			"filename": "User.js",
+			"lineno": 94,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002585",
+				"name": "account",
+				"type": "Literal",
+				"value": "jbaker"
+			}
+		},
+		"undocumented": true,
+		"name": "account",
+		"longname": "uData.user.account",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.account",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3379,3393],
+			"filename": "User.js",
+			"lineno": 120,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002621",
+				"name": "account",
+				"type": "Literal",
+				"value": "sp1"
+			}
+		},
+		"undocumented": true,
+		"name": "account",
+		"longname": "uData.user.account",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.account",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2872,2919],
+			"filename": "User.js",
+			"lineno": 95,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002587",
+				"name": "accountLong",
+				"type": "Literal",
+				"value": "i:0#.f|membership|jbaker@mos.org"
+			}
+		},
+		"undocumented": true,
+		"name": "accountLong",
+		"longname": "uData.user.accountLong",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.accountLong",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3402,3446],
+			"filename": "User.js",
+			"lineno": 121,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002623",
+				"name": "accountLong",
+				"type": "Literal",
+				"value": "i:0#.f|membership|sp1@mos.org"
+			}
+		},
+		"undocumented": true,
+		"name": "accountLong",
+		"longname": "uData.user.accountLong",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.accountLong",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2811,2837],
+			"filename": "User.js",
+			"lineno": 93,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002583",
+				"name": "displayName",
+				"type": "Literal",
+				"value": "James Baker"
+			}
+		},
+		"undocumented": true,
+		"name": "displayName",
+		"longname": "uData.user.displayName",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.displayName",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3344,3370],
+			"filename": "User.js",
+			"lineno": 119,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002619",
+				"name": "displayName",
+				"type": "Literal",
+				"value": "Hub Tester1"
+			}
+		},
+		"undocumented": true,
+		"name": "displayName",
+		"longname": "uData.user.displayName",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.displayName",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2779,2802],
+			"filename": "User.js",
+			"lineno": 92,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002581",
+				"name": "email",
+				"type": "Literal",
+				"value": "jbaker@mos.org"
+			}
+		},
+		"undocumented": true,
+		"name": "email",
+		"longname": "uData.user.email",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.email",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3315,3335],
+			"filename": "User.js",
+			"lineno": 118,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002617",
+				"name": "email",
+				"type": "Literal",
+				"value": "sp1@mos.org"
+			}
+		},
+		"undocumented": true,
+		"name": "email",
+		"longname": "uData.user.email",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.email",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3027,3173],
+			"filename": "User.js",
+			"lineno": 101,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002594",
+				"name": "preferences",
+				"type": "ObjectExpression",
+				"value": "{\"darkMode\":true,\"pinned\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "preferences",
+		"longname": "uData.user.preferences",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.preferences",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3473,3541],
+			"filename": "User.js",
+			"lineno": 123,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002627",
+				"name": "preferences",
+				"type": "ObjectExpression",
+				"value": "{\"darkMode\":false,\"pinned\":\"\"}"
+			}
+		},
+		"undocumented": true,
+		"name": "preferences",
+		"longname": "uData.user.preferences",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.preferences",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3050,3064],
+			"filename": "User.js",
+			"lineno": 102,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002596",
+				"name": "darkMode",
+				"type": "Literal",
+				"value": true
+			}
+		},
+		"undocumented": true,
+		"name": "darkMode",
+		"longname": "uData.user.preferences.darkMode",
+		"kind": "member",
+		"memberof": "uData.user.preferences",
+		"scope": "static",
+		"$longname": "uData.user.preferences.darkMode",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3496,3511],
+			"filename": "User.js",
+			"lineno": 124,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002629",
+				"name": "darkMode",
+				"type": "Literal",
+				"value": false
+			}
+		},
+		"undocumented": true,
+		"name": "darkMode",
+		"longname": "uData.user.preferences.darkMode",
+		"kind": "member",
+		"memberof": "uData.user.preferences",
+		"scope": "static",
+		"$longname": "uData.user.preferences.darkMode",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3074,3163],
+			"filename": "User.js",
+			"lineno": 103,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002598",
+				"name": "pinned",
+				"type": "ArrayExpression",
+				"value": "[\"Network Access Request\",\"Equipment Loan Request\"]"
+			}
+		},
+		"undocumented": true,
+		"name": "pinned",
+		"longname": "uData.user.preferences.pinned",
+		"kind": "member",
+		"memberof": "uData.user.preferences",
+		"scope": "static",
+		"$longname": "uData.user.preferences.pinned",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3521,3531],
+			"filename": "User.js",
+			"lineno": 125,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002631",
+				"name": "pinned",
+				"type": "ArrayExpression",
+				"value": "[]"
+			}
+		},
+		"undocumented": true,
+		"name": "pinned",
+		"longname": "uData.user.preferences.pinned",
+		"kind": "member",
+		"memberof": "uData.user.preferences",
+		"scope": "static",
+		"$longname": "uData.user.preferences.pinned",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2928,3018],
+			"filename": "User.js",
+			"lineno": 96,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002589",
+				"name": "roles",
+				"type": "ArrayExpression",
+				"value": "[\"admin\",\"componentGrpAdmin\",\"o365GlobalAdmin\"]"
+			}
+		},
+		"undocumented": true,
+		"name": "roles",
+		"longname": "uData.user.roles",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.roles",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3455,3464],
+			"filename": "User.js",
+			"lineno": 122,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002625",
+				"name": "roles",
+				"type": "ArrayExpression",
+				"value": "[]"
+			}
+		},
+		"undocumented": true,
+		"name": "roles",
+		"longname": "uData.user.roles",
+		"kind": "member",
+		"memberof": "uData.user",
+		"scope": "static",
+		"$longname": "uData.user.roles",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name User\n * @service\n * @description Fetch and return data about user.\n * \n * @todo Refactor into module instead of class\n * @todo Fetch live data\n * @todo Assign roles in cloud\n * @todo Set mosManager as a role in cloud\n * @todo Get showe and shudson ribbon permission from database - in user service\n * @todo Get jbaker ribbon permission from database - in user service\n * @todo Document functions\n */",
+		"meta": {
+			"filename": "User.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				
+			}
+		},
+		"name": "User",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Fetch and return data about user.",
+		"todo": [
+			"Refactor into module instead of class",
+			"Fetch live data",
+			"Assign roles in cloud",
+			"Set mosManager as a role in cloud",
+			"Get showe and shudson ribbon permission from database - in user service",
+			"Get jbaker ribbon permission from database - in user service",
+			"Document functions"
+		],
+		"longname": "User",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "User",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2506,2522],
+			"filename": "User.js",
+			"lineno": 77,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002540",
+				"name": "userToReturn",
+				"type": "Identifier",
+				"value": "u"
+			}
+		},
+		"undocumented": true,
+		"name": "userToReturn",
+		"longname": "<anonymous>~userToReturn",
+		"kind": "member",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"params": [],
+		"$longname": "userToReturn",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2552,2575],
+			"filename": "User.js",
+			"lineno": 79,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002548",
+				"name": "userToReturn",
+				"type": "Literal",
+				"funcscope": "<anonymous>",
+				"value": "jbaker",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "userToReturn",
+		"longname": "<anonymous>~userToReturn",
+		"kind": "member",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"$longname": "userToReturn",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2616,2632],
+			"filename": "User.js",
+			"lineno": 82,
+			"columnno": 4,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				"id": "astnode100002559",
+				"name": "userToReturn",
+				"type": "Identifier",
+				"funcscope": "<anonymous>",
+				"value": "o",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "userToReturn",
+		"longname": "<anonymous>~userToReturn",
+		"kind": "member",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"$longname": "userToReturn",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name Utilities\n * @service\n * @description Miscellaneous utility functions.\n * \n * @todo Document functions\n */",
+		"meta": {
+			"filename": "Utilities.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/services",
+			"code": {
+				
+			}
+		},
+		"name": "Utilities",
+		"tags": [
+			{
+				"originalTitle": "service",
+				"title": "service",
+				"text": ""
+			}
+		],
+		"description": "Miscellaneous utility functions.",
+		"todo": [
+			"Document functions"
+		],
+		"longname": "Utilities",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "Utilities",
 		"$kind": "property"
 	}
 ]

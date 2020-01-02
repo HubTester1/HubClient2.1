@@ -1,13 +1,14 @@
 /**
  * @name Utilities
- * @module
- * @category Services
+ * @service
  * @description Miscellaneous utility functions.
+ * 
+ * @todo Document functions
  */
 
 module.exports = {
-	ReturnStringWithInitialCapital: string => (
-		string.replace(/^\w/, c => c.toUpperCase())
+	ReturnStringWithInitialCapital: (string) => (
+		string.replace(/^\w/, (c) => c.toUpperCase())
 	),
 	ReturnRGBFromHex: (hex) => {
 		const regexResult = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);

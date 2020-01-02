@@ -1,7 +1,6 @@
 /**
  * @name User
- * @module
- * @category Services
+ * @service
  * @description Fetch and return data about user.
  * 
  * @todo Refactor into module instead of class
@@ -10,6 +9,7 @@
  * @todo Set mosManager as a role in cloud
  * @todo Get showe and shudson ribbon permission from database - in user service
  * @todo Get jbaker ribbon permission from database - in user service
+ * @todo Document functions
  */
 
 // import pnp, { Web } from 'sp-pnp-js';

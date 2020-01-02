@@ -59,6 +59,7 @@
 		"jsdoc/check-tag-names": [1, {
 			"definedTags": [
 				"component",
+				"service",
 				"category",
 				"smart"
 			]

@@ -1,16 +1,14 @@
 /**
  * @name State Store - Make Store
- * @function
- * @category Services
+ * @service
  * @description Create Redux state store and connect reducers and middleware (redux-thunk).
- * @param {object} initialState
- * @param {boolean} options.isServer - indicates server side or client side
- * @param {Request} options.req - NodeJS Request object
- * @param {Response} options.res - NodeJS Response object
- * @param {boolean} options.debug - User-defined debug mode param
- * @param {string} options.storeKey - Preserve store in global namespace for safe HMR
- * @returns {object} Store, an object that holds complete state
  */
+//  * @param {object} initialState
+//  * @param {boolean} options.isServer - indicates server side or client side
+//  * @param {Request} options.req - NodeJS Request object
+//  * @param {Response} options.res - NodeJS Response object
+//  * @param {boolean} options.debug - User-defined debug mode param
+//  * @param {string} options.storeKey - Preserve store in global namespace for safe HMR
 
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';

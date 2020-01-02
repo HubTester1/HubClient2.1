@@ -1,3 +1,56 @@
 {
-	
+	"Services": {
+		"title": "Services",
+		"preamble": "This is the Services preamble.",
+		"services": [
+			{
+				"name": "App Loader",
+				"category": "Services",
+				"description": "File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).\nJS code executes automatically. This is the connection between SPO and this app.\n\nCode either loads the app or arranges things for other SPO areas that use \nthe same master page.\n\nThis is vanilla ES6; it is not compiled or otherwise manipulated. \nThus, it is both source and distribution, and lives in /public.",
+				"path": "/src/public/app-loader.js"
+			},
+			{
+				"name": "Screen",
+				"category": "Services",
+				"description": "Returns data about screen breakpoints and contents. Users cannot navigate\nto screens or partial screens not listed in ReturnSData > screens.",
+				"path": "/src/services/Screen.js"
+			},
+			{
+				"name": "State Store - Make Store",
+				"category": "Services",
+				"description": "Create Redux state store and connect reducers and middleware (redux-thunk).",
+				"path": "/src/services/State/MakeStore.js"
+			},
+			{
+				"name": "State Store - Reducer",
+				"category": "Services",
+				"description": "Define Redux state store reducer. Due to Next.js limitations, this\nis the only reducer.",
+				"path": "/src/services/State/Reducer.js"
+			},
+			{
+				"name": "State Store - Selectors",
+				"category": "Services",
+				"description": "Define state selectors for Reselect package, for performance enhancement.",
+				"path": "/src/services/State/Selectors.js"
+			},
+			{
+				"name": "Style",
+				"category": "Services",
+				"description": "Centralized style computations, variables, specs, and patterns.",
+				"path": "/src/services/Style.js"
+			},
+			{
+				"name": "User",
+				"category": "Services",
+				"description": "Fetch and return data about user.",
+				"path": "/src/services/User.js"
+			},
+			{
+				"name": "Utilities",
+				"category": "Services",
+				"description": "Miscellaneous utility functions.",
+				"path": "/src/services/Utilities.js"
+			}
+		]
+	}
 }

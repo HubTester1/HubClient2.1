@@ -1,9 +1,10 @@
 /* eslint-disable indent */
 /**
  * @name Style
- * @module
- * @category Services
+ * @service
  * @description Centralized style computations, variables, specs, and patterns.
+ * 
+ * @todo Document functions
  */
 
 module.exports = {

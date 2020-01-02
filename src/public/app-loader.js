@@ -1,6 +1,6 @@
 /**
  * @name App Loader
- * @category Services
+ * @service
  * @description File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).
  * JS code executes automatically. This is the connection between SPO and this app.
  * 

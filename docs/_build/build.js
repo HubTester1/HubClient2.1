@@ -9,7 +9,7 @@ const config = {
 		// './src/components',
 		// './src/pages',
 		'./src/public',
-		// './src/services',
+		'./src/services',
 		// './meta',
 	],
 	recurse: true,
@@ -37,6 +37,7 @@ const config = {
 		Code: 'This text goes at the top of this screen.',
 		Agenda: 'Not a system component. Just a todo list culled from @todos in the code.',
 		Ingredients: 'Items such as controls that appear across other parts of the app.',
+		Services: 'This is the Services preamble.',
 	},
 };
 const ReturnPathRelativeLocation = (pathRaw, filename, projectRoot) => {
@@ -114,6 +115,29 @@ const ReturnAllComponents = (allItemsRawArray, projectRoot) => {
 	});
 	return allComponents;
 };
+const ReturnAllServices = (allItemsRawArray, projectRoot) => {
+	const allServices = [];
+	allItemsRawArray.forEach((itemRawValue) => {
+		if (itemRawValue.tags) {
+			itemRawValue.tags.forEach((tag) => {
+				if (tag.title && tag.title.trim() === 'service') {
+					const objectToPush = {
+						name: itemRawValue.name.trim(),
+						category: 'Services',
+						description: itemRawValue.description,
+						path: ReturnPathRelativeLocation(
+							itemRawValue.meta.path,
+							itemRawValue.meta.filename,
+							projectRoot,
+						),
+					};
+					allServices.push(objectToPush);
+				}
+			});
+		}
+	});
+	return allServices;
+};
 const ReturnParamTypeAndRequirement = (paramValueRaw) => {
 	const valueParts = paramValueRaw.split('.');
 	return {
@@ -145,7 +169,10 @@ const ReturnAllParams = (allItemsRawArray) => {
 			itemRawValue.meta.code.type === 'MemberExpression'
 		) {				
 			const memberOfParts = itemRawValue.memberof.split('.');
-			if (memberOfParts[1].trim() === 'propTypes') {
+			if (
+				memberOfParts[1] && 
+				memberOfParts[1].trim() === 'propTypes'
+			) {
 				const paramTypeAndRequirement = ReturnParamTypeAndRequirement(itemRawValue.meta.code.value);
 				const paramToPush = {
 					name: itemRawValue.meta.code.name.trim(),
@@ -246,6 +273,26 @@ const ReturnComponentsSections = (allItemsRawArray, projectRoot, preambles) => {
 	// const tempBuildArray = [allComponents, allParams, allParamDefaults];
 	return buildObject;
 };
+const ReturnServicesSections = (allItemsRawArray, projectRoot, preambles) => {
+	const buildObject = {};
+	const allServices = ReturnAllServices(allItemsRawArray, projectRoot);
+	allServices.forEach((service) => {
+		const serviceCopy = ReturnCopyOfObject(service);
+
+		if (!buildObject[serviceCopy.category]) {
+			buildObject[serviceCopy.category] = {};
+		}
+		buildObject[serviceCopy.category].title = serviceCopy.category;
+		if (preambles[serviceCopy.category]) {
+			buildObject[serviceCopy.category].preamble = preambles[serviceCopy.category];
+		}
+		if (!buildObject[serviceCopy.category].services) {
+			buildObject[serviceCopy.category].services = [];
+		}
+		buildObject[serviceCopy.category].services.push(serviceCopy);
+	});
+	return buildObject;
+};
 const ReturnAllItems = (parseConfig) => new Promise((resolve, reject) => {
 	jsdocx.parse(parseConfig, (error, docs) => {
 		if (error) {
@@ -273,9 +320,10 @@ const Build = (buildConfig) => {
 					const buildObject = {};
 					const componentsSections = 
 						ReturnComponentsSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
+					const servicesSections = ReturnServicesSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
 
 
-					WriteToFile(buildConfig.midDestination2, componentsSections, true);
+					WriteToFile(buildConfig.midDestination2, servicesSections, true);
 				}
 			}
 		});

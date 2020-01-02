@@ -1,8 +1,9 @@
 /**
  * @name State Store - Selectors
- * @function
- * @category Services
+ * @service
  * @description Define state selectors for Reselect package, for performance enhancement.
+ * 
+ * @todo Document functions
  */
 
 import { createSelector } from 'reselect';
