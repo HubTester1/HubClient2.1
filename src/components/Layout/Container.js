@@ -2,14 +2,12 @@
  * @name Container
  * @component
  * @category Layout
+ * @smart
  * @description App root.
  * 
  * Compute and inject global styles. Determine screen size and 
  * dispatch to state store. Listen for screen resize events and 
  * re-dispatch screen size to state store. Render App Grid.
- * 
- * Connected to Redux store.
- * @returns {Component} &lt;Container />
  *
  * @todo Remove disused sticky header styles
  */

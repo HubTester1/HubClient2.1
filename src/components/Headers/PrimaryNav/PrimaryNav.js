@@ -2,8 +2,8 @@
  * @name Primary Nav
  * @component
  * @category Headers
- * @description Primary navigation within app. Connected to Redux store.
- * @returns {Component} &lt;PrimaryNav />
+ * @smart
+ * @description Primary navigation within app.
  * 
  */
 

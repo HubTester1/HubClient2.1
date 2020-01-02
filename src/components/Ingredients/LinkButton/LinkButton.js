@@ -2,8 +2,8 @@
  * @name Link Button
  * @component
  * @category Ingredients
- * @description Facilitates navigation between screens. Connected to Redux store.
- * @returns {Component} &lt;LinkButton />
+ * @smart
+ * @description Facilitates navigation between screens.
  *
  * @todo params, types, required or optional
  */

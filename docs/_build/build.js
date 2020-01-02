@@ -6,10 +6,9 @@ const jsonFormat = require('json-format');
 const config = { 
 	// for jsdocx
 	files: [
-		'./src/components/Ingredients/Icon/Icon.js',
-		'./src/components/Ingredients/Button/Button.js',
-		'./src/pages',
-		// './src/public',
+		// './src/components',
+		// './src/pages',
+		'./src/public',
 		// './src/services',
 		// './meta',
 	],
@@ -86,16 +85,21 @@ const ReturnAllComponents = (allItemsRawArray, projectRoot) => {
 							if (!paramRaw.optional || paramRaw.optional !== true) {
 								paramToPush.required = true;
 							}
-							let typeIndication;
-							paramRaw.type.names.forEach((typeNameValue, typeNameIndex) => {
-								if (typeNameIndex === 0) {
-									typeIndication = typeNameValue;
-								} else {
-									typeIndication = ` | ${typeNameValue}`;
+							if (
+								paramRaw.type && 
+								paramRaw.type.names
+							) {
+								let typeIndication;
+								paramRaw.type.names.forEach((typeNameValue, typeNameIndex) => {
+									if (typeNameIndex === 0) {
+										typeIndication = typeNameValue;
+									} else {
+										typeIndication = ` | ${typeNameValue}`;
+									}
+								});
+								if (typeIndication) {
+									paramToPush.type = typeIndication;
 								}
-							});
-							if (typeIndication) {
-								paramToPush.type = typeIndication;
 							}
 							params.push(paramToPush);
 						});

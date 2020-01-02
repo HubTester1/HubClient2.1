@@ -3,9 +3,9 @@
 /**
  * @name Search - Title - Secondary Nav
  * @component
+ * @smart
  * @category Headers
- * @description Search box, screen title, partial screen tabs (secondary navigation). Connected to Redux store.
- * @returns {Component} SearchTitleSecondaryNav
+ * @description Search box, screen title, partial screen tabs (secondary navigation).
  *
  */
 

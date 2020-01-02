@@ -3,7 +3,6 @@
  * @component
  * @category Screens
  * @description Main content within app. Corresponds to "s" url param. Connected to Redux store.
- * @returns {Component} &lt;Screen />
  *
  * @todo params, types, required or optional
  */

@@ -2,8 +2,8 @@
  * @name Plane
  * @component
  * @category Ingredients
+ * @smart
  * @description Every two-dimensional space within app. Connected to Redux store.
- * @returns {Component} &lt;Plane />
  * 
  * @todo params, types, required or optional
  */

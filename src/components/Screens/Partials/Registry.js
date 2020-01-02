@@ -4,6 +4,8 @@
  * @category Partial Screens
  * @description Registry (exports) of all partial screen components.
  * Screen component gets its partial screen content from this registry.
+ * 
+ * @todo Make into a service?
  */
 
 export { default as TodayAndRecent } from './Home/TodayAndRecent';

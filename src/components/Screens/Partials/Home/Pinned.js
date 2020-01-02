@@ -2,8 +2,8 @@
  * @name Partial Screen - Pinned
  * @component
  * @category Partial Screens
+ * @smart
  * @description Must document upon completion. Connected to Redux store.
- * @returns {Component} &lt;Pinned />
  *
  * @todo params, types, required or optional
  * @todo document upon completion

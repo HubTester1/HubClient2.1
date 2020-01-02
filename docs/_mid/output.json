@@ -2,2879 +2,570 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1052,1365],
-			"filename": "Button.js",
-			"lineno": 29,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000260",
-				"name": "ButtonBase",
-				"type": "TaggedTemplateExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "ButtonBase",
-		"longname": "ButtonBase",
-		"kind": "constant",
-		"scope": "global",
-		"params": [],
-		"$longname": "ButtonBase",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [918,959],
-			"filename": "Icon.js",
-			"lineno": 30,
-			"columnno": 7,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000075",
-				"name": "SelectedIcon",
-				"type": "MemberExpression",
-				"value": "IconRegistry[undefined]"
-			}
-		},
-		"undocumented": true,
-		"name": "SelectedIcon",
-		"longname": "Icon~SelectedIcon",
-		"kind": "constant",
-		"memberof": "Icon",
-		"scope": "inner",
-		"params": [],
-		"$longname": "Icon~SelectedIcon",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [421,646],
-			"filename": "Icon.js",
-			"lineno": 16,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000027",
-				"name": "IconContainer",
-				"type": "TaggedTemplateExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "IconContainer",
-		"longname": "IconContainer",
-		"kind": "constant",
-		"scope": "global",
-		"params": [],
-		"$longname": "IconContainer",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1620,1682],
-			"filename": "Button.js",
-			"lineno": 44,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000333",
-				"name": "InvisibleTextWrapper",
-				"type": "TaggedTemplateExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "InvisibleTextWrapper",
-		"longname": "InvisibleTextWrapper",
-		"kind": "constant",
-		"scope": "global",
-		"params": [],
-		"$longname": "InvisibleTextWrapper",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [597,675],
-			"filename": "_document.js",
+			"range": [660,676],
+			"filename": "app-loader.js",
 			"lineno": 18,
-			"columnno": 8,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000844",
-				"name": "page",
-				"type": "CallExpression",
-				"value": ""
+				"id": "astnode100000003",
+				"name": "debugMode",
+				"type": "Literal",
+				"value": true
 			}
 		},
 		"undocumented": true,
-		"name": "page",
-		"longname": "<anonymous>~page",
+		"name": "debugMode",
+		"longname": "debugMode",
 		"kind": "constant",
-		"memberof": "<anonymous>",
-		"scope": "inner",
+		"scope": "global",
 		"params": [],
-		"$longname": "page",
+		"$longname": "debugMode",
 		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [795,871],
-			"filename": "Button.js",
-			"lineno": 23,
+			"range": [2073,2121],
+			"filename": "app-loader.js",
+			"lineno": 63,
 			"columnno": 7,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000228",
-				"name": "rounded",
-				"type": "ConditionalExpression",
+				"id": "astnode100000176",
+				"name": "iframeElement",
+				"type": "CallExpression",
 				"value": ""
 			}
 		},
 		"undocumented": true,
-		"name": "rounded",
-		"longname": "ReturnButtonVerticalPadding~rounded",
+		"name": "iframeElement",
+		"longname": "iframeElement",
 		"kind": "constant",
-		"memberof": "ReturnButtonVerticalPadding",
-		"scope": "inner",
+		"scope": "global",
 		"params": [],
-		"$longname": "ReturnButtonVerticalPadding~rounded",
+		"$longname": "iframeElement",
 		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [707,786],
-			"filename": "Button.js",
-			"lineno": 22,
+			"range": [1374,1413],
+			"filename": "app-loader.js",
+			"lineno": 36,
+			"columnno": 9,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000082",
+				"name": "paramLabel",
+				"type": "CallExpression",
+				"value": ""
+			}
+		},
+		"undocumented": true,
+		"name": "paramLabel",
+		"longname": "<anonymous>~paramLabel",
+		"kind": "constant",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"params": [],
+		"$longname": "paramLabel",
+		"$kind": "constant"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [1008,1071],
+			"filename": "app-loader.js",
+			"lineno": 27,
 			"columnno": 7,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000212",
-				"name": "timesTen",
-				"type": "BinaryExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "timesTen",
-		"longname": "ReturnButtonVerticalPadding~timesTen",
-		"kind": "constant",
-		"memberof": "ReturnButtonVerticalPadding",
-		"scope": "inner",
-		"params": [],
-		"$longname": "ReturnButtonVerticalPadding~timesTen",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1459,1491],
-			"filename": "index.js",
-			"lineno": 39,
-			"columnno": 9,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000978",
-				"name": "sData",
+				"id": "astnode100000042",
+				"name": "paramsReceived",
 				"type": "CallExpression",
 				"value": ""
 			}
 		},
 		"undocumented": true,
-		"name": "sData",
-		"longname": "<anonymous>~sData",
+		"name": "paramsReceived",
+		"longname": "paramsReceived",
 		"kind": "constant",
-		"memberof": "<anonymous>",
-		"scope": "inner",
+		"scope": "global",
 		"params": [],
-		"$longname": "sData",
+		"$longname": "paramsReceived",
 		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [508,538],
-			"filename": "_document.js",
-			"lineno": 16,
-			"columnno": 8,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
+			"range": [1123,1140],
+			"filename": "app-loader.js",
+			"lineno": 29,
+			"columnno": 7,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000839",
-				"name": "sheet",
-				"type": "NewExpression",
-				"value": ""
+				"id": "astnode100000058",
+				"name": "paramsToSend",
+				"type": "ArrayExpression",
+				"value": "[]"
 			}
 		},
 		"undocumented": true,
-		"name": "sheet",
-		"longname": "<anonymous>~sheet",
+		"name": "paramsToSend",
+		"longname": "paramsToSend",
 		"kind": "constant",
-		"memberof": "<anonymous>",
-		"scope": "inner",
+		"scope": "global",
 		"params": [],
-		"$longname": "sheet",
+		"$longname": "paramsToSend",
 		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [725,760],
-			"filename": "_document.js",
-			"lineno": 20,
-			"columnno": 8,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000862",
-				"name": "styleTags",
-				"type": "CallExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "styleTags",
-		"longname": "<anonymous>~styleTags",
-		"kind": "constant",
-		"memberof": "<anonymous>",
-		"scope": "inner",
-		"params": [],
-		"$longname": "styleTags",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1415,1448],
-			"filename": "index.js",
-			"lineno": 38,
-			"columnno": 9,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000971",
-				"name": "uData",
-				"type": "AwaitExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "uData",
-		"longname": "<anonymous>~uData",
-		"kind": "constant",
-		"memberof": "<anonymous>",
-		"scope": "inner",
-		"params": [],
-		"$longname": "uData",
-		"$kind": "constant"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1360,1404],
-			"filename": "index.js",
+			"range": [1424,1460],
+			"filename": "app-loader.js",
 			"lineno": 37,
 			"columnno": 9,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000961",
-				"name": "uDataResponse",
-				"type": "AwaitExpression",
+				"id": "astnode100000091",
+				"name": "paramToken",
+				"type": "CallExpression",
 				"value": ""
 			}
 		},
 		"undocumented": true,
-		"name": "uDataResponse",
-		"longname": "<anonymous>~uDataResponse",
+		"name": "paramToken",
+		"longname": "<anonymous>~paramToken",
 		"kind": "constant",
 		"memberof": "<anonymous>",
 		"scope": "inner",
 		"params": [],
-		"$longname": "uDataResponse",
+		"$longname": "paramToken",
 		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [1373,1612],
-			"filename": "Button.js",
-			"lineno": 38,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
+			"range": [3289,3406],
+			"filename": "app-loader.js",
+			"lineno": 89,
+			"columnno": 8,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000302",
-				"name": "VisibleTextWrapper",
-				"type": "TaggedTemplateExpression",
+				"id": "astnode100000321",
+				"name": "ribbonForStanSarah",
+				"type": "CallExpression",
 				"value": ""
 			}
 		},
 		"undocumented": true,
-		"name": "VisibleTextWrapper",
-		"longname": "VisibleTextWrapper",
+		"name": "ribbonForStanSarah",
+		"longname": "ribbonForStanSarah",
 		"kind": "constant",
 		"scope": "global",
 		"params": [],
-		"$longname": "VisibleTextWrapper",
+		"$longname": "ribbonForStanSarah",
 		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [428,1400],
-			"filename": "_app.js",
-			"lineno": 14,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000674",
-				"name": "AppWithRedux",
-				"type": "ClassDeclaration",
-				"paramnames": []
-			}
-		},
-		"undocumented": true,
-		"name": "AppWithRedux",
-		"longname": "AppWithRedux",
-		"kind": "class",
-		"scope": "global",
-		"$longname": "AppWithRedux",
-		"$kind": "class"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [999,1648],
-			"filename": "index.js",
-			"lineno": 25,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000929",
-				"name": "Index",
-				"type": "ClassDeclaration",
-				"paramnames": []
-			}
-		},
-		"undocumented": true,
-		"name": "Index",
-		"longname": "Index",
-		"kind": "class",
-		"scope": "global",
-		"$longname": "Index",
-		"$kind": "class"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [345,962],
-			"filename": "_document.js",
-			"lineno": 13,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000826",
-				"name": "module.exports",
-				"type": "ClassDeclaration"
-			}
-		},
-		"undocumented": true,
-		"name": "exports",
-		"longname": "module.exports",
-		"kind": "class",
-		"memberof": "module",
-		"scope": "static",
-		"$longname": "module.exports",
-		"$kind": "class"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [360,962],
-			"filename": "_document.js",
-			"lineno": 13,
-			"columnno": 15,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000827",
-				"name": "module.exports",
-				"type": "ClassDeclaration",
-				"paramnames": []
-			}
-		},
-		"undocumented": true,
-		"name": "exports",
-		"longname": "module.exports",
-		"kind": "class",
-		"memberof": "module",
-		"scope": "static",
-		"$longname": "module.exports",
-		"$kind": "class"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [515,1169],
-			"filename": "_app.js",
-			"lineno": 16,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000678",
-				"name": "AppWithRedux.getInitialProps",
-				"type": "MethodDefinition",
-				"paramnames": [
-					""
-				]
-			},
-			"vars": {
-				"": null
-			}
-		},
-		"undocumented": true,
-		"name": "getInitialProps",
-		"longname": "AppWithRedux.getInitialProps",
-		"kind": "function",
-		"memberof": "AppWithRedux",
-		"scope": "static",
-		"params": [],
-		"async": true,
-		"$longname": "AppWithRedux.getInitialProps",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1237,1398],
-			"filename": "_app.js",
-			"lineno": 46,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000771",
-				"name": "AppWithRedux#render",
-				"type": "MethodDefinition",
-				"paramnames": []
-			},
-			"vars": {
-				"": null
-			}
-		},
-		"undocumented": true,
-		"name": "render",
-		"longname": "AppWithRedux#render",
-		"kind": "function",
-		"memberof": "AppWithRedux",
-		"scope": "instance",
-		"params": [],
-		"$longname": "AppWithRedux#render",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1690,3523],
-			"filename": "Button.js",
-			"lineno": 47,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000347",
-				"name": "Button",
-				"type": "ArrowFunctionExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "Button",
-		"longname": "Button",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "Button",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [415,827],
-			"filename": "_document.js",
-			"lineno": 14,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000831",
-				"name": "getInitialProps",
-				"type": "MethodDefinition",
-				"paramnames": [
-					""
-				]
-			},
-			"vars": {
-				"": null
-			}
-		},
-		"undocumented": true,
-		"name": "getInitialProps",
-		"longname": "getInitialProps",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "getInitialProps",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [655,1134],
-			"filename": "Icon.js",
-			"lineno": 25,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000061",
-				"name": "Icon",
-				"type": "ArrowFunctionExpression"
-			},
-			"vars": {
-				"SelectedIcon": "Icon~SelectedIcon"
-			}
-		},
-		"undocumented": true,
-		"name": "Icon",
-		"longname": "Icon",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "Icon",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1229,1597],
-			"filename": "index.js",
-			"lineno": 29,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000933",
-				"name": "Index.getInitialProps",
-				"type": "MethodDefinition",
-				"paramnames": [
-					""
-				]
-			},
-			"vars": {
-				"": null
-			}
-		},
-		"undocumented": true,
-		"name": "getInitialProps",
-		"longname": "Index.getInitialProps",
-		"kind": "function",
-		"memberof": "Index",
-		"scope": "static",
-		"params": [],
-		"async": true,
-		"$longname": "Index.getInitialProps",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1600,1646],
-			"filename": "index.js",
-			"lineno": 50,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000997",
-				"name": "Index#render",
-				"type": "MethodDefinition",
-				"paramnames": []
-			},
-			"vars": {
-				"": null
-			}
-		},
-		"undocumented": true,
-		"name": "render",
-		"longname": "Index#render",
-		"kind": "function",
-		"memberof": "Index",
-		"scope": "instance",
-		"params": [],
-		"$longname": "Index#render",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1681,1749],
-			"filename": "Icon.js",
-			"lineno": 66,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000138",
-				"name": "mapStateToProps",
-				"type": "ArrowFunctionExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "mapStateToProps",
-		"longname": "mapStateToProps",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "mapStateToProps",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [5492,5564],
-			"filename": "Button.js",
-			"lineno": 205,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000641",
-				"name": "mapStateToProps",
-				"type": "ArrowFunctionExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "mapStateToProps",
-		"longname": "mapStateToProps",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "mapStateToProps",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [830,960],
-			"filename": "_document.js",
-			"lineno": 25,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000874",
-				"name": "render",
-				"type": "MethodDefinition",
-				"paramnames": []
-			},
-			"vars": {
-				"": null
-			}
-		},
-		"undocumented": true,
-		"name": "render",
-		"longname": "render",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "render",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [618,896],
-			"filename": "Button.js",
-			"lineno": 21,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000204",
-				"name": "ReturnButtonVerticalPadding",
-				"type": "ArrowFunctionExpression"
-			},
-			"vars": {
-				"timesTen": "ReturnButtonVerticalPadding~timesTen",
-				"rounded": "ReturnButtonVerticalPadding~rounded"
-			}
-		},
-		"undocumented": true,
-		"name": "ReturnButtonVerticalPadding",
-		"longname": "ReturnButtonVerticalPadding",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "ReturnButtonVerticalPadding",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [478,609],
-			"filename": "Button.js",
-			"lineno": 19,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000184",
-				"name": "ReturnContentHeightInRem",
-				"type": "ArrowFunctionExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "ReturnContentHeightInRem",
-		"longname": "ReturnContentHeightInRem",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "ReturnContentHeightInRem",
-		"$kind": "method"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [905,1043],
-			"filename": "Button.js",
-			"lineno": 27,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000249",
-				"name": "ReturnVisibleTextWrapperHorizontalPadding",
-				"type": "ArrowFunctionExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "ReturnVisibleTextWrapperHorizontalPadding",
-		"longname": "ReturnVisibleTextWrapperHorizontalPadding",
-		"kind": "function",
-		"scope": "global",
-		"params": [],
-		"$longname": "ReturnVisibleTextWrapperHorizontalPadding",
-		"$kind": "method"
-	},
-	{
-		"comment": "/**\n * @name App\n * @component\n * @category Next.js\n * @description Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers. Used by Next.js in transpilation; overrides default Next.js _app.\n * \n */",
-		"meta": {
-			"filename": "_app.js",
-			"lineno": 1,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				
-			}
-		},
-		"name": "App",
-		"tags": [
-			{
-				"originalTitle": "component",
-				"title": "component",
-				"text": ""
-			},
-			{
-				"originalTitle": "category",
-				"title": "category",
-				"text": "Next.js",
-				"value": "Next.js"
-			}
-		],
-		"description": "Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers. Used by Next.js in transpilation; overrides default Next.js _app.",
-		"longname": "App",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "App",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1821,1836],
-			"filename": "Button.js",
-			"lineno": 56,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000367",
-				"name": "backgroundColor",
-				"type": "Identifier",
-				"value": "backgroundColor"
-			}
-		},
-		"undocumented": true,
-		"name": "backgroundColor",
-		"longname": "backgroundColor",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "backgroundColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [2443,2559],
-			"filename": "Button.js",
-			"lineno": 79,
-			"columnno": 4,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000447",
-				"name": "bottom",
-				"type": "CallExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "bottom",
-		"longname": "bottom",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "bottom",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n * @name Button\n * @component\n * @category Ingredients\n * @smart\n * @description Button. Connected to Redux store.\n *\n * @todo params, types, required or optional\n */",
-		"meta": {
-			"filename": "Button.js",
-			"lineno": 1,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				
-			}
-		},
-		"name": "Button",
-		"tags": [
-			{
-				"originalTitle": "component",
-				"title": "component",
-				"text": ""
-			},
-			{
-				"originalTitle": "category",
-				"title": "category",
-				"text": "Ingredients",
-				"value": "Ingredients"
-			},
-			{
-				"originalTitle": "smart",
-				"title": "smart",
-				"text": ""
-			}
-		],
-		"description": "Button. Connected to Redux store.",
-		"todo": [
-			"params, types, required or optional"
-		],
-		"longname": "Button",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "Button",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [3525,5484],
-			"filename": "Button.js",
-			"lineno": 132,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000565",
-				"name": "Button.propTypes",
-				"type": "ObjectExpression",
-				"value": "{\"screenSize\":\"\",\"iconPosition\":\"\",\"iconContent\":\"\",\"text\":\"\",\"marginInRem\":\"\",\"widthInRem\":\"\",\"heightInRem\":\"\",\"contentColor\":\"\",\"backgroundColor\":\"\",\"elevationLevel\":\"\",\"contentHeightInRem\":\"\",\"textInvisible\":\"\",\"clickHandler\":\"\"}",
-				"paramnames": []
-			}
-		},
-		"undocumented": true,
-		"name": "propTypes",
-		"longname": "Button.propTypes",
-		"kind": "member",
-		"memberof": "Button",
-		"scope": "static",
-		"$longname": "Button.propTypes",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Color of background. Style service param. \n\t * Reminder: may be transparent. E.g., \"bold-pink\".\n\t */",
-		"meta": {
-			"range": [4824,4857],
-			"filename": "Button.js",
-			"lineno": 180,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000620",
-				"name": "backgroundColor",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"description": "Color of background. Style service param. \nReminder: may be transparent. E.g., \"bold-pink\".",
-		"name": "backgroundColor",
-		"longname": "Button.propTypes.backgroundColor",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.backgroundColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Function executed when button is clicked. E.g., () => handleClick(...params).\n\t */",
-		"meta": {
-			"range": [5450,5480],
-			"filename": "Button.js",
-			"lineno": 202,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000636",
-				"name": "clickHandler",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"description": "Function executed when button is clicked. E.g., () => handleClick(...params).",
-		"name": "clickHandler",
-		"longname": "Button.propTypes.clickHandler",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.clickHandler",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Color of text and/or icon. Style service param. E.g., \"primary-green\".\n\t */",
-		"meta": {
-			"range": [4667,4697],
-			"filename": "Button.js",
-			"lineno": 174,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000616",
-				"name": "contentColor",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"description": "Color of text and/or icon. Style service param. E.g., \"primary-green\".",
-		"name": "contentColor",
-		"longname": "Button.propTypes.contentColor",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.contentColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Height of button's text and/or icon, measured in rem. E.g., \"3\".\n\t * @default Style.FontSize('m', screenSize).slice(0, -3)\n\t */",
-		"meta": {
-			"range": [5123,5159],
-			"filename": "Button.js",
-			"lineno": 191,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000628",
-				"name": "contentHeightInRem",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"description": "Height of button's text and/or icon, measured in rem. E.g., \"3\".",
-		"defaultvalue": "Style.FontSize('m', screenSize).slice(0, -3)",
-		"name": "contentHeightInRem",
-		"longname": "Button.propTypes.contentHeightInRem",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.contentHeightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Elevation level. Style service param. E.g., \"4\".\n\t */",
-		"meta": {
-			"range": [4937,4969],
-			"filename": "Button.js",
-			"lineno": 185,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000624",
-				"name": "elevationLevel",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"description": "Elevation level. Style service param. E.g., \"4\".",
-		"name": "elevationLevel",
-		"longname": "Button.propTypes.elevationLevel",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.elevationLevel",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Height of button, measured in rem. E.g., \"5\".\n\t */",
-		"meta": {
-			"range": [4525,4565],
-			"filename": "Button.js",
-			"lineno": 169,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000610",
-				"name": "heightInRem",
-				"type": "MemberExpression",
-				"value": "PropTypes.string.isRequired"
-			}
-		},
-		"description": "Height of button, measured in rem. E.g., \"5\".",
-		"name": "heightInRem",
-		"longname": "Button.propTypes.heightInRem",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.heightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Icon content token.\n\t * No icon will be present if iconContent and  iconPosition are not both specified.\n\t */",
-		"meta": {
-			"range": [3979,4084],
-			"filename": "Button.js",
-			"lineno": 149,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000582",
-				"name": "iconContent",
-				"type": "CallExpression",
-				"value": ""
-			}
-		},
-		"description": "Icon content token.\nNo icon will be present if iconContent and  iconPosition are not both specified.",
-		"name": "iconContent",
-		"longname": "Button.propTypes.iconContent",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.iconContent",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Icon position token. \n\t * No icon will be present if iconContent and  iconPosition are not both specified.\n\t */",
-		"meta": {
-			"range": [3793,3843],
-			"filename": "Button.js",
-			"lineno": 143,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000574",
-				"name": "iconPosition",
-				"type": "CallExpression",
-				"value": ""
-			}
-		},
-		"description": "Icon position token. \nNo icon will be present if iconContent and  iconPosition are not both specified.",
-		"name": "iconPosition",
-		"longname": "Button.propTypes.iconPosition",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.iconPosition",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Margin size, measured in rem, to be applied to all sides of button. E.g., \"2\".\n\t */",
-		"meta": {
-			"range": [4303,4332],
-			"filename": "Button.js",
-			"lineno": 159,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000600",
-				"name": "marginInRem",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"description": "Margin size, measured in rem, to be applied to all sides of button. E.g., \"2\".",
-		"name": "marginInRem",
-		"longname": "Button.propTypes.marginInRem",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.marginInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @smart\n\t * @description Current screen size token. E.g., \"small\".\n\t */",
-		"meta": {
-			"range": [3627,3655],
-			"filename": "Button.js",
-			"lineno": 137,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000570",
-				"name": "screenSize",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
-			}
-		},
-		"tags": [
-			{
-				"originalTitle": "smart",
-				"title": "smart",
-				"text": ""
-			}
-		],
-		"description": "Current screen size token. E.g., \"small\".",
-		"name": "screenSize",
-		"longname": "Button.propTypes.screenSize",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.screenSize",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Text content of button. E.g., \"Button Text\".\n\t */",
-		"meta": {
-			"range": [4160,4193],
-			"filename": "Button.js",
-			"lineno": 154,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000594",
-				"name": "text",
-				"type": "MemberExpression",
-				"value": "PropTypes.string.isRequired"
-			}
-		},
-		"description": "Text content of button. E.g., \"Button Text\".",
-		"name": "text",
-		"longname": "Button.propTypes.text",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.text",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Indicates that text should be hidden from sight \n\t * (but will remain available to assistive technologies). E.g., \"true\".\n\t */",
-		"meta": {
-			"range": [5312,5341],
-			"filename": "Button.js",
-			"lineno": 197,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000632",
-				"name": "textInvisible",
-				"type": "MemberExpression",
-				"value": "PropTypes.bool"
-			}
-		},
-		"description": "Indicates that text should be hidden from sight \n(but will remain available to assistive technologies). E.g., \"true\".",
-		"name": "textInvisible",
-		"longname": "Button.propTypes.textInvisible",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.textInvisible",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Width of button, measured in rem. E.g., \"15\".\n\t */",
-		"meta": {
-			"range": [4409,4448],
-			"filename": "Button.js",
-			"lineno": 164,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000604",
-				"name": "widthInRem",
-				"type": "MemberExpression",
-				"value": "PropTypes.string.isRequired"
-			}
-		},
-		"description": "Width of button, measured in rem. E.g., \"15\".",
-		"name": "widthInRem",
-		"longname": "Button.propTypes.widthInRem",
-		"kind": "member",
-		"memberof": "Button.propTypes",
-		"scope": "static",
-		"$longname": "Button.propTypes.widthInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1745,1757],
-			"filename": "Button.js",
-			"lineno": 51,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000357",
-				"name": "clickHandler",
-				"type": "Identifier",
-				"value": "clickHandler"
-			}
-		},
-		"undocumented": true,
-		"name": "clickHandler",
-		"longname": "clickHandler",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "clickHandler",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [546,555],
-			"filename": "_app.js",
-			"lineno": 16,
-			"columnno": 32,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000682",
-				"name": "Component",
-				"type": "Identifier",
-				"value": "Component"
-			}
-		},
-		"undocumented": true,
-		"name": "Component",
-		"longname": "Component",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "Component",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1258,1267],
-			"filename": "_app.js",
-			"lineno": 47,
-			"columnno": 10,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000778",
-				"name": "Component",
-				"type": "Identifier",
-				"value": "Component"
-			}
-		},
-		"undocumented": true,
-		"name": "Component",
-		"longname": "Component",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "Component",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [567,579],
-			"filename": "Icon.js",
-			"lineno": 21,
-			"columnno": 13,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000047",
-				"name": "contentColor",
-				"type": "Identifier",
-				"value": "contentColor"
-			}
-		},
-		"undocumented": true,
-		"name": "contentColor",
-		"longname": "contentColor",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "contentColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [679,691],
-			"filename": "Icon.js",
-			"lineno": 26,
-			"columnno": 14,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000067",
-				"name": "contentColor",
-				"type": "Identifier",
-				"value": "contentColor"
-			}
-		},
-		"undocumented": true,
-		"name": "contentColor",
-		"longname": "contentColor",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "contentColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1839,1851],
-			"filename": "Button.js",
-			"lineno": 57,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000369",
-				"name": "contentColor",
-				"type": "Identifier",
-				"value": "contentColor"
-			}
-		},
-		"undocumented": true,
-		"name": "contentColor",
-		"longname": "contentColor",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "contentColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [497,515],
-			"filename": "Icon.js",
+			"range": [721,777],
+			"filename": "app-loader.js",
 			"lineno": 20,
-			"columnno": 15,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
+			"columnno": 6,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000039",
-				"name": "contentHeightInRem",
-				"type": "Identifier",
-				"value": "contentHeightInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "contentHeightInRem",
-		"longname": "contentHeightInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "contentHeightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [693,711],
-			"filename": "Icon.js",
-			"lineno": 26,
-			"columnno": 28,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000069",
-				"name": "contentHeightInRem",
-				"type": "Identifier",
-				"value": "contentHeightInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "contentHeightInRem",
-		"longname": "contentHeightInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "contentHeightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1760,1778],
-			"filename": "Button.js",
-			"lineno": 52,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000359",
-				"name": "contentHeightInRem",
-				"type": "Identifier",
-				"value": "contentHeightInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "contentHeightInRem",
-		"longname": "contentHeightInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "contentHeightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [557,560],
-			"filename": "_app.js",
-			"lineno": 16,
-			"columnno": 43,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000684",
-				"name": "ctx",
-				"type": "Identifier",
-				"value": "ctx"
-			}
-		},
-		"undocumented": true,
-		"name": "ctx",
-		"longname": "ctx",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "ctx",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [581,589],
-			"filename": "Icon.js",
-			"lineno": 21,
-			"columnno": 27,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000049",
-				"name": "darkMode",
-				"type": "Identifier",
-				"value": "darkMode"
-			}
-		},
-		"undocumented": true,
-		"name": "darkMode",
-		"longname": "darkMode",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "darkMode",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [713,721],
-			"filename": "Icon.js",
-			"lineno": 26,
-			"columnno": 48,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000071",
-				"name": "darkMode",
-				"type": "Identifier",
-				"value": "darkMode"
-			}
-		},
-		"undocumented": true,
-		"name": "darkMode",
-		"longname": "darkMode",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "darkMode",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1714,1745],
-			"filename": "Icon.js",
-			"lineno": 67,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000143",
-				"name": "darkMode",
+				"id": "astnode100000007",
+				"name": "userName",
 				"type": "CallExpression",
 				"value": ""
 			}
 		},
 		"undocumented": true,
-		"name": "darkMode",
-		"longname": "darkMode",
-		"kind": "member",
+		"name": "userName",
+		"longname": "userName",
+		"kind": "constant",
 		"scope": "global",
-		"$longname": "darkMode",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n * @name Document\n * @component\n * @category Next.js\n * @description Collect and handle styles from styled-components. Render &lt;html>.\n * \n * Used by Next.js in transpilation; overrides default Next.js _document.\n */",
-		"meta": {
-			"filename": "_document.js",
-			"lineno": 1,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				
-			}
-		},
-		"name": "Document",
-		"tags": [
-			{
-				"originalTitle": "component",
-				"title": "component",
-				"text": ""
-			},
-			{
-				"originalTitle": "category",
-				"title": "category",
-				"text": "Next.js",
-				"value": "Next.js"
-			}
-		],
-		"description": "Collect and handle styles from styled-components. Render &lt;html>.\n\nUsed by Next.js in transpilation; overrides default Next.js _document.",
-		"longname": "Document",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "Document",
-		"$kind": "property"
+		"params": [],
+		"$longname": "userName",
+		"$kind": "constant"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [1804,1818],
-			"filename": "Button.js",
-			"lineno": 55,
+			"range": [2287,2351],
+			"filename": "app-loader.js",
+			"lineno": 68,
 			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000365",
-				"name": "elevationLevel",
-				"type": "Identifier",
-				"value": "elevationLevel"
-			}
-		},
-		"undocumented": true,
-		"name": "elevationLevel",
-		"longname": "elevationLevel",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "elevationLevel",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [984,1012],
-			"filename": "_app.js",
-			"lineno": 32,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000747",
-				"name": "error",
-				"type": "MemberExpression",
-				"value": "indexProps.stateError"
-			}
-		},
-		"undocumented": true,
-		"name": "error",
-		"longname": "error",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "error",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1145,1150],
-			"filename": "_app.js",
-			"lineno": 40,
-			"columnno": 5,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000769",
-				"name": "error",
-				"type": "Identifier",
-				"value": "error"
-			}
-		},
-		"undocumented": true,
-		"name": "error",
-		"longname": "error",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "error",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1210,1221],
-			"filename": "Button.js",
-			"lineno": 34,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000283",
-				"name": "heightInRem",
-				"type": "Identifier",
-				"value": "heightInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "heightInRem",
-		"longname": "heightInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "heightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1854,1865],
-			"filename": "Button.js",
-			"lineno": 58,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000371",
-				"name": "heightInRem",
-				"type": "Identifier",
-				"value": "heightInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "heightInRem",
-		"longname": "heightInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "heightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n * @name Icon\n * @component\n * @category Ingredients\n * @smart\n * @description Icon component. Gets icon content from Icon Registry.\n */",
-		"meta": {
-			"filename": "Icon.js",
-			"lineno": 1,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				
-			}
-		},
-		"name": "Icon",
-		"tags": [
-			{
-				"originalTitle": "component",
-				"title": "component",
-				"text": ""
-			},
-			{
-				"originalTitle": "category",
-				"title": "category",
-				"text": "Ingredients",
-				"value": "Ingredients"
-			},
-			{
-				"originalTitle": "smart",
-				"title": "smart",
-				"text": ""
-			}
-		],
-		"description": "Icon component. Gets icon content from Icon Registry.",
-		"longname": "Icon",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "Icon",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1619,1673],
-			"filename": "Icon.js",
-			"lineno": 63,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000130",
-				"name": "Icon.defaultProps",
-				"type": "ObjectExpression",
-				"value": "{\"contentColor\":\"ux-base-text\"}",
+				"id": "astnode100000206",
+				"name": ".className",
+				"type": "Literal",
+				"value": "visible",
 				"paramnames": []
 			}
 		},
 		"undocumented": true,
-		"name": "defaultProps",
-		"longname": "Icon.defaultProps",
+		"name": ".className",
+		"longname": ".className",
 		"kind": "member",
-		"memberof": "Icon",
-		"scope": "static",
-		"$longname": "Icon.defaultProps",
+		"scope": "global",
+		"$longname": ".className",
 		"$kind": "property"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [1642,1670],
-			"filename": "Icon.js",
+			"range": [2456,2518],
+			"filename": "app-loader.js",
+			"lineno": 71,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000228",
+				"name": ".className",
+				"type": "Literal",
+				"value": "hidden",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": ".className",
+		"longname": ".className",
+		"kind": "member",
+		"scope": "global",
+		"$longname": ".className",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2659,2721],
+			"filename": "app-loader.js",
+			"lineno": 76,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000251",
+				"name": ".className",
+				"type": "Literal",
+				"value": "hidden",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": ".className",
+		"longname": ".className",
+		"kind": "member",
+		"scope": "global",
+		"$longname": ".className",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2749,2810],
+			"filename": "app-loader.js",
+			"lineno": 78,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000261",
+				"name": ".className",
+				"type": "Literal",
+				"value": "visible",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": ".className",
+		"longname": ".className",
+		"kind": "member",
+		"scope": "global",
+		"$longname": ".className",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2813,2878],
+			"filename": "app-loader.js",
+			"lineno": 79,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000271",
+				"name": ".className",
+				"type": "Literal",
+				"value": "visible",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": ".className",
+		"longname": ".className",
+		"kind": "member",
+		"scope": "global",
+		"$longname": ".className",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2987,3048],
+			"filename": "app-loader.js",
+			"lineno": 83,
+			"columnno": 2,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000288",
+				"name": ".className",
+				"type": "Literal",
+				"value": "visible",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": ".className",
+		"longname": ".className",
+		"kind": "member",
+		"scope": "global",
+		"$longname": ".className",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2378,2453],
+			"filename": "app-loader.js",
+			"lineno": 70,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000216",
+				"name": ".style.display",
+				"type": "Literal",
+				"value": "none",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "display",
+		"longname": ".style.display",
+		"kind": "member",
+		"memberof": ".style",
+		"scope": "static",
+		"$longname": ".style.display",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2581,2656],
+			"filename": "app-loader.js",
+			"lineno": 75,
+			"columnno": 1,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000239",
+				"name": ".style.display",
+				"type": "Literal",
+				"value": "none",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "display",
+		"longname": ".style.display",
+		"kind": "member",
+		"memberof": ".style",
+		"scope": "static",
+		"$longname": ".style.display",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [3052,3121],
+			"filename": "app-loader.js",
+			"lineno": 84,
+			"columnno": 2,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				"id": "astnode100000298",
+				"name": ".style.paddingTop",
+				"type": "Literal",
+				"value": "1rem",
+				"paramnames": []
+			}
+		},
+		"undocumented": true,
+		"name": "paddingTop",
+		"longname": ".style.paddingTop",
+		"kind": "member",
+		"memberof": ".style",
+		"scope": "static",
+		"$longname": ".style.paddingTop",
+		"$kind": "property"
+	},
+	{
+		"comment": "/**\n * @name App Loader\n * @category Services\n * @description File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).\n * JS code executes automatically. This is the connection between SPO and this app.\n * \n * Code either loads the app or arranges things for other SPO areas that use \n * the same master page.\n * \n * This is vanilla ES6; it is not compiled or otherwise manipulated. \n * Thus, it is both source and distribution, and lives in /public.\n * \n * @todo Get showe and shudson ribbon permission from database - in user service\n * @todo Get jbaker ribbon permission from database - in user service\n */",
+		"meta": {
+			"filename": "app-loader.js",
+			"lineno": 1,
+			"columnno": 0,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
+			"code": {
+				
+			}
+		},
+		"name": "App Loader",
+		"tags": [
+			{
+				"originalTitle": "category",
+				"title": "category",
+				"text": "Services",
+				"value": "Services"
+			}
+		],
+		"description": "File is loaded by JS script in SharePoint Online (SPO) master page (mos.2.1.master).\nJS code executes automatically. This is the connection between SPO and this app.\n\nCode either loads the app or arranges things for other SPO areas that use \nthe same master page.\n\nThis is vanilla ES6; it is not compiled or otherwise manipulated. \nThus, it is both source and distribution, and lives in /public.",
+		"todo": [
+			"Get showe and shudson ribbon permission from database - in user service",
+			"Get jbaker ribbon permission from database - in user service"
+		],
+		"longname": "App Loader",
+		"kind": "member",
+		"scope": "global",
+		"$longname": "App Loader",
+		"$kind": "property"
+	},
+	{
+		"comment": "",
+		"meta": {
+			"range": [2124,2155],
+			"filename": "app-loader.js",
 			"lineno": 64,
 			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000135",
-				"name": "contentColor",
+				"id": "astnode100000184",
+				"name": "iframeElement.id",
 				"type": "Literal",
-				"value": "ux-base-text"
-			}
-		},
-		"undocumented": true,
-		"name": "contentColor",
-		"longname": "Icon.defaultProps.contentColor",
-		"kind": "member",
-		"memberof": "Icon.defaultProps",
-		"scope": "static",
-		"$longname": "Icon.defaultProps.contentColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1136,1617],
-			"filename": "Icon.js",
-			"lineno": 41,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000104",
-				"name": "Icon.propTypes",
-				"type": "ObjectExpression",
-				"value": "{\"iconContent\":\"\",\"contentColor\":\"\",\"contentHeightInRem\":\"\",\"darkMode\":\"\"}",
+				"value": "app-iframe",
 				"paramnames": []
 			}
 		},
 		"undocumented": true,
-		"name": "propTypes",
-		"longname": "Icon.propTypes",
+		"name": "id",
+		"longname": "iframeElement.id",
 		"kind": "member",
-		"memberof": "Icon",
+		"memberof": "iframeElement",
 		"scope": "static",
-		"$longname": "Icon.propTypes",
+		"$longname": "iframeElement.id",
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n\t * @description Fill color for SVG. Style service param. E.g., \"ux-pink\".\n\t */",
+		"comment": "",
 		"meta": {
-			"range": [1352,1382],
-			"filename": "Icon.js",
-			"lineno": 50,
+			"range": [2158,2187],
+			"filename": "app-loader.js",
+			"lineno": 65,
 			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000115",
-				"name": "contentColor",
-				"type": "MemberExpression",
-				"value": "PropTypes.string"
+				"id": "astnode100000190",
+				"name": "iframeElement.src",
+				"type": "Identifier",
+				"value": "iframeURL",
+				"paramnames": []
 			}
 		},
-		"description": "Fill color for SVG. Style service param. E.g., \"ux-pink\".",
-		"name": "contentColor",
-		"longname": "Icon.propTypes.contentColor",
+		"undocumented": true,
+		"name": "src",
+		"longname": "iframeElement.src",
 		"kind": "member",
-		"memberof": "Icon.propTypes",
+		"memberof": "iframeElement",
 		"scope": "static",
-		"$longname": "Icon.propTypes.contentColor",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Height of icon, measured in rem. E.g., \"4\".\n\t */",
-		"meta": {
-			"range": [1457,1504],
-			"filename": "Icon.js",
-			"lineno": 55,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000119",
-				"name": "contentHeightInRem",
-				"type": "MemberExpression",
-				"value": "PropTypes.string.isRequired"
-			}
-		},
-		"description": "Height of icon, measured in rem. E.g., \"4\".",
-		"name": "contentHeightInRem",
-		"longname": "Icon.propTypes.contentHeightInRem",
-		"kind": "member",
-		"memberof": "Icon.propTypes",
-		"scope": "static",
-		"$longname": "Icon.propTypes.contentHeightInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @smart\n\t * @description Whether user prefers dark mode. E.g., true.\n\t */",
-		"meta": {
-			"range": [1590,1614],
-			"filename": "Icon.js",
-			"lineno": 61,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000125",
-				"name": "darkMode",
-				"type": "MemberExpression",
-				"value": "PropTypes.bool"
-			}
-		},
-		"tags": [
-			{
-				"originalTitle": "smart",
-				"title": "smart",
-				"text": ""
-			}
-		],
-		"description": "Whether user prefers dark mode. E.g., true.",
-		"name": "darkMode",
-		"longname": "Icon.propTypes.darkMode",
-		"kind": "member",
-		"memberof": "Icon.propTypes",
-		"scope": "static",
-		"$longname": "Icon.propTypes.darkMode",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n\t * @description Which SVG should be used. E.g., \"Home\".\n\t */",
-		"meta": {
-			"range": [1223,1263],
-			"filename": "Icon.js",
-			"lineno": 45,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000109",
-				"name": "iconContent",
-				"type": "MemberExpression",
-				"value": "PropTypes.string.isRequired"
-			}
-		},
-		"description": "Which SVG should be used. E.g., \"Home\".",
-		"name": "iconContent",
-		"longname": "Icon.propTypes.iconContent",
-		"kind": "member",
-		"memberof": "Icon.propTypes",
-		"scope": "static",
-		"$longname": "Icon.propTypes.iconContent",
+		"$longname": "iframeElement.src",
 		"$kind": "property"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [666,677],
-			"filename": "Icon.js",
-			"lineno": 26,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000065",
-				"name": "iconContent",
-				"type": "Identifier",
-				"value": "iconContent"
-			}
-		},
-		"undocumented": true,
-		"name": "iconContent",
-		"longname": "iconContent",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "iconContent",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1731,1742],
-			"filename": "Button.js",
-			"lineno": 50,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000355",
-				"name": "iconContent",
-				"type": "Identifier",
-				"value": "iconContent"
-			}
-		},
-		"undocumented": true,
-		"name": "iconContent",
-		"longname": "iconContent",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "iconContent",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1716,1728],
-			"filename": "Button.js",
-			"lineno": 49,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000353",
-				"name": "iconPosition",
-				"type": "Identifier",
-				"value": "iconPosition"
-			}
-		},
-		"undocumented": true,
-		"name": "iconPosition",
-		"longname": "iconPosition",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "iconPosition",
-		"$kind": "property"
-	},
-	{
-		"comment": "/**\n * @name Index\n * @component\n * @category Next.js\n * @smart\n * @description Fetch data and send it to _app. Render Container component.\n * \n * Used by Next.js whenever /index is requested.\n * @param {string} [s] - URL param indicating which screen is requested.\n * @param {string} [p] - URL param indicating which partial screen is requested.\n * @param {string} [u] - URL param indicating current user's account name. \n * E.g., \"sp1\". SPO sets correct current user, even if the wrong user was entered.\n * @param {string} [o] - URL param indicating an account name that should be used \n * instead of the current user's account name. If the current user does not have \n * permission to emulate another user, this param will be ignored.\n */",
-		"meta": {
-			"filename": "index.js",
-			"lineno": 2,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				
-			}
-		},
-		"name": "Index",
-		"tags": [
-			{
-				"originalTitle": "component",
-				"title": "component",
-				"text": ""
-			},
-			{
-				"originalTitle": "category",
-				"title": "category",
-				"text": "Next.js",
-				"value": "Next.js"
-			},
-			{
-				"originalTitle": "smart",
-				"title": "smart",
-				"text": ""
-			}
-		],
-		"description": "Fetch data and send it to _app. Render Container component.\n\nUsed by Next.js whenever /index is requested.",
-		"params": [
-			{
-				"type": {
-					"names": [
-						"string"
-					]
-				},
-				"optional": true,
-				"description": "URL param indicating which screen is requested.",
-				"name": "s"
-			},
-			{
-				"type": {
-					"names": [
-						"string"
-					]
-				},
-				"optional": true,
-				"description": "URL param indicating which partial screen is requested.",
-				"name": "p"
-			},
-			{
-				"type": {
-					"names": [
-						"string"
-					]
-				},
-				"optional": true,
-				"description": "URL param indicating current user's account name. \nE.g., \"sp1\". SPO sets correct current user, even if the wrong user was entered.",
-				"name": "u"
-			},
-			{
-				"type": {
-					"names": [
-						"string"
-					]
-				},
-				"optional": true,
-				"description": "URL param indicating an account name that should be used \ninstead of the current user's account name. If the current user does not have \npermission to emulate another user, this param will be ignored.",
-				"name": "o"
-			}
-		],
-		"longname": "Index",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "Index",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1042,1052],
-			"filename": "_app.js",
-			"lineno": 35,
-			"columnno": 13,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000753",
-				"name": "indexProps",
-				"type": "Identifier",
-				"value": "indexProps"
-			}
-		},
-		"undocumented": true,
-		"name": "indexProps",
-		"longname": "indexProps",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "indexProps",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1269,1279],
-			"filename": "_app.js",
-			"lineno": 47,
-			"columnno": 21,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000780",
-				"name": "indexProps",
-				"type": "Identifier",
-				"value": "indexProps"
-			}
-		},
-		"undocumented": true,
-		"name": "indexProps",
-		"longname": "indexProps",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "indexProps",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1269,1277],
-			"filename": "index.js",
-			"lineno": 30,
-			"columnno": 9,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000939",
-				"name": "isServer",
-				"type": "Identifier",
-				"value": "isServer"
-			}
-		},
-		"undocumented": true,
-		"name": "isServer",
-		"longname": "isServer",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "isServer",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [2565,2572],
-			"filename": "Button.js",
-			"lineno": 80,
-			"columnno": 4,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000456",
-				"name": "left",
-				"type": "Literal",
-				"value": 1
-			}
-		},
-		"undocumented": true,
-		"name": "left",
-		"longname": "left",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "left",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1281,1292],
-			"filename": "Button.js",
-			"lineno": 35,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000293",
-				"name": "marginInRem",
-				"type": "Identifier",
-				"value": "marginInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "marginInRem",
-		"longname": "marginInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "marginInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1881,1892],
-			"filename": "Button.js",
-			"lineno": 60,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000375",
-				"name": "marginInRem",
-				"type": "Identifier",
-				"value": "marginInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "marginInRem",
-		"longname": "marginInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "marginInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1751,1797],
-			"filename": "Icon.js",
-			"lineno": 69,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Icon",
-			"code": {
-				"id": "astnode100000147",
-				"name": "module.exports",
-				"type": "CallExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "exports",
-		"longname": "module.exports",
-		"kind": "member",
-		"memberof": "module",
-		"scope": "static",
-		"$longname": "module.exports",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [5566,5618],
-			"filename": "Button.js",
-			"lineno": 208,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000650",
-				"name": "module.exports",
-				"type": "CallExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "exports",
-		"longname": "module.exports",
-		"kind": "member",
-		"memberof": "module",
-		"scope": "static",
-		"$longname": "module.exports",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1402,1452],
-			"filename": "_app.js",
-			"lineno": 56,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000804",
-				"name": "module.exports",
-				"type": "CallExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "exports",
-		"longname": "module.exports",
-		"kind": "member",
-		"memberof": "module",
-		"scope": "static",
-		"$longname": "module.exports",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1650,1698],
-			"filename": "index.js",
-			"lineno": 57,
-			"columnno": 0,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100001005",
-				"name": "module.exports",
-				"type": "CallExpression"
-			}
-		},
-		"undocumented": true,
-		"name": "exports",
-		"longname": "module.exports",
-		"kind": "member",
-		"memberof": "module",
-		"scope": "static",
-		"$longname": "module.exports",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1319,1320],
-			"filename": "index.js",
-			"lineno": 33,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000951",
-				"name": "o",
-				"type": "Identifier",
-				"value": "o"
-			}
-		},
-		"undocumented": true,
-		"name": "o",
-		"longname": "o",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "o",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1325,1326],
-			"filename": "index.js",
-			"lineno": 33,
-			"columnno": 12,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000955",
-				"name": "p",
-				"type": "Identifier",
-				"value": "p"
-			}
-		},
-		"undocumented": true,
-		"name": "p",
-		"longname": "p",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "p",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1279,1287],
-			"filename": "index.js",
-			"lineno": 30,
-			"columnno": 19,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000941",
-				"name": "pathname",
-				"type": "Identifier",
-				"value": "pathname"
-			}
-		},
-		"undocumented": true,
-		"name": "pathname",
-		"longname": "pathname",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "pathname",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1289,1294],
-			"filename": "index.js",
-			"lineno": 30,
-			"columnno": 29,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000943",
-				"name": "query",
-				"type": "Identifier",
-				"value": "query"
-			}
-		},
-		"undocumented": true,
-		"name": "query",
-		"longname": "query",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "query",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [440,450],
-			"filename": "_document.js",
-			"lineno": 14,
-			"columnno": 26,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000835",
-				"name": "renderPage",
-				"type": "Identifier",
-				"value": "renderPage"
-			}
-		},
-		"undocumented": true,
-		"name": "renderPage",
-		"longname": "renderPage",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "renderPage",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [2429,2437],
-			"filename": "Button.js",
-			"lineno": 78,
-			"columnno": 4,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000445",
-				"name": "right",
-				"type": "Literal",
-				"value": 1
-			}
-		},
-		"undocumented": true,
-		"name": "right",
-		"longname": "right",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "right",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1316,1317],
-			"filename": "index.js",
-			"lineno": 33,
-			"columnno": 3,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000949",
-				"name": "s",
-				"type": "Identifier",
-				"value": "s"
-			}
-		},
-		"undocumented": true,
-		"name": "s",
-		"longname": "s",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "s",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1703,1713],
-			"filename": "Button.js",
-			"lineno": 48,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000351",
-				"name": "screenSize",
-				"type": "Identifier",
-				"value": "screenSize"
-			}
-		},
-		"undocumented": true,
-		"name": "screenSize",
-		"longname": "screenSize",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "screenSize",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [5525,5560],
-			"filename": "Button.js",
-			"lineno": 206,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000646",
-				"name": "screenSize",
-				"type": "CallExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "screenSize",
-		"longname": "screenSize",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "screenSize",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [779,802],
-			"filename": "_app.js",
-			"lineno": 23,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000718",
-				"name": "sData",
-				"type": "MemberExpression",
-				"value": "indexProps.sData"
-			}
-		},
-		"undocumented": true,
-		"name": "sData",
-		"longname": "sData",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "sData",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1516,1521],
-			"filename": "index.js",
-			"lineno": 41,
-			"columnno": 11,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000990",
-				"name": "sData",
-				"type": "Identifier",
-				"value": "sData"
-			}
-		},
-		"undocumented": true,
-		"name": "sData",
-		"longname": "sData",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "sData",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1565,1582],
-			"filename": "index.js",
-			"lineno": 45,
-			"columnno": 4,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000995",
-				"name": "stateError",
-				"type": "Identifier",
-				"value": "error"
-			}
-		},
-		"undocumented": true,
-		"name": "stateError",
-		"longname": "stateError",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "stateError",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1281,1286],
-			"filename": "_app.js",
-			"lineno": 47,
-			"columnno": 33,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000782",
-				"name": "store",
-				"type": "Identifier",
-				"value": "store"
-			}
-		},
-		"undocumented": true,
-		"name": "store",
-		"longname": "store",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "store",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1262,1267],
-			"filename": "index.js",
-			"lineno": 30,
-			"columnno": 2,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000937",
-				"name": "store",
-				"type": "Identifier",
-				"value": "store"
-			}
-		},
-		"undocumented": true,
-		"name": "store",
-		"longname": "store",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "store",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [812,821],
-			"filename": "_document.js",
-			"lineno": 22,
-			"columnno": 20,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000872",
-				"name": "styleTags",
-				"type": "Identifier",
-				"value": "styleTags"
-			}
-		},
-		"undocumented": true,
-		"name": "styleTags",
-		"longname": "styleTags",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "styleTags",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1781,1785],
-			"filename": "Button.js",
-			"lineno": 53,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000361",
-				"name": "text",
-				"type": "Identifier",
-				"value": "text"
-			}
-		},
-		"undocumented": true,
-		"name": "text",
-		"longname": "text",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "text",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1788,1801],
-			"filename": "Button.js",
-			"lineno": 54,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000363",
-				"name": "textInvisible",
-				"type": "Identifier",
-				"value": "textInvisible"
-			}
-		},
-		"undocumented": true,
-		"name": "textInvisible",
-		"longname": "textInvisible",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "textInvisible",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [2313,2423],
-			"filename": "Button.js",
-			"lineno": 77,
-			"columnno": 4,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000436",
-				"name": "top",
-				"type": "CallExpression",
-				"value": ""
-			}
-		},
-		"undocumented": true,
-		"name": "top",
-		"longname": "top",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "top",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [748,771],
-			"filename": "_app.js",
-			"lineno": 22,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000716",
-				"name": "type",
-				"type": "Literal",
-				"value": "SET_SCREEN_DATA"
-			}
-		},
-		"undocumented": true,
-		"name": "type",
-		"longname": "type",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "type",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [845,866],
-			"filename": "_app.js",
-			"lineno": 26,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000730",
-				"name": "type",
-				"type": "Literal",
-				"value": "SET_USER_DATA"
-			}
-		},
-		"undocumented": true,
-		"name": "type",
-		"longname": "type",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "type",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [953,976],
-			"filename": "_app.js",
+			"range": [1177,1222],
+			"filename": "app-loader.js",
 			"lineno": 31,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000745",
-				"name": "type",
-				"type": "Literal",
-				"value": "SET_STATE_ERROR"
-			}
-		},
-		"undocumented": true,
-		"name": "type",
-		"longname": "type",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "type",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1115,1138],
-			"filename": "_app.js",
-			"lineno": 39,
 			"columnno": 5,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000767",
-				"name": "type",
+				"id": "astnode100000062",
+				"name": "iframeURL",
 				"type": "Literal",
-				"value": "SET_STATE_ERROR"
+				"value": "https://neso.mos.org:3001/index"
 			}
 		},
 		"undocumented": true,
-		"name": "type",
-		"longname": "type",
+		"name": "iframeURL",
+		"longname": "iframeURL",
 		"kind": "member",
 		"scope": "global",
-		"$longname": "type",
+		"params": [],
+		"$longname": "iframeURL",
 		"$kind": "property"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [1322,1323],
-			"filename": "index.js",
-			"lineno": 33,
-			"columnno": 9,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
+			"range": [1926,2023],
+			"filename": "app-loader.js",
+			"lineno": 58,
+			"columnno": 2,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000953",
-				"name": "u",
-				"type": "Identifier",
-				"value": "u"
+				"id": "astnode100000157",
+				"name": "iframeURL",
+				"type": "ConditionalExpression",
+				"funcscope": "<anonymous>",
+				"value": "",
+				"paramnames": []
 			}
 		},
 		"undocumented": true,
-		"name": "u",
-		"longname": "u",
+		"name": "iframeURL",
+		"longname": "<anonymous>~iframeURL",
 		"kind": "member",
-		"scope": "global",
-		"$longname": "u",
+		"memberof": "<anonymous>",
+		"scope": "inner",
+		"$longname": "iframeURL",
 		"$kind": "property"
 	},
 	{
 		"comment": "",
 		"meta": {
-			"range": [874,897],
-			"filename": "_app.js",
-			"lineno": 27,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
+			"range": [3483,3525],
+			"filename": "app-loader.js",
+			"lineno": 93,
+			"columnno": 3,
+			"path": "/home/skip/Software/HubClient2.1/src/public",
 			"code": {
-				"id": "astnode100000732",
-				"name": "uData",
-				"type": "MemberExpression",
-				"value": "indexProps.uData"
+				"id": "astnode100000332",
+				"name": "ribbonForStanSarah.style.display",
+				"type": "Literal",
+				"value": "block",
+				"paramnames": []
 			}
 		},
 		"undocumented": true,
-		"name": "uData",
-		"longname": "uData",
+		"name": "display",
+		"longname": "ribbonForStanSarah.style.display",
 		"kind": "member",
-		"scope": "global",
-		"$longname": "uData",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1509,1514],
-			"filename": "index.js",
-			"lineno": 41,
-			"columnno": 4,
-			"path": "/home/skip/Software/HubClient2.1/src/pages",
-			"code": {
-				"id": "astnode100000988",
-				"name": "uData",
-				"type": "Identifier",
-				"value": "uData"
-			}
-		},
-		"undocumented": true,
-		"name": "uData",
-		"longname": "uData",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "uData",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1143,1153],
-			"filename": "Button.js",
-			"lineno": 33,
-			"columnno": 6,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000273",
-				"name": "widthInRem",
-				"type": "Identifier",
-				"value": "widthInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "widthInRem",
-		"longname": "widthInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "widthInRem",
-		"$kind": "property"
-	},
-	{
-		"comment": "",
-		"meta": {
-			"range": [1868,1878],
-			"filename": "Button.js",
-			"lineno": 59,
-			"columnno": 1,
-			"path": "/home/skip/Software/HubClient2.1/src/components/Ingredients/Button",
-			"code": {
-				"id": "astnode100000373",
-				"name": "widthInRem",
-				"type": "Identifier",
-				"value": "widthInRem"
-			}
-		},
-		"undocumented": true,
-		"name": "widthInRem",
-		"longname": "widthInRem",
-		"kind": "member",
-		"scope": "global",
-		"$longname": "widthInRem",
+		"memberof": "ribbonForStanSarah.style",
+		"scope": "static",
+		"$longname": "ribbonForStanSarah.style.display",
 		"$kind": "property"
 	}
 ]

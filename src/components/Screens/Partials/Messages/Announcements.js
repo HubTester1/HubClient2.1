@@ -2,8 +2,8 @@
  * @name Partial Screen - Announcements
  * @component
  * @category Partial Screens
+ * @smart
  * @description Must document upon completion. Connected to Redux store.
- * @returns {Component} &lt;Announcements />
  *
  * @todo document upon completion
  */

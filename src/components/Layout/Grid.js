@@ -3,7 +3,6 @@
  * @component
  * @category Layout
  * @description Scaffolding for headers and screen contents.
- * @returns {Component} &lt;Grid />
  *
  * @todo params, types, required or optional
  */

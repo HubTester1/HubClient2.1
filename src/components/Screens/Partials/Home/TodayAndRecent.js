@@ -2,8 +2,8 @@
  * @name Partial Screen - Today and Recent
  * @component
  * @category Partial Screens
+ * @smart
  * @description Must document upon completion. Connected to Redux store.
- * @returns {Component} &lt;TodayAndRecent />
  *
  * @todo document upon completion
  */

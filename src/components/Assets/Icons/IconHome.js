@@ -3,9 +3,9 @@
  * @component
  * @category Assets
  * @description SVG from Microsoft Fabric UI
- * @returns {Component} &lt;IconHome />
+ * @param props
  */
-const IconHome = props => (
+const IconHome = (props) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		version="1.1"

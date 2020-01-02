@@ -3,7 +3,6 @@
  * @component
  * @category Screens
  * @description Must document upon completion.
- * @returns {Component} &lt;PartialScreenHeader />
  *
  * @todo params, types, required or optional
  * @todo document upon completion
