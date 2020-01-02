@@ -3,7 +3,6 @@
  * @component
  * @category Assets
  * @description SVG from Microsoft Fabric UI
- * @param props
  */
 const IconHome = (props) => (
 	<svg

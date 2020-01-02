@@ -6,11 +6,11 @@ const jsonFormat = require('json-format');
 const config = { 
 	// for jsdocx
 	files: [
-		// './src/components',
-		// './src/pages',
+		'./src/components',
+		'./src/pages',
 		'./src/public',
 		'./src/services',
-		// './meta',
+		'./meta',
 	],
 	recurse: true,
 	sort: 'kind',
@@ -138,6 +138,28 @@ const ReturnAllServices = (allItemsRawArray, projectRoot) => {
 	});
 	return allServices;
 };
+const ReturnAllToDos = (allItemsRawArray, projectRoot) => {
+	const allToDos = [];
+	allItemsRawArray.forEach((itemRawValue) => {
+		if (itemRawValue.todo) {
+			itemRawValue.todo.forEach((todo) => {
+				const objectToPush = {
+					parent: itemRawValue.name.trim(),
+					category: 'Agenda',
+					description: todo,
+					path: ReturnPathRelativeLocation(
+						itemRawValue.meta.path,
+						itemRawValue.meta.filename,
+						projectRoot,
+					),
+				};
+				allToDos.push(objectToPush);
+			});
+		}
+	});
+	return allToDos;
+};
+
 const ReturnParamTypeAndRequirement = (paramValueRaw) => {
 	const valueParts = paramValueRaw.split('.');
 	return {
@@ -293,6 +315,23 @@ const ReturnServicesSections = (allItemsRawArray, projectRoot, preambles) => {
 	});
 	return buildObject;
 };
+const ReturnAgendaSections = (allItemsRawArray, projectRoot, preambles) => {
+	const buildObject = {};
+	const allToDos = ReturnAllToDos(allItemsRawArray, projectRoot);
+	allToDos.forEach((todo) => {
+		const todoCopy = ReturnCopyOfObject(todo);
+		if (!buildObject[todoCopy.category]) {
+			buildObject[todoCopy.category] = {};
+			buildObject[todoCopy.category].title = todoCopy.category;
+			if (preambles[todoCopy.category]) {
+				buildObject[todoCopy.category].preamble = preambles[todoCopy.category];
+			}
+			buildObject[todoCopy.category].todos = [];
+		}
+		buildObject[todoCopy.category].todos.push(todoCopy);
+	});
+	return buildObject;
+};
 const ReturnAllItems = (parseConfig) => new Promise((resolve, reject) => {
 	jsdocx.parse(parseConfig, (error, docs) => {
 		if (error) {
@@ -321,9 +360,15 @@ const Build = (buildConfig) => {
 					const componentsSections = 
 						ReturnComponentsSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
 					const servicesSections = ReturnServicesSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
+					const agendaSections = ReturnAgendaSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
+					const combinedSections = { ...componentsSections, ...servicesSections, ...agendaSections };
+					const orderedSections = [];
+					buildConfig.orderedCategories.forEach((categoryValue) => {
+						orderedSections.push(combinedSections[categoryValue]);
+					});
 
 
-					WriteToFile(buildConfig.midDestination2, servicesSections, true);
+					WriteToFile(buildConfig.midDestination2, orderedSections, true);
 				}
 			}
 		});
