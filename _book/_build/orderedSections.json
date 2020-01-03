@@ -376,7 +376,25 @@
 			}
 		]
 	},
-	null,
+	{
+		"title": "Screens",
+		"components": [
+			{
+				"name": "Partial Screen Header",
+				"category": "Screens",
+				"description": "Must document upon completion.",
+				"smart": false,
+				"path": "/src/components/Screens/Partials/Common/PartialScreenHeader.js"
+			},
+			{
+				"name": "Screen",
+				"category": "Screens",
+				"description": "Main content within app. Corresponds to \"s\" url param. Connected to Redux store.",
+				"smart": true,
+				"path": "/src/components/Screens/Screen.js"
+			}
+		]
+	},
 	{
 		"title": "Partial Screens",
 		"components": [

@@ -1,6 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const jsdocx = require('jsdoc-x');
-const TurndownService = require('turndown');
 const fs = require('fs');
 const jsonFormat = require('json-format');
 
@@ -28,7 +27,7 @@ const config = {
 		'Next.js',
 		'Services',
 		'Layout',
-		'Screen',
+		'Screens',
 		'Partial Screens',
 		'Assets',
 		'Headers',
@@ -252,11 +251,6 @@ const ReturnComponentsSections = (allItemsRawArray, projectRoot, preambles) => {
 	const allParamDefaults = ReturnAllParamDefaults(allItemsRawArray);
 	allComponents.forEach((component) => {
 		const componentCopy = ReturnCopyOfObject(component);
-		if (componentCopy.category === 'Screens') {
-			console.log(componentCopy);
-		}
-
-
 		if (!buildObject[componentCopy.category]) {
 			buildObject[componentCopy.category] = {};
 		}
@@ -355,9 +349,15 @@ const WriteToFile = (destination, data, isJSON) => {
 		if (err) throw err;
 	});
 };
-const ReturnMarkedUpSection = (section) => 
-	// console.log(section.title);
-	 '<h2>This is a Header</h2>';
+const ReturnMarkedDownSection = (section) => {
+	let buildString = `##${section.title}
+`;
+	if (section.preamble) {
+		buildString += `${section.preamble}
+`;
+	}
+	return buildString;
+};
 const Build = (buildConfig) => {
 	ReturnAllItems(buildConfig)
 		.then((result) => {
@@ -365,22 +365,37 @@ const Build = (buildConfig) => {
 				WriteToFile(buildConfig.rawScanDestination, result, true);
 				if (!result.error) {
 					const allItemsRawArray = result;
-					let buildString = '#Code Reference';
-					const componentsSections = 
-						ReturnComponentsSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
-					const servicesSections = ReturnServicesSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
-					const agendaSections = ReturnAgendaSections(allItemsRawArray, buildConfig.projectRoot, buildConfig.preambles);
-					const combinedSections = { ...componentsSections, ...servicesSections, ...agendaSections };
+					let buildString = `#Code Reference
+`;
+					const componentsSections = ReturnComponentsSections(
+						allItemsRawArray, 
+						buildConfig.projectRoot, 
+						buildConfig.preambles,
+					);
+					const servicesSections = ReturnServicesSections(
+						allItemsRawArray, 
+						buildConfig.projectRoot, 
+						buildConfig.preambles,
+					);
+					const agendaSections = ReturnAgendaSections(
+						allItemsRawArray, 
+						buildConfig.projectRoot, 
+						buildConfig.preambles,
+					);
+					const combinedSections = { 
+						...componentsSections, 
+						...servicesSections, 
+						...agendaSections,
+					};
 					const orderedSections = [];
 					buildConfig.orderedCategories.forEach((categoryValue) => {
 						orderedSections.push(combinedSections[categoryValue]);
 					});
 					WriteToFile(buildConfig.orderedSectionsDestination, orderedSections, true);
-					const turndownService = new TurndownService();
 					orderedSections.forEach((section) => {
-						buildString += turndownService.turndown(ReturnMarkedUpSection(section));
+						buildString += ReturnMarkedDownSection(section);
 					});
-					WriteToFile(buildConfig.markdownDestination, buildString, true);
+					WriteToFile(buildConfig.markdownDestination, buildString);
 				}
 			}
 		});
