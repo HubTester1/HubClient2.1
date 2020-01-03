@@ -36,6 +36,7 @@ const config = {
 	preambles: {
 		Code: 'This text goes at the top of this screen.',
 		Agenda: 'Not a system component. Just a todo list culled from @todos in the code.',
+		'Next.js': 'This is the Next.js preamble.',
 		Ingredients: 'Items such as controls that appear across other parts of the app.',
 		Services: 'This is the Services preamble.',
 	},
@@ -349,13 +350,100 @@ const WriteToFile = (destination, data, isJSON) => {
 		if (err) throw err;
 	});
 };
+const ReturnIndex = (orderedSections) => {
+	let buildString = `##Index
+`;
+	orderedSections.forEach((section) => {
+		const sectionID = section.title.toLowerCase().replace('.', '');
+		buildString += `* [${section.title}](#${sectionID})
+`;
+	});
+	buildString += `
+`;
+	return buildString;
+};
+const ReturnMarkedDownTodos = (todos) => {
+	let buildString = `| @todo | path |
+| ----------- | ----------- |
+`;
+	todos.forEach((todo) => {
+		buildString += `| ${todo.description} | ${todo.path} |
+`;
+	});
+	return buildString;
+};
+const ReturnMarkedDownComponent = ({
+	name,
+	description,
+	smart,
+	path,
+	params,
+}) => {
+	let buildString = `###${name}
+
+`;
+	if (smart) {
+		buildString += `*\`@smart\`*
+
+`;
+	}
+	const descriptionParts = description.split('\n\n');
+	descriptionParts.forEach((descriptionPart) => {
+		buildString += `${descriptionPart}
+
+`;
+	});
+	buildString += `> ${path}
+
+`;
+	if (params) {
+		buildString += `| *@param* | type | required | smart | description |
+| --- |: --- :|: --- :|: --- :| --- |
+`;
+		params.forEach((param) => {
+			const typeToken = param.type !== 'bool' ?
+				param.type :
+				'boolean';
+			const requiredToken = param.required ? 'true' : '';
+			const smartToken = param.smart ? 'true' : '';
+			let paramDescriptionString = '';
+			const paramDescriptionParts = param.description.split('\n');
+			paramDescriptionParts.forEach((paramDescriptionPart) => {
+				paramDescriptionString += `${paramDescriptionPart} `;
+			});
+
+			
+			buildString += `| ${param.name} | ${typeToken} | ${requiredToken} | ${smartToken} | ${paramDescriptionString} |
+`;
+		});
+	}
+
+	return buildString;
+};
+const ReturnMarkedDownComponents = (components) => {
+	let buildString = '';
+	components.forEach((component) => {
+		buildString += ReturnMarkedDownComponent(component);
+	});
+
+	return buildString;
+};
 const ReturnMarkedDownSection = (section) => {
 	let buildString = `##${section.title}
 `;
 	if (section.preamble) {
 		buildString += `${section.preamble}
+
 `;
 	}
+	if (section.todos) {
+		buildString += ReturnMarkedDownTodos(section.todos);
+	}
+	if (section.components) {
+		buildString += ReturnMarkedDownComponents(section.components);
+	}
+	buildString += `[Return to Index](#index)
+`;
 	return buildString;
 };
 const Build = (buildConfig) => {
@@ -391,6 +479,7 @@ const Build = (buildConfig) => {
 					buildConfig.orderedCategories.forEach((categoryValue) => {
 						orderedSections.push(combinedSections[categoryValue]);
 					});
+					buildString += ReturnIndex(orderedSections);
 					WriteToFile(buildConfig.orderedSectionsDestination, orderedSections, true);
 					orderedSections.forEach((section) => {
 						buildString += ReturnMarkedDownSection(section);

@@ -1740,7 +1740,7 @@
 		"$kind": "constant"
 	},
 	{
-		"comment": "/**\n * @name Agenda\n * @module\n * @category Agenda\n * @description Literally, a todo list\n * @todo Publish documentation\n * @todo Extra doc (tutorial) - where to start, masterpage and any other previous doc, v4 api?, see tempDoc\n * @todo When link has no 'p', screen changes but partial does not \n * @todo New Link component that updates browser history w/ new params \n * @todo Why does the following in _document.js prevent documentation compilation? \n * \t\t\"import Document, { Head, Main, NextScript } from 'next/document';\"\n\n * @todo Serverless research / planning \n * @todo Lazy load modules \n * @todo Lazy load components \n * @todo AMP \n * @todo Serverless implementation \n\n * @todo Move to cloud \n * @todo Maintenance mode setting and screen \n * @todo API unavailable message\n */",
+		"comment": "/**\n * @name Agenda\n * @module\n * @category Agenda\n * @description Literally, a todo list\n * @todo When link has no 'p', screen changes but partial does not \n * @todo New Link component that updates browser history w/ new params \n * @todo Serverless research / planning \n * @todo Lazy load modules \n * @todo Lazy load components \n * @todo AMP \n * @todo Serverless implementation \n * @todo Move to cloud \n * @todo Maintenance mode setting and screen \n * @todo API unavailable message\n */",
 		"meta": {
 			"filename": "agenda.js",
 			"lineno": 1,
@@ -1762,11 +1762,8 @@
 		],
 		"description": "Literally, a todo list",
 		"todo": [
-			"Publish documentation",
-			"Extra doc (tutorial) - where to start, masterpage and any other previous doc, v4 api?, see tempDoc",
 			"When link has no 'p', screen changes but partial does not",
 			"New Link component that updates browser history w/ new params",
-			"Why does the following in _document.js prevent documentation compilation? \n\t\t\"import Document, { Head, Main, NextScript } from 'next/document';\"",
 			"Serverless research / planning",
 			"Lazy load modules",
 			"Lazy load components",
@@ -1783,9 +1780,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [428,1400],
+			"range": [435,1407],
 			"filename": "_app.js",
-			"lineno": 14,
+			"lineno": 16,
 			"columnno": 0,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -1946,9 +1943,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [515,1169],
+			"range": [522,1176],
 			"filename": "_app.js",
-			"lineno": 16,
+			"lineno": 18,
 			"columnno": 1,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -1977,9 +1974,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1237,1398],
+			"range": [1244,1405],
 			"filename": "_app.js",
-			"lineno": 46,
+			"lineno": 48,
 			"columnno": 1,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -2612,7 +2609,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5492,5564],
+			"range": [5490,5562],
 			"filename": "Button.js",
 			"lineno": 205,
 			"columnno": 6,
@@ -4192,7 +4189,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name App\n * @component\n * @category Next.js\n * @description Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers. Used by Next.js in transpilation; overrides default Next.js _app.\n * \n */",
+		"comment": "/**\n * @name App\n * @component\n * @category Next.js\n * @description Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers.\n * \n * Used by Next.js in transpilation; overrides default Next.js _app.\n * \n */",
 		"meta": {
 			"filename": "_app.js",
 			"lineno": 1,
@@ -4216,7 +4213,7 @@
 				"value": "Next.js"
 			}
 		],
-		"description": "Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers. Used by Next.js in transpilation; overrides default Next.js _app.",
+		"description": "Connect Next.js to Redux. Create state store. Get data from index page component and send to state store via reducers.\n\nUsed by Next.js in transpilation; overrides default Next.js _app.",
 		"longname": "App",
 		"kind": "member",
 		"scope": "global",
@@ -4498,7 +4495,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3525,5484],
+			"range": [3525,5482],
 			"filename": "Button.js",
 			"lineno": 132,
 			"columnno": 0,
@@ -4547,7 +4544,7 @@
 	{
 		"comment": "/**\n\t * @description Function executed when button is clicked. E.g., () => handleClick(...params).\n\t */",
 		"meta": {
-			"range": [5450,5480],
+			"range": [5448,5478],
 			"filename": "Button.js",
 			"lineno": 202,
 			"columnno": 1,
@@ -4793,9 +4790,9 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n\t * @description Indicates that text should be hidden from sight \n\t * (but will remain available to assistive technologies). E.g., \"true\".\n\t */",
+		"comment": "/**\n\t * @description Indicates that text should be hidden from sight \n\t * (but will remain available to assistive technologies). E.g., true.\n\t */",
 		"meta": {
-			"range": [5312,5341],
+			"range": [5310,5339],
 			"filename": "Button.js",
 			"lineno": 197,
 			"columnno": 1,
@@ -4807,7 +4804,7 @@
 				"value": "PropTypes.bool"
 			}
 		},
-		"description": "Indicates that text should be hidden from sight \n(but will remain available to assistive technologies). E.g., \"true\".",
+		"description": "Indicates that text should be hidden from sight \n(but will remain available to assistive technologies). E.g., true.",
 		"name": "textInvisible",
 		"longname": "Button.propTypes.textInvisible",
 		"kind": "member",
@@ -4934,9 +4931,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [546,555],
+			"range": [553,562],
 			"filename": "_app.js",
-			"lineno": 16,
+			"lineno": 18,
 			"columnno": 32,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -4957,9 +4954,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1258,1267],
+			"range": [1265,1274],
 			"filename": "_app.js",
-			"lineno": 47,
+			"lineno": 49,
 			"columnno": 10,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -5273,9 +5270,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [557,560],
+			"range": [564,567],
 			"filename": "_app.js",
-			"lineno": 16,
+			"lineno": 18,
 			"columnno": 43,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -5903,9 +5900,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [984,1012],
+			"range": [991,1019],
 			"filename": "_app.js",
-			"lineno": 32,
+			"lineno": 34,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -5926,9 +5923,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1145,1150],
+			"range": [1152,1157],
 			"filename": "_app.js",
-			"lineno": 40,
+			"lineno": 42,
 			"columnno": 5,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -7153,9 +7150,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1042,1052],
+			"range": [1049,1059],
 			"filename": "_app.js",
-			"lineno": 35,
+			"lineno": 37,
 			"columnno": 13,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -7176,9 +7173,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1269,1279],
+			"range": [1276,1286],
 			"filename": "_app.js",
-			"lineno": 47,
+			"lineno": 49,
 			"columnno": 21,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -7698,7 +7695,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5566,5618],
+			"range": [5564,5616],
 			"filename": "Button.js",
 			"lineno": 208,
 			"columnno": 0,
@@ -7997,9 +7994,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1402,1452],
+			"range": [1409,1459],
 			"filename": "_app.js",
-			"lineno": 56,
+			"lineno": 58,
 			"columnno": 0,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -10215,7 +10212,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5525,5560],
+			"range": [5523,5558],
 			"filename": "Button.js",
 			"lineno": 206,
 			"columnno": 1,
@@ -10537,9 +10534,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [779,802],
+			"range": [786,809],
 			"filename": "_app.js",
-			"lineno": 23,
+			"lineno": 25,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -11162,9 +11159,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1281,1286],
+			"range": [1288,1293],
 			"filename": "_app.js",
-			"lineno": 47,
+			"lineno": 49,
 			"columnno": 33,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -11512,9 +11509,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [748,771],
+			"range": [755,778],
 			"filename": "_app.js",
-			"lineno": 22,
+			"lineno": 24,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -11535,9 +11532,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [845,866],
+			"range": [852,873],
 			"filename": "_app.js",
-			"lineno": 26,
+			"lineno": 28,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -11558,9 +11555,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [953,976],
+			"range": [960,983],
 			"filename": "_app.js",
-			"lineno": 31,
+			"lineno": 33,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -11581,9 +11578,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1115,1138],
+			"range": [1122,1145],
 			"filename": "_app.js",
-			"lineno": 39,
+			"lineno": 41,
 			"columnno": 5,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {
@@ -11627,9 +11624,9 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [874,897],
+			"range": [881,904],
 			"filename": "_app.js",
-			"lineno": 27,
+			"lineno": 29,
 			"columnno": 6,
 			"path": "/home/skip/Software/HubClient2.1/src/pages",
 			"code": {

@@ -192,7 +192,7 @@ Button.propTypes = {
 
 	/**
 	 * @description Indicates that text should be hidden from sight 
-	 * (but will remain available to assistive technologies). E.g., "true".
+	 * (but will remain available to assistive technologies). E.g., true.
 	 */
 	textInvisible: PropTypes.bool,
 
