@@ -3,7 +3,7 @@
  * @component
  * @category Ingredients
  * @smart
- * @description Every two-dimensional space within app. Connected to Redux store.
+ * @description Every two-dimensional space within app.
  * 
  * @todo params, types, required or optional
  */

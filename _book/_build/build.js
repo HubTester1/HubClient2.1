@@ -352,6 +352,8 @@ const WriteToFile = (destination, data, isJSON) => {
 };
 const ReturnIndex = (orderedSections) => {
 	let buildString = `##Index
+
+* [Repo](https://github.com/HubTester1/HubClient2.1)
 `;
 	orderedSections.forEach((section) => {
 		const sectionID = section.title.toLowerCase().replace('.', '');

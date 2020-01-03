@@ -1,5 +1,7 @@
 #Code Reference
 ##Index
+
+* [Repo](https://github.com/HubTester1/HubClient2.1)
 * [Agenda](#agenda)
 * [Next.js](#nextjs)
 {% collapse title="- Components"%}
@@ -252,7 +254,7 @@ Must document upon completion.
 
 *`@smart`*
 
-Main content within app. Corresponds to "s" url param. Connected to Redux store.
+Main content within app. Corresponds to "s" url param.
 
 > /src/components/Screens/Screen.js
 
@@ -279,7 +281,7 @@ Main content within app. Corresponds to "s" url param. Connected to Redux store.
 
 *`@smart`*
 
-Must document upon completion. Connected to Redux store.
+Must document upon completion.
 
 > /src/components/Screens/Partials/Messages/Announcements.js
 
@@ -301,7 +303,7 @@ Must document upon completion.
 
 *`@smart`*
 
-Must document upon completion. Connected to Redux store.
+Must document upon completion.
 
 > /src/components/Screens/Partials/Home/Pinned.js
 
@@ -312,7 +314,7 @@ Must document upon completion. Connected to Redux store.
 
 *`@smart`*
 
-Must document upon completion. Connected to Redux store.
+Must document upon completion.
 
 > /src/components/Screens/Partials/Home/TodayAndRecent.js
 
@@ -477,7 +479,7 @@ Items such as controls that appear across other parts of the app.
 
 *`@smart`*
 
-Button. Connected to Redux store.
+Button.
 
 > /src/components/Ingredients/Button/Button.js
 
@@ -543,7 +545,7 @@ Facilitates navigation between screens.
 
 *`@smart`*
 
-Every two-dimensional space within app. Connected to Redux store.
+Every two-dimensional space within app.
 
 > /src/components/Ingredients/Plane/Plane.js
 

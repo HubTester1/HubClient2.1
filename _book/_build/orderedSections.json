@@ -372,7 +372,7 @@
 			{
 				"name": "Screen",
 				"category": "Screens",
-				"description": "Main content within app. Corresponds to \"s\" url param. Connected to Redux store.",
+				"description": "Main content within app. Corresponds to \"s\" url param.",
 				"smart": true,
 				"path": "/src/components/Screens/Screen.js"
 			}
@@ -384,7 +384,7 @@
 			{
 				"name": "Partial Screen - Announcements",
 				"category": "Partial Screens",
-				"description": "Must document upon completion. Connected to Redux store.",
+				"description": "Must document upon completion.",
 				"smart": true,
 				"path": "/src/components/Screens/Partials/Messages/Announcements.js"
 			},
@@ -398,14 +398,14 @@
 			{
 				"name": "Partial Screen - Pinned",
 				"category": "Partial Screens",
-				"description": "Must document upon completion. Connected to Redux store.",
+				"description": "Must document upon completion.",
 				"smart": true,
 				"path": "/src/components/Screens/Partials/Home/Pinned.js"
 			},
 			{
 				"name": "Partial Screen - Today and Recent",
 				"category": "Partial Screens",
-				"description": "Must document upon completion. Connected to Redux store.",
+				"description": "Must document upon completion.",
 				"smart": true,
 				"path": "/src/components/Screens/Partials/Home/TodayAndRecent.js"
 			},
@@ -505,7 +505,7 @@
 			{
 				"name": "Button",
 				"category": "Ingredients",
-				"description": "Button. Connected to Redux store.",
+				"description": "Button.",
 				"smart": true,
 				"path": "/src/components/Ingredients/Button/Button.js",
 				"params": [
@@ -636,7 +636,7 @@
 			{
 				"name": "Plane",
 				"category": "Ingredients",
-				"description": "Every two-dimensional space within app. Connected to Redux store.",
+				"description": "Every two-dimensional space within app.",
 				"smart": true,
 				"path": "/src/components/Ingredients/Plane/Plane.js"
 			}

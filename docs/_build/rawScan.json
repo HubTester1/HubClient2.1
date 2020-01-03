@@ -2,7 +2,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1274,3705],
+			"range": [1248,3679],
 			"filename": "Plane.js",
 			"lineno": 42,
 			"columnno": 6,
@@ -26,7 +26,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1052,1365],
+			"range": [1026,1339],
 			"filename": "Button.js",
 			"lineno": 29,
 			"columnno": 6,
@@ -74,7 +74,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1032,1266],
+			"range": [1006,1240],
 			"filename": "Plane.js",
 			"lineno": 37,
 			"columnno": 6,
@@ -98,7 +98,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3713,4441],
+			"range": [3687,4415],
 			"filename": "Plane.js",
 			"lineno": 117,
 			"columnno": 6,
@@ -315,7 +315,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1620,1682],
+			"range": [1594,1656],
 			"filename": "Button.js",
 			"lineno": 44,
 			"columnno": 6,
@@ -632,7 +632,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [795,871],
+			"range": [769,845],
 			"filename": "Button.js",
 			"lineno": 23,
 			"columnno": 7,
@@ -657,7 +657,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [707,786],
+			"range": [681,760],
 			"filename": "Button.js",
 			"lineno": 22,
 			"columnno": 7,
@@ -728,7 +728,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [812,856],
+			"range": [786,830],
 			"filename": "Plane.js",
 			"lineno": 28,
 			"columnno": 7,
@@ -753,7 +753,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [907,942],
+			"range": [881,916],
 			"filename": "Plane.js",
 			"lineno": 30,
 			"columnno": 7,
@@ -778,7 +778,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [865,898],
+			"range": [839,872],
 			"filename": "Plane.js",
 			"lineno": 29,
 			"columnno": 7,
@@ -803,7 +803,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [476,521],
+			"range": [450,495],
 			"filename": "Plane.js",
 			"lineno": 18,
 			"columnno": 7,
@@ -828,7 +828,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [604,669],
+			"range": [578,643],
 			"filename": "Plane.js",
 			"lineno": 20,
 			"columnno": 7,
@@ -853,7 +853,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [530,595],
+			"range": [504,569],
 			"filename": "Plane.js",
 			"lineno": 19,
 			"columnno": 7,
@@ -1399,7 +1399,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [654,744],
+			"range": [628,718],
 			"filename": "Screen.js",
 			"lineno": 19,
 			"columnno": 7,
@@ -1694,7 +1694,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1373,1612],
+			"range": [1347,1586],
 			"filename": "Button.js",
 			"lineno": 38,
 			"columnno": 6,
@@ -1920,7 +1920,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [404,555],
+			"range": [378,529],
 			"filename": "Announcements.js",
 			"lineno": 15,
 			"columnno": 6,
@@ -2048,7 +2048,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1690,3523],
+			"range": [1664,3497],
 			"filename": "Button.js",
 			"lineno": 47,
 			"columnno": 6,
@@ -2609,7 +2609,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5490,5562],
+			"range": [5464,5536],
 			"filename": "Button.js",
 			"lineno": 205,
 			"columnno": 6,
@@ -2678,7 +2678,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5411,5517],
+			"range": [5385,5491],
 			"filename": "Plane.js",
 			"lineno": 183,
 			"columnno": 6,
@@ -2724,7 +2724,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [588,678],
+			"range": [562,652],
 			"filename": "Pinned.js",
 			"lineno": 25,
 			"columnno": 6,
@@ -2747,7 +2747,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3500,3588],
+			"range": [3474,3562],
 			"filename": "TodayAndRecent.js",
 			"lineno": 92,
 			"columnno": 6,
@@ -2793,7 +2793,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [564,652],
+			"range": [538,626],
 			"filename": "Announcements.js",
 			"lineno": 24,
 			"columnno": 6,
@@ -2839,7 +2839,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [793,860],
+			"range": [767,834],
 			"filename": "Screen.js",
 			"lineno": 23,
 			"columnno": 6,
@@ -3405,7 +3405,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [442,579],
+			"range": [416,553],
 			"filename": "Pinned.js",
 			"lineno": 16,
 			"columnno": 6,
@@ -3428,7 +3428,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4449,5402],
+			"range": [4423,5376],
 			"filename": "Plane.js",
 			"lineno": 139,
 			"columnno": 6,
@@ -3524,7 +3524,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [618,896],
+			"range": [592,870],
 			"filename": "Button.js",
 			"lineno": 21,
 			"columnno": 6,
@@ -3551,7 +3551,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [478,609],
+			"range": [452,583],
 			"filename": "Button.js",
 			"lineno": 19,
 			"columnno": 6,
@@ -3574,7 +3574,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [759,1024],
+			"range": [733,998],
 			"filename": "Plane.js",
 			"lineno": 27,
 			"columnno": 6,
@@ -3602,7 +3602,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [422,751],
+			"range": [396,725],
 			"filename": "Plane.js",
 			"lineno": 17,
 			"columnno": 6,
@@ -3660,7 +3660,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [905,1043],
+			"range": [879,1017],
 			"filename": "Button.js",
 			"lineno": 27,
 			"columnno": 6,
@@ -3683,7 +3683,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [446,784],
+			"range": [420,758],
 			"filename": "Screen.js",
 			"lineno": 16,
 			"columnno": 6,
@@ -3735,7 +3735,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [407,3491],
+			"range": [381,3465],
 			"filename": "TodayAndRecent.js",
 			"lineno": 15,
 			"columnno": 6,
@@ -4253,7 +4253,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1821,1836],
+			"range": [1795,1810],
 			"filename": "Button.js",
 			"lineno": 56,
 			"columnno": 1,
@@ -4276,7 +4276,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1484,1499],
+			"range": [1458,1473],
 			"filename": "Plane.js",
 			"lineno": 46,
 			"columnno": 24,
@@ -4299,7 +4299,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4513,4528],
+			"range": [4487,4502],
 			"filename": "Plane.js",
 			"lineno": 144,
 			"columnno": 1,
@@ -4322,7 +4322,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [683,702],
+			"range": [657,676],
 			"filename": "Plane.js",
 			"lineno": 22,
 			"columnno": 2,
@@ -4345,7 +4345,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [956,975],
+			"range": [930,949],
 			"filename": "Plane.js",
 			"lineno": 32,
 			"columnno": 2,
@@ -4368,7 +4368,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2443,2559],
+			"range": [2417,2533],
 			"filename": "Button.js",
 			"lineno": 79,
 			"columnno": 4,
@@ -4453,7 +4453,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Button\n * @component\n * @category Ingredients\n * @smart\n * @description Button. Connected to Redux store.\n *\n * @todo params, types, required or optional\n */",
+		"comment": "/**\n * @name Button\n * @component\n * @category Ingredients\n * @smart\n * @description Button.\n *\n * @todo params, types, required or optional\n */",
 		"meta": {
 			"filename": "Button.js",
 			"lineno": 1,
@@ -4482,7 +4482,7 @@
 				"text": ""
 			}
 		],
-		"description": "Button. Connected to Redux store.",
+		"description": "Button.",
 		"todo": [
 			"params, types, required or optional"
 		],
@@ -4495,7 +4495,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3525,5482],
+			"range": [3499,5456],
 			"filename": "Button.js",
 			"lineno": 132,
 			"columnno": 0,
@@ -4520,7 +4520,7 @@
 	{
 		"comment": "/**\n\t * @description Color of background. Style service param. \n\t * Reminder: may be transparent. E.g., \"bold-pink\".\n\t */",
 		"meta": {
-			"range": [4824,4857],
+			"range": [4798,4831],
 			"filename": "Button.js",
 			"lineno": 180,
 			"columnno": 1,
@@ -4544,7 +4544,7 @@
 	{
 		"comment": "/**\n\t * @description Function executed when button is clicked. E.g., () => handleClick(...params).\n\t */",
 		"meta": {
-			"range": [5448,5478],
+			"range": [5422,5452],
 			"filename": "Button.js",
 			"lineno": 202,
 			"columnno": 1,
@@ -4568,7 +4568,7 @@
 	{
 		"comment": "/**\n\t * @description Color of text and/or icon. Style service param. E.g., \"primary-green\".\n\t */",
 		"meta": {
-			"range": [4667,4697],
+			"range": [4641,4671],
 			"filename": "Button.js",
 			"lineno": 174,
 			"columnno": 1,
@@ -4592,7 +4592,7 @@
 	{
 		"comment": "/**\n\t * @description Height of button's text and/or icon, measured in rem. E.g., \"3\".\n\t * @default Style.FontSize('m', screenSize).slice(0, -3)\n\t */",
 		"meta": {
-			"range": [5123,5159],
+			"range": [5097,5133],
 			"filename": "Button.js",
 			"lineno": 191,
 			"columnno": 1,
@@ -4617,7 +4617,7 @@
 	{
 		"comment": "/**\n\t * @description Elevation level. Style service param. E.g., \"4\".\n\t */",
 		"meta": {
-			"range": [4937,4969],
+			"range": [4911,4943],
 			"filename": "Button.js",
 			"lineno": 185,
 			"columnno": 1,
@@ -4641,7 +4641,7 @@
 	{
 		"comment": "/**\n\t * @description Height of button, measured in rem. E.g., \"5\".\n\t */",
 		"meta": {
-			"range": [4525,4565],
+			"range": [4499,4539],
 			"filename": "Button.js",
 			"lineno": 169,
 			"columnno": 1,
@@ -4665,7 +4665,7 @@
 	{
 		"comment": "/**\n\t * @description Icon content token.\n\t * No icon will be present if iconContent and  iconPosition are not both specified.\n\t */",
 		"meta": {
-			"range": [3979,4084],
+			"range": [3953,4058],
 			"filename": "Button.js",
 			"lineno": 149,
 			"columnno": 1,
@@ -4689,7 +4689,7 @@
 	{
 		"comment": "/**\n\t * @description Icon position token. \n\t * No icon will be present if iconContent and  iconPosition are not both specified.\n\t */",
 		"meta": {
-			"range": [3793,3843],
+			"range": [3767,3817],
 			"filename": "Button.js",
 			"lineno": 143,
 			"columnno": 1,
@@ -4713,7 +4713,7 @@
 	{
 		"comment": "/**\n\t * @description Margin size, measured in rem, to be applied to all sides of button. E.g., \"2\".\n\t */",
 		"meta": {
-			"range": [4303,4332],
+			"range": [4277,4306],
 			"filename": "Button.js",
 			"lineno": 159,
 			"columnno": 1,
@@ -4737,7 +4737,7 @@
 	{
 		"comment": "/**\n\t * @smart\n\t * @description Current screen size token. E.g., \"small\".\n\t */",
 		"meta": {
-			"range": [3627,3655],
+			"range": [3601,3629],
 			"filename": "Button.js",
 			"lineno": 137,
 			"columnno": 1,
@@ -4768,7 +4768,7 @@
 	{
 		"comment": "/**\n\t * @description Text content of button. E.g., \"Button Text\".\n\t */",
 		"meta": {
-			"range": [4160,4193],
+			"range": [4134,4167],
 			"filename": "Button.js",
 			"lineno": 154,
 			"columnno": 1,
@@ -4792,7 +4792,7 @@
 	{
 		"comment": "/**\n\t * @description Indicates that text should be hidden from sight \n\t * (but will remain available to assistive technologies). E.g., true.\n\t */",
 		"meta": {
-			"range": [5310,5339],
+			"range": [5284,5313],
 			"filename": "Button.js",
 			"lineno": 197,
 			"columnno": 1,
@@ -4816,7 +4816,7 @@
 	{
 		"comment": "/**\n\t * @description Width of button, measured in rem. E.g., \"15\".\n\t */",
 		"meta": {
-			"range": [4409,4448],
+			"range": [4383,4422],
 			"filename": "Button.js",
 			"lineno": 164,
 			"columnno": 1,
@@ -4863,7 +4863,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4502,4510],
+			"range": [4476,4484],
 			"filename": "Plane.js",
 			"lineno": 143,
 			"columnno": 1,
@@ -4908,7 +4908,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1745,1757],
+			"range": [1719,1731],
 			"filename": "Button.js",
 			"lineno": 51,
 			"columnno": 1,
@@ -5017,7 +5017,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1839,1851],
+			"range": [1813,1825],
 			"filename": "Button.js",
 			"lineno": 57,
 			"columnno": 1,
@@ -5086,7 +5086,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2211,2223],
+			"range": [2185,2197],
 			"filename": "Plane.js",
 			"lineno": 72,
 			"columnno": 15,
@@ -5109,7 +5109,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4021,4033],
+			"range": [3995,4007],
 			"filename": "Plane.js",
 			"lineno": 120,
 			"columnno": 13,
@@ -5132,7 +5132,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4531,4543],
+			"range": [4505,4517],
 			"filename": "Plane.js",
 			"lineno": 145,
 			"columnno": 1,
@@ -5178,7 +5178,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1760,1778],
+			"range": [1734,1752],
 			"filename": "Button.js",
 			"lineno": 52,
 			"columnno": 1,
@@ -5247,7 +5247,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4587,4605],
+			"range": [4561,4579],
 			"filename": "Plane.js",
 			"lineno": 149,
 			"columnno": 1,
@@ -5454,7 +5454,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1501,1509],
+			"range": [1475,1483],
 			"filename": "Plane.js",
 			"lineno": 46,
 			"columnno": 41,
@@ -5477,7 +5477,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1683,1691],
+			"range": [1657,1665],
 			"filename": "Plane.js",
 			"lineno": 52,
 			"columnno": 34,
@@ -5500,7 +5500,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1991,1999],
+			"range": [1965,1973],
 			"filename": "Plane.js",
 			"lineno": 64,
 			"columnno": 41,
@@ -5523,7 +5523,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2225,2233],
+			"range": [2199,2207],
 			"filename": "Plane.js",
 			"lineno": 72,
 			"columnno": 29,
@@ -5546,7 +5546,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4035,4043],
+			"range": [4009,4017],
 			"filename": "Plane.js",
 			"lineno": 120,
 			"columnno": 27,
@@ -5569,7 +5569,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4478,4486],
+			"range": [4452,4460],
 			"filename": "Plane.js",
 			"lineno": 141,
 			"columnno": 1,
@@ -5592,7 +5592,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5482,5513],
+			"range": [5456,5487],
 			"filename": "Plane.js",
 			"lineno": 185,
 			"columnno": 1,
@@ -5739,7 +5739,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [725,744],
+			"range": [699,718],
 			"filename": "Plane.js",
 			"lineno": 24,
 			"columnno": 2,
@@ -5762,7 +5762,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [998,1017],
+			"range": [972,991],
 			"filename": "Plane.js",
 			"lineno": 34,
 			"columnno": 2,
@@ -5785,7 +5785,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1804,1818],
+			"range": [1778,1792],
 			"filename": "Button.js",
 			"lineno": 55,
 			"columnno": 1,
@@ -5808,7 +5808,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1667,1681],
+			"range": [1641,1655],
 			"filename": "Plane.js",
 			"lineno": 52,
 			"columnno": 18,
@@ -5831,7 +5831,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1975,1989],
+			"range": [1949,1963],
 			"filename": "Plane.js",
 			"lineno": 64,
 			"columnno": 25,
@@ -5854,7 +5854,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2235,2249],
+			"range": [2209,2223],
 			"filename": "Plane.js",
 			"lineno": 72,
 			"columnno": 39,
@@ -5877,7 +5877,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4461,4475],
+			"range": [4435,4449],
 			"filename": "Plane.js",
 			"lineno": 140,
 			"columnno": 1,
@@ -6212,7 +6212,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1210,1221],
+			"range": [1184,1195],
 			"filename": "Button.js",
 			"lineno": 34,
 			"columnno": 6,
@@ -6235,7 +6235,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1854,1865],
+			"range": [1828,1839],
 			"filename": "Button.js",
 			"lineno": 58,
 			"columnno": 1,
@@ -6258,7 +6258,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1129,1140],
+			"range": [1103,1114],
 			"filename": "Plane.js",
 			"lineno": 39,
 			"columnno": 6,
@@ -6281,7 +6281,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1395,1406],
+			"range": [1369,1380],
 			"filename": "Plane.js",
 			"lineno": 45,
 			"columnno": 6,
@@ -6304,7 +6304,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2263,2274],
+			"range": [2237,2248],
 			"filename": "Plane.js",
 			"lineno": 72,
 			"columnno": 67,
@@ -6327,7 +6327,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4573,4584],
+			"range": [4547,4558],
 			"filename": "Plane.js",
 			"lineno": 148,
 			"columnno": 1,
@@ -6372,7 +6372,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4316,4341],
+			"range": [4290,4315],
 			"filename": "Plane.js",
 			"lineno": 132,
 			"columnno": 6,
@@ -6395,7 +6395,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4649,4674],
+			"range": [4623,4648],
 			"filename": "Plane.js",
 			"lineno": 152,
 			"columnno": 1,
@@ -6856,7 +6856,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1731,1742],
+			"range": [1705,1716],
 			"filename": "Button.js",
 			"lineno": 50,
 			"columnno": 1,
@@ -6925,7 +6925,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1716,1728],
+			"range": [1690,1702],
 			"filename": "Button.js",
 			"lineno": 49,
 			"columnno": 1,
@@ -7196,7 +7196,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2198,2209],
+			"range": [2172,2183],
 			"filename": "Plane.js",
 			"lineno": 72,
 			"columnno": 2,
@@ -7219,7 +7219,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4546,4557],
+			"range": [4520,4531],
 			"filename": "Plane.js",
 			"lineno": 146,
 			"columnno": 1,
@@ -7288,7 +7288,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2565,2572],
+			"range": [2539,2546],
 			"filename": "Button.js",
 			"lineno": 80,
 			"columnno": 4,
@@ -7351,7 +7351,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1281,1292],
+			"range": [1255,1266],
 			"filename": "Button.js",
 			"lineno": 35,
 			"columnno": 6,
@@ -7374,7 +7374,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1881,1892],
+			"range": [1855,1866],
 			"filename": "Button.js",
 			"lineno": 60,
 			"columnno": 1,
@@ -7397,7 +7397,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1200,1211],
+			"range": [1174,1185],
 			"filename": "Plane.js",
 			"lineno": 40,
 			"columnno": 6,
@@ -7420,7 +7420,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4677,4688],
+			"range": [4651,4662],
 			"filename": "Plane.js",
 			"lineno": 153,
 			"columnno": 1,
@@ -7695,7 +7695,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5564,5616],
+			"range": [5538,5590],
 			"filename": "Button.js",
 			"lineno": 208,
 			"columnno": 0,
@@ -7764,7 +7764,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5520,5571],
+			"range": [5494,5545],
 			"filename": "Plane.js",
 			"lineno": 188,
 			"columnno": 0,
@@ -7856,7 +7856,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [681,733],
+			"range": [655,707],
 			"filename": "Pinned.js",
 			"lineno": 29,
 			"columnno": 0,
@@ -7879,7 +7879,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3591,3651],
+			"range": [3565,3625],
 			"filename": "TodayAndRecent.js",
 			"lineno": 96,
 			"columnno": 0,
@@ -7925,7 +7925,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [655,714],
+			"range": [629,688],
 			"filename": "Announcements.js",
 			"lineno": 28,
 			"columnno": 0,
@@ -7971,7 +7971,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [863,915],
+			"range": [837,889],
 			"filename": "Screen.js",
 			"lineno": 25,
 			"columnno": 0,
@@ -8275,7 +8275,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [458,459],
+			"range": [432,433],
 			"filename": "Screen.js",
 			"lineno": 16,
 			"columnno": 18,
@@ -8298,7 +8298,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [825,857],
+			"range": [799,831],
 			"filename": "Screen.js",
 			"lineno": 23,
 			"columnno": 38,
@@ -8367,7 +8367,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3741,3753],
+			"range": [3715,3727],
 			"filename": "Plane.js",
 			"lineno": 118,
 			"columnno": 6,
@@ -8390,7 +8390,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3838,3850],
+			"range": [3812,3824],
 			"filename": "Plane.js",
 			"lineno": 119,
 			"columnno": 6,
@@ -8413,7 +8413,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4608,4620],
+			"range": [4582,4594],
 			"filename": "Plane.js",
 			"lineno": 150,
 			"columnno": 1,
@@ -8434,7 +8434,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Partial Screen - Announcements\n * @component\n * @category Partial Screens\n * @smart\n * @description Must document upon completion. Connected to Redux store.\n *\n * @todo document upon completion\n */",
+		"comment": "/**\n * @name Partial Screen - Announcements\n * @component\n * @category Partial Screens\n * @smart\n * @description Must document upon completion.\n *\n * @todo document upon completion\n */",
 		"meta": {
 			"filename": "Announcements.js",
 			"lineno": 1,
@@ -8463,7 +8463,7 @@
 				"text": ""
 			}
 		],
-		"description": "Must document upon completion. Connected to Redux store.",
+		"description": "Must document upon completion.",
 		"todo": [
 			"document upon completion"
 		],
@@ -8514,7 +8514,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Partial Screen - Pinned\n * @component\n * @category Partial Screens\n * @smart\n * @description Must document upon completion. Connected to Redux store.\n *\n * @todo params, types, required or optional\n * @todo document upon completion\n */",
+		"comment": "/**\n * @name Partial Screen - Pinned\n * @component\n * @category Partial Screens\n * @smart\n * @description Must document upon completion.\n *\n * @todo params, types, required or optional\n * @todo document upon completion\n */",
 		"meta": {
 			"filename": "Pinned.js",
 			"lineno": 1,
@@ -8543,7 +8543,7 @@
 				"text": ""
 			}
 		],
-		"description": "Must document upon completion. Connected to Redux store.",
+		"description": "Must document upon completion.",
 		"todo": [
 			"params, types, required or optional",
 			"document upon completion"
@@ -8555,7 +8555,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Partial Screen - Today and Recent\n * @component\n * @category Partial Screens\n * @smart\n * @description Must document upon completion. Connected to Redux store.\n *\n * @todo document upon completion\n */",
+		"comment": "/**\n * @name Partial Screen - Today and Recent\n * @component\n * @category Partial Screens\n * @smart\n * @description Must document upon completion.\n *\n * @todo document upon completion\n */",
 		"meta": {
 			"filename": "TodayAndRecent.js",
 			"lineno": 1,
@@ -8584,7 +8584,7 @@
 				"text": ""
 			}
 		],
-		"description": "Must document upon completion. Connected to Redux store.",
+		"description": "Must document upon completion.",
 		"todo": [
 			"document upon completion"
 		],
@@ -8714,7 +8714,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [454,472],
+			"range": [428,446],
 			"filename": "Pinned.js",
 			"lineno": 16,
 			"columnno": 18,
@@ -8737,7 +8737,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [622,673],
+			"range": [596,647],
 			"filename": "Pinned.js",
 			"lineno": 26,
 			"columnno": 1,
@@ -8760,7 +8760,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [427,445],
+			"range": [401,419],
 			"filename": "TodayAndRecent.js",
 			"lineno": 15,
 			"columnno": 26,
@@ -8783,7 +8783,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3533,3584],
+			"range": [3507,3558],
 			"filename": "TodayAndRecent.js",
 			"lineno": 93,
 			"columnno": 1,
@@ -8852,7 +8852,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [423,441],
+			"range": [397,415],
 			"filename": "Announcements.js",
 			"lineno": 15,
 			"columnno": 25,
@@ -8875,7 +8875,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [597,648],
+			"range": [571,622],
 			"filename": "Announcements.js",
 			"lineno": 25,
 			"columnno": 1,
@@ -9009,7 +9009,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Plane\n * @component\n * @category Ingredients\n * @smart\n * @description Every two-dimensional space within app. Connected to Redux store.\n * \n * @todo params, types, required or optional\n */",
+		"comment": "/**\n * @name Plane\n * @component\n * @category Ingredients\n * @smart\n * @description Every two-dimensional space within app.\n * \n * @todo params, types, required or optional\n */",
 		"meta": {
 			"filename": "Plane.js",
 			"lineno": 1,
@@ -9038,7 +9038,7 @@
 				"text": ""
 			}
 		],
-		"description": "Every two-dimensional space within app. Connected to Redux store.",
+		"description": "Every two-dimensional space within app.",
 		"todo": [
 			"params, types, required or optional"
 		],
@@ -9710,7 +9710,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2291,2307],
+			"range": [2265,2281],
 			"filename": "Plane.js",
 			"lineno": 74,
 			"columnno": 6,
@@ -9735,7 +9735,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2333,2848],
+			"range": [2307,2822],
 			"filename": "Plane.js",
 			"lineno": 76,
 			"columnno": 3,
@@ -9761,7 +9761,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2853,3137],
+			"range": [2827,3111],
 			"filename": "Plane.js",
 			"lineno": 90,
 			"columnno": 3,
@@ -9787,7 +9787,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3166,3241],
+			"range": [3140,3215],
 			"filename": "Plane.js",
 			"lineno": 99,
 			"columnno": 4,
@@ -9813,7 +9813,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3259,3336],
+			"range": [3233,3310],
 			"filename": "Plane.js",
 			"lineno": 102,
 			"columnno": 4,
@@ -9839,7 +9839,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [3346,3672],
+			"range": [3320,3646],
 			"filename": "Plane.js",
 			"lineno": 105,
 			"columnno": 3,
@@ -9890,7 +9890,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2429,2437],
+			"range": [2403,2411],
 			"filename": "Button.js",
 			"lineno": 78,
 			"columnno": 4,
@@ -10049,7 +10049,7 @@
 		"$kind": "property"
 	},
 	{
-		"comment": "/**\n * @name Screen\n * @component\n * @category Screens\n * @smart\n * @description Main content within app. Corresponds to \"s\" url param. Connected to Redux store.\n *\n * @todo params, types, required or optional\n */",
+		"comment": "/**\n * @name Screen\n * @component\n * @category Screens\n * @smart\n * @description Main content within app. Corresponds to \"s\" url param.\n *\n * @todo params, types, required or optional\n */",
 		"meta": {
 			"filename": "Screen.js",
 			"lineno": 1,
@@ -10078,7 +10078,7 @@
 				"text": ""
 			}
 		],
-		"description": "Main content within app. Corresponds to \"s\" url param. Connected to Redux store.",
+		"description": "Main content within app. Corresponds to \"s\" url param.",
 		"todo": [
 			"params, types, required or optional"
 		],
@@ -10189,7 +10189,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1703,1713],
+			"range": [1677,1687],
 			"filename": "Button.js",
 			"lineno": 48,
 			"columnno": 1,
@@ -10212,7 +10212,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5523,5558],
+			"range": [5497,5532],
 			"filename": "Button.js",
 			"lineno": 206,
 			"columnno": 1,
@@ -10235,7 +10235,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4489,4499],
+			"range": [4463,4473],
 			"filename": "Plane.js",
 			"lineno": 142,
 			"columnno": 1,
@@ -10258,7 +10258,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [5444,5479],
+			"range": [5418,5453],
 			"filename": "Plane.js",
 			"lineno": 184,
 			"columnno": 1,
@@ -11257,7 +11257,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1781,1785],
+			"range": [1755,1759],
 			"filename": "Button.js",
 			"lineno": 53,
 			"columnno": 1,
@@ -11303,7 +11303,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1788,1801],
+			"range": [1762,1775],
 			"filename": "Button.js",
 			"lineno": 54,
 			"columnno": 1,
@@ -11417,7 +11417,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2313,2423],
+			"range": [2287,2397],
 			"filename": "Button.js",
 			"lineno": 77,
 			"columnno": 4,
@@ -12290,7 +12290,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [706,721],
+			"range": [680,695],
 			"filename": "Plane.js",
 			"lineno": 23,
 			"columnno": 2,
@@ -12313,7 +12313,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [979,994],
+			"range": [953,968],
 			"filename": "Plane.js",
 			"lineno": 33,
 			"columnno": 2,
@@ -12625,7 +12625,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4184,4207],
+			"range": [4158,4181],
 			"filename": "Plane.js",
 			"lineno": 126,
 			"columnno": 6,
@@ -12648,7 +12648,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4623,4646],
+			"range": [4597,4620],
 			"filename": "Plane.js",
 			"lineno": 151,
 			"columnno": 1,
@@ -12671,7 +12671,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1143,1153],
+			"range": [1117,1127],
 			"filename": "Button.js",
 			"lineno": 33,
 			"columnno": 6,
@@ -12694,7 +12694,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1868,1878],
+			"range": [1842,1852],
 			"filename": "Button.js",
 			"lineno": 59,
 			"columnno": 1,
@@ -12717,7 +12717,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1062,1072],
+			"range": [1036,1046],
 			"filename": "Plane.js",
 			"lineno": 38,
 			"columnno": 6,
@@ -12740,7 +12740,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [1328,1338],
+			"range": [1302,1312],
 			"filename": "Plane.js",
 			"lineno": 44,
 			"columnno": 6,
@@ -12763,7 +12763,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [2251,2261],
+			"range": [2225,2235],
 			"filename": "Plane.js",
 			"lineno": 72,
 			"columnno": 55,
@@ -12786,7 +12786,7 @@
 	{
 		"comment": "",
 		"meta": {
-			"range": [4560,4570],
+			"range": [4534,4544],
 			"filename": "Plane.js",
 			"lineno": 147,
 			"columnno": 1,

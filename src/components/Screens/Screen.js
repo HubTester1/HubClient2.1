@@ -3,7 +3,7 @@
  * @component
  * @category Screens
  * @smart
- * @description Main content within app. Corresponds to "s" url param. Connected to Redux store.
+ * @description Main content within app. Corresponds to "s" url param.
  *
  * @todo params, types, required or optional
  */

@@ -3,7 +3,7 @@
  * @component
  * @category Partial Screens
  * @smart
- * @description Must document upon completion. Connected to Redux store.
+ * @description Must document upon completion.
  *
  * @todo document upon completion
  */

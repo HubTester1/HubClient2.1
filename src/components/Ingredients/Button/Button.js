@@ -3,7 +3,7 @@
  * @component
  * @category Ingredients
  * @smart
- * @description Button. Connected to Redux store.
+ * @description Button.
  *
  * @todo params, types, required or optional
  */
