@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-collapse/collapse.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -257,21 +261,80 @@
 <h2 id="index">Index</h2>
 <ul>
 <li><a href="#agenda">Agenda</a></li>
-<li><a href="#nextjs">Next.js</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#layout">Layout</a></li>
-<li><a href="#screens">Screens</a></li>
-<li><a href="#partial%20screens">Partial Screens</a></li>
-<li><a href="#assets">Assets</a></li>
-<li><a href="#headers">Headers</a></li>
-<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#nextjs">Next.js</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#app">App</a></li>
+<li><a href="#document">Document</a></li>
+<li><a href="#index">Index</a></li>
+</ul>
+</details></li>
+<li><a href="#services">Services</a>
+<details><summary>- Services</summary><ul>
+<li><a href="#app-loader">App Loader</a></li>
+<li><a href="#screen">Screen</a></li>
+<li><a href="#state-store%20-%20make%20store">State Store - Make Store</a></li>
+<li><a href="#state-store%20-%20reducer">State Store - Reducer</a></li>
+<li><a href="#state-store%20-%20selectors">State Store - Selectors</a></li>
+<li><a href="#style">Style</a></li>
+<li><a href="#user">User</a></li>
+<li><a href="#utilities">Utilities</a></li>
+</ul>
+</details></li>
+<li><a href="#layout">Layout</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#container">Container</a></li>
+<li><a href="#grid">Grid</a></li>
+</ul>
+</details></li>
+<li><a href="#screens">Screens</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#partial-screen%20header">Partial Screen Header</a></li>
+<li><a href="#screen">Screen</a></li>
+</ul>
+</details></li>
+<li><a href="#partial%20screens">Partial Screens</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#partial-screen%20-%20announcements">Partial Screen - Announcements</a></li>
+<li><a href="#partial-screen%20-%20classifieds">Partial Screen - Classifieds</a></li>
+<li><a href="#partial-screen%20-%20pinned">Partial Screen - Pinned</a></li>
+<li><a href="#partial-screen%20-%20today%20and%20recent">Partial Screen - Today and Recent</a></li>
+<li><a href="#partial-screen%20registry">Partial Screen Registry</a></li>
+</ul>
+</details></li>
+<li><a href="#assets">Assets</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#brand--%20hub%20-%20logo%20+%20wordmark%20-%20horizontal">Brand - Hub - Logo + Wordmark - Horizontal</a></li>
+<li><a href="#brand--%20hub%20-%20logo%20only">Brand - Hub - Logo Only</a></li>
+<li><a href="#icon--%20home">Icon - Home</a></li>
+<li><a href="#icon--%20messages">Icon - Messages</a></li>
+<li><a href="#icon--%20on%20the%20hub">Icon - On The Hub</a></li>
+<li><a href="#icon--%20people">Icon - People</a></li>
+<li><a href="#icon--%20search%20-%20pointed%20left">Icon - Search - Pointed Left</a></li>
+<li><a href="#icon--%20search%20-%20pointed%20right">Icon - Search - Pointed Right</a></li>
+</ul>
+</details></li>
+<li><a href="#headers">Headers</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#primary-nav">Primary Nav</a></li>
+<li><a href="#search--%20title%20-%20secondary%20nav">Search - Title - Secondary Nav</a></li>
+</ul>
+</details></li>
+<li><a href="#ingredients">Ingredients</a>
+<details><summary>- Components</summary><ul>
+<li><a href="#button">Button</a></li>
+<li><a href="#icon">Icon</a></li>
+<li><a href="#icon-registry">Icon Registry</a></li>
+<li><a href="#link-button">Link Button</a></li>
+<li><a href="#plane">Plane</a></li>
+</ul>
+</details></li>
 </ul>
 <h2 id="agenda">Agenda</h2>
 <p>Not a system component. Just a todo list culled from @todos in the code.</p>
 <table>
 <thead>
 <tr>
-<th>@todo</th>
+<th><em>@todo</em></th>
 <th>path</th>
 </tr>
 </thead>
@@ -430,7 +493,14 @@
 </tr>
 </tbody>
 </table>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="nextjs">Next.js</h2>
 <p>This is the Next.js preamble.</p>
 <h3 id="app">App</h3>
@@ -439,12 +509,14 @@
 <blockquote>
 <p>/src/pages/_app.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="document">Document</h3>
 <p>Collect and handle styles from styled-components. Render &lt;html&gt;.</p>
 <p>Used by Next.js in transpilation; overrides default Next.js _document.</p>
 <blockquote>
 <p>/src/pages/_document.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="index">Index</h3>
 <p><em><code>@smart</code></em></p>
 <p>Fetch data and send it to _app. Render Container component.</p>
@@ -452,7 +524,7 @@
 <blockquote>
 <p>/src/pages/index.js</p>
 </blockquote>
-<table>
+<p><details><summary>&gt; Params</summary><table>
 <thead>
 <tr>
 <th><em>@param</em></th>
@@ -493,10 +565,26 @@
 </tr>
 </tbody>
 </table>
-<p><a href="#index">Return to Index</a></p>
+</details></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="services">Services</h2>
 <p>This is the Services preamble.</p>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="layout">Layout</h2>
 <h3 id="container">Container</h3>
 <p><em><code>@smart</code></em></p>
@@ -507,25 +595,43 @@ re-dispatch screen size to state store. Render App Grid.</p>
 <blockquote>
 <p>/src/components/Layout/Container.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="grid">Grid</h3>
 <p>Scaffolding for headers and screen contents.</p>
 <blockquote>
 <p>/src/components/Layout/Grid.js</p>
 </blockquote>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="screens">Screens</h2>
 <h3 id="partial-screen-header">Partial Screen Header</h3>
 <p>Must document upon completion.</p>
 <blockquote>
 <p>/src/components/Screens/Partials/Common/PartialScreenHeader.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="screen">Screen</h3>
 <p><em><code>@smart</code></em></p>
 <p>Main content within app. Corresponds to &quot;s&quot; url param. Connected to Redux store.</p>
 <blockquote>
 <p>/src/components/Screens/Screen.js</p>
 </blockquote>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="partial-screens">Partial Screens</h2>
 <h3 id="partial-screen---announcements">Partial Screen - Announcements</h3>
 <p><em><code>@smart</code></em></p>
@@ -533,73 +639,100 @@ re-dispatch screen size to state store. Render App Grid.</p>
 <blockquote>
 <p>/src/components/Screens/Partials/Messages/Announcements.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="partial-screen---classifieds">Partial Screen - Classifieds</h3>
 <p><em><code>@smart</code></em></p>
 <p>Must document upon completion.</p>
 <blockquote>
 <p>/src/components/Screens/Partials/Messages/Classifieds.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="partial-screen---pinned">Partial Screen - Pinned</h3>
 <p><em><code>@smart</code></em></p>
 <p>Must document upon completion. Connected to Redux store.</p>
 <blockquote>
 <p>/src/components/Screens/Partials/Home/Pinned.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="partial-screen---today-and-recent">Partial Screen - Today and Recent</h3>
 <p><em><code>@smart</code></em></p>
 <p>Must document upon completion. Connected to Redux store.</p>
 <blockquote>
 <p>/src/components/Screens/Partials/Home/TodayAndRecent.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="partial-screen-registry">Partial Screen Registry</h3>
 <p>Registry (exports) of all partial screen components.
 Screen component gets its partial screen content from this registry.</p>
 <blockquote>
 <p>/src/components/Screens/Partials/Registry.js</p>
 </blockquote>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="assets">Assets</h2>
 <h3 id="brand---hub---logo--wordmark---horizontal">Brand - Hub - Logo + Wordmark - Horizontal</h3>
 <p>SVG. Letterforms in Akzidenz Grotesk.</p>
 <blockquote>
 <p>/src/components/Assets/Brands/BrandHorizontal.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="brand---hub---logo-only">Brand - Hub - Logo Only</h3>
 <p>SVG.</p>
 <blockquote>
 <p>/src/components/Assets/Brands/BrandLogoOnly.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="icon---home">Icon - Home</h3>
 <p>SVG from Microsoft Fabric UI</p>
 <blockquote>
 <p>/src/components/Assets/Icons/IconHome.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="icon---messages">Icon - Messages</h3>
 <p>SVG from Microsoft Fabric UI</p>
 <blockquote>
 <p>/src/components/Assets/Icons/IconMessages.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="icon---on-the-hub">Icon - On The Hub</h3>
 <p>SVG from Microsoft Fabric UI</p>
 <blockquote>
 <p>/src/components/Assets/Icons/IconOnTheHub.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="icon---people">Icon - People</h3>
 <p>SVG from Microsoft Fabric UI</p>
 <blockquote>
 <p>/src/components/Assets/Icons/IconPeople.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="icon---search---pointed-left">Icon - Search - Pointed Left</h3>
 <p>SVG from Microsoft Fabric UI</p>
 <blockquote>
 <p>/src/components/Assets/Icons/IconSearchToLeft.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="icon---search---pointed-right">Icon - Search - Pointed Right</h3>
 <p>SVG from Microsoft Fabric UI</p>
 <blockquote>
 <p>/src/components/Assets/Icons/IconSearchToRight.js</p>
 </blockquote>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="headers">Headers</h2>
 <h3 id="primary-nav">Primary Nav</h3>
 <p><em><code>@smart</code></em></p>
@@ -607,13 +740,22 @@ Screen component gets its partial screen content from this registry.</p>
 <blockquote>
 <p>/src/components/Headers/PrimaryNav/PrimaryNav.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="search---title---secondary-nav">Search - Title - Secondary Nav</h3>
 <p><em><code>@smart</code></em></p>
 <p>Search box, screen title, partial screen tabs (secondary navigation).</p>
 <blockquote>
 <p>/src/components/Headers/SearchTitleSecondaryNav/SearchTitleSecondaryNav.js</p>
 </blockquote>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 <h2 id="ingredients">Ingredients</h2>
 <p>Items such as controls that appear across other parts of the app.</p>
 <h3 id="button">Button</h3>
@@ -622,7 +764,7 @@ Screen component gets its partial screen content from this registry.</p>
 <blockquote>
 <p>/src/components/Ingredients/Button/Button.js</p>
 </blockquote>
-<table>
+<p><details><summary>&gt; Params</summary><table>
 <thead>
 <tr>
 <th><em>@param</em></th>
@@ -712,13 +854,15 @@ Screen component gets its partial screen content from this registry.</p>
 </tr>
 </tbody>
 </table>
+</details></p>
+<p>&#xA0;</p>
 <h3 id="icon">Icon</h3>
 <p><em><code>@smart</code></em></p>
 <p>Icon component. Gets icon content from Icon Registry.</p>
 <blockquote>
 <p>/src/components/Ingredients/Icon/Icon.js</p>
 </blockquote>
-<table>
+<p><details><summary>&gt; Params</summary><table>
 <thead>
 <tr>
 <th><em>@param</em></th>
@@ -759,25 +903,37 @@ Screen component gets its partial screen content from this registry.</p>
 </tr>
 </tbody>
 </table>
+</details></p>
+<p>&#xA0;</p>
 <h3 id="icon-registry">Icon Registry</h3>
 <p>Registry (exports) of all icon assets. 
 Icon component gets its icon content from this registry.</p>
 <blockquote>
 <p>/src/components/Ingredients/Icon/Registry.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="link-button">Link Button</h3>
 <p><em><code>@smart</code></em></p>
 <p>Facilitates navigation between screens.</p>
 <blockquote>
 <p>/src/components/Ingredients/LinkButton/LinkButton.js</p>
 </blockquote>
+<p>&#xA0;</p>
 <h3 id="plane">Plane</h3>
 <p><em><code>@smart</code></em></p>
 <p>Every two-dimensional space within app. Connected to Redux store.</p>
 <blockquote>
 <p>/src/components/Ingredients/Plane/Plane.js</p>
 </blockquote>
-<p><a href="#index">Return to Index</a></p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<p><a href="#index">Return to Index</a>
+&#xA0;</p>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
+<hr>
+<p>&#xA0;</p>
+<p>&#xA0;</p>
 
                                 
                                 </section>
@@ -817,7 +973,7 @@ Icon component gets its icon content from this registry.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Code Reference","level":"5.2","depth":1,"previous":{"title":"Style Guide","level":"5.1","depth":1,"path":"style.md","ref":"style.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{},"title":"Hub Client v2.1","gitbook":"*"},"file":{"path":"code.md","mtime":"2020-01-03T16:13:33.655Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-03T13:35:40.196Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Code Reference","level":"5.2","depth":1,"previous":{"title":"Style Guide","level":"5.1","depth":1,"path":"style.md","ref":"style.md","articles":[]},"dir":"ltr"},"config":{"plugins":["collapse","livereload"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapse":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{},"title":"Hub Client v2.1","gitbook":"*"},"file":{"path":"code.md","mtime":"2020-01-03T17:24:28.941Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-03T16:42:34.880Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -825,6 +981,10 @@ Icon component gets its icon content from this registry.</p>
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-collapse/collapse.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>

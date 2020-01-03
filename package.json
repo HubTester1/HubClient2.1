@@ -16,7 +16,8 @@
 		"docs:build": "npm run docs:generate && gitbook build",
 		"docs:serve": "npm run docs:generate && gitbook serve",
 		"docs:clean": "rimraf _book",
-		"docs:generate": "node docs/_build/build.js"
+		"docs:generate": "node docs/_build/build.js",
+		"docs:install": "gitbook install"
 	},
 	"author": "",
 	"license": "ISC",
@@ -47,6 +48,7 @@
 		"eslint-plugin-react": "^7.17.0",
 		"eslint-plugin-react-hooks": "^1.7.0",
 		"gitbook-cli": "^2.3.2",
+		"gitbook-plugin-collapse": "^1.0.5",
 		"install": "^0.13.0",
 		"jsdoc-x": "^4.0.3",
 		"json-format": "^1.0.1",

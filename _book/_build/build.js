@@ -357,13 +357,35 @@ const ReturnIndex = (orderedSections) => {
 		const sectionID = section.title.toLowerCase().replace('.', '');
 		buildString += `* [${section.title}](#${sectionID})
 `;
+		const childrenTitle = 
+			section.components
+				? 'Components'
+				: section.services
+					? 'Services'
+					: null;
+		const childrenPropertyID = 
+			childrenTitle ? 
+				childrenTitle.toLowerCase() : 
+				null;
+		if (childrenTitle) {
+			buildString += `{% collapse title="- ${childrenTitle}"%}
+`;
+			section[childrenPropertyID].forEach((child) => {
+				const childID = child.name.replace(' ', '-').toLowerCase();
+				buildString += `- [${child.name}](#${childID})
+`;
+			});
+			
+			buildString += `{% endcollapse %}
+`;
+		}
 	});
 	buildString += `
 `;
 	return buildString;
 };
 const ReturnMarkedDownTodos = (todos) => {
-	let buildString = `| @todo | path |
+	let buildString = `| *@todo* | path |
 | ----------- | ----------- |
 `;
 	todos.forEach((todo) => {
@@ -397,7 +419,8 @@ const ReturnMarkedDownComponent = ({
 
 `;
 	if (params) {
-		buildString += `| *@param* | type | required | smart | description |
+		buildString += `{% collapse title="> Params"%}
+| *@param* | type | required | smart | description |
 | --- |: --- :|: --- :|: --- :| --- |
 `;
 		params.forEach((param) => {
@@ -416,8 +439,14 @@ const ReturnMarkedDownComponent = ({
 			buildString += `| ${param.name} | ${typeToken} | ${requiredToken} | ${smartToken} | ${paramDescriptionString} |
 `;
 		});
+		buildString += `{% endcollapse %}
+`;
 	}
 
+	buildString += `
+&nbsp;
+
+`;
 	return buildString;
 };
 const ReturnMarkedDownComponents = (components) => {
@@ -442,7 +471,21 @@ const ReturnMarkedDownSection = (section) => {
 	if (section.components) {
 		buildString += ReturnMarkedDownComponents(section.components);
 	}
-	buildString += `[Return to Index](#index)
+	buildString += `
+&nbsp;
+
+[Return to Index](#index)
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+---
+&nbsp;
+
+&nbsp;
+
 `;
 	return buildString;
 };

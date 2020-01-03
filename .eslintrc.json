@@ -41,6 +41,7 @@
 		"react/require-default-props": [0],
 		"jsx-a11y/alt-text": "off",
 		"no-trailing-spaces": "off",
+		"no-nested-ternary": "off",
 		"no-underscore-dangle": [
 			"error",
 			{

@@ -4,5 +4,8 @@
 	"structure": {
 		"readme": "intro.md",
 		"summary": "toc.md"
-	}
+	},
+	"plugins": [
+		"collapse"
+	]
 }
