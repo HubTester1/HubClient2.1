@@ -3,6 +3,8 @@
  * @module
  * @category Agenda
  * @description Literally, a todo list
+ * 
+ * @todo Try to use actions instead of dispatches
  * @todo When link has no 'p', screen changes but partial does not 
  * @todo New Link component that updates browser history w/ new params 
  * @todo Serverless research / planning 
