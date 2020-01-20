@@ -68,6 +68,7 @@ Not a system component. Just a todo list culled from @todos in the code.
 
 | *@todo* | path |
 | ----------- | ----------- |
+| Try to use actions instead of dispatches | /meta/agenda.js |
 | When link has no 'p', screen changes but partial does not | /meta/agenda.js |
 | New Link component that updates browser history w/ new params | /meta/agenda.js |
 | Serverless research / planning | /meta/agenda.js |

@@ -1740,7 +1740,7 @@
 		"$kind": "constant"
 	},
 	{
-		"comment": "/**\n * @name Agenda\n * @module\n * @category Agenda\n * @description Literally, a todo list\n * @todo When link has no 'p', screen changes but partial does not \n * @todo New Link component that updates browser history w/ new params \n * @todo Serverless research / planning \n * @todo Lazy load modules \n * @todo Lazy load components \n * @todo AMP \n * @todo Serverless implementation \n * @todo Move to cloud \n * @todo Maintenance mode setting and screen \n * @todo API unavailable message\n */",
+		"comment": "/**\n * @name Agenda\n * @module\n * @category Agenda\n * @description Literally, a todo list\n * \n * @todo Try to use actions instead of dispatches\n * @todo When link has no 'p', screen changes but partial does not \n * @todo New Link component that updates browser history w/ new params \n * @todo Serverless research / planning \n * @todo Lazy load modules \n * @todo Lazy load components \n * @todo AMP \n * @todo Serverless implementation \n * @todo Move to cloud \n * @todo Maintenance mode setting and screen \n * @todo API unavailable message\n */",
 		"meta": {
 			"filename": "agenda.js",
 			"lineno": 1,
@@ -1762,6 +1762,7 @@
 		],
 		"description": "Literally, a todo list",
 		"todo": [
+			"Try to use actions instead of dispatches",
 			"When link has no 'p', screen changes but partial does not",
 			"New Link component that updates browser history w/ new params",
 			"Serverless research / planning",

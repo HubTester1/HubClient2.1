@@ -6,6 +6,12 @@
 			{
 				"parent": "Agenda",
 				"category": "Agenda",
+				"description": "Try to use actions instead of dispatches",
+				"path": "/meta/agenda.js"
+			},
+			{
+				"parent": "Agenda",
+				"category": "Agenda",
 				"description": "When link has no 'p', screen changes but partial does not",
 				"path": "/meta/agenda.js"
 			},
